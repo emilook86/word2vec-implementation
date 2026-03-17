@@ -163,12 +163,9 @@ class Word2Vec:
 
         return losses
 
-
-if __name__ == "__main__":
-    dataset = [
-        "Hello there! What a beautiful day outside",
-        "This photo is really beautiful",
-        "Is that a bird? Is that a plane? No, that's Superman!",
-    ]
-    w2v = Word2Vec(dataset)
-    w2v.train()
+    def get_word_embeddings(self):
+        word_embeddings = dict()
+        for word in self.vocabulary:
+            word_idx = self.vocabulary[word]
+            word_embeddings[word] = self.input_embeddings_matrix[word_idx]
+        return word_embeddings
