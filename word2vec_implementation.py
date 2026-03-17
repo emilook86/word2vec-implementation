@@ -24,6 +24,7 @@ class Word2Vec:
         self.input_embeddings_matrix = self.create_embeddings()
         self.output_embeddings_matrix = self.create_embeddings()
 
+        self.cache = None
 
     @staticmethod
     def process_vocabulary(vocab):
@@ -87,18 +88,17 @@ class Word2Vec:
         outputs = np.array(outputs)
         return inputs, outputs
 
-    def forward(self, input):
+    def forward(self, input_vector):
         """Parse only one vector each time"""
-        hidden_layer = np.array(input) @ self.input_embeddings_matrix
+        hidden_layer = np.array(input_vector) @ self.input_embeddings_matrix
 
         output_layer = hidden_layer @ self.output_embeddings_matrix.T
         softmax_output_score = np.exp(output_layer) / np.sum(np.exp(output_layer))
 
         self.cache = {
-            'input_vector': input,
-            'hidden_layer': hidden_layer,
-            'output_layer': output_layer,
-            'softmax_output_score': softmax_output_score
+            "input_vector": input_vector,
+            "hidden_layer": hidden_layer,
+            "softmax_output_score": softmax_output_score,
         }
 
         return softmax_output_score
@@ -108,13 +108,27 @@ class Word2Vec:
 
         target_prob = y_pred[target_idx]
         epsilon = 1e-15
-        target_prob = np.clip(target_prob, epsilon, 1-epsilon)
-        
+        target_prob = np.clip(target_prob, epsilon, 1 - epsilon)
+
         loss_value = -np.log(target_prob)
         return loss_value
 
-    def backpropagation(self):
-        pass
+    def backpropagation(self, y_true):
+        target_idx = np.argmax(y_true)
+
+        softmax_output_score = self.cache["softmax_output_score"]
+        grad_output_score = softmax_output_score.copy()
+        grad_output_score[target_idx] -= 1
+
+        hidden_layer = self.cache["hidden_layer"]
+        grad_output_embeddings = np.outer(grad_output_score, hidden_layer)
+
+        grad_hidden_layer = grad_output_score @ self.output_embeddings_matrix
+
+        input_vector = self.cache["input_vector"]
+        grad_input_embeddings = np.outer(input_vector, grad_hidden_layer)
+
+        return grad_input_embeddings, grad_output_embeddings
 
     def train_step(self):
         pass
