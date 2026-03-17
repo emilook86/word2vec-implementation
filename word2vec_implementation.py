@@ -6,9 +6,11 @@ class Word2Vec:
         self,
         dataset: list[str],
         context_window_size: int = 2,
-        embedding_dimension: int = 5,
+        embedding_dimension: int = 3,
         learning_rate: float = 0.1,
+        random_seed: int = 42,
     ):
+        np.random.seed(random_seed)
 
         self.dataset = self.process_vocabulary(dataset)
         self.context_window_size = context_window_size
@@ -39,7 +41,7 @@ class Word2Vec:
         vocabulary = set()
         for sentence in self.dataset:
             vocabulary.update(sentence.split())
-        vocabulary = {word: idx for idx, word in enumerate(list(vocabulary))}
+        vocabulary = {word: idx for idx, word in enumerate(sorted(list(vocabulary)))}
         vocabulary_size = len(vocabulary)
         return vocabulary, vocabulary_size
 
@@ -76,7 +78,11 @@ class Word2Vec:
         return inputs, outputs
 
     def forward(self, input):
-        pass
+        """Parse only one vector each time"""
+        hidden_layers = np.array(input) @ self.input_embeddings_matrix
+        output_layers = hidden_layers @ self.output_embeddings_matrix.T
+        softmax_output_layers = np.exp(output_layers) / np.sum(np.exp(output_layers))
+        return softmax_output_layers
 
     def loss(self, y_true, y_pred):
         pass
@@ -98,3 +104,11 @@ if __name__ == "__main__":
     print(w2v.inputs)
     print(w2v.outputs)
     print(w2v.vocabulary)
+    print(w2v.input_embeddings_matrix)
+    print("AND NOW")
+    print(w2v.outputs[0])
+    print(w2v.forward(w2v.inputs[0]))
+    print(w2v.outputs[0].shape)
+    print(w2v.forward(w2v.inputs[0]).shape)
+    print(w2v.inputs.shape)
+    print(w2v.input_embeddings_matrix.shape)
