@@ -130,7 +130,18 @@ class Word2Vec:
 
         return grad_input_embeddings, grad_output_embeddings
 
-    def train_step(self):
+    def update_weights(self, grad_input, grad_output):
+        self.input_embeddings_matrix -= grad_input * self.learning_rate
+        self.output_embeddings_matrix -= grad_output * self.learning_rate
+
+    def train_step(self, input_vector, y_true):
+        y_pred = self.forward(input_vector)
+        loss_value = self.loss(y_true, y_pred)
+        grad_input_embeddings, grad_output_embeddings = self.backpropagation(y_true)
+        self.update_weights(grad_input_embeddings, grad_output_embeddings)
+        return loss_value
+
+    def train():
         pass
 
 
@@ -152,3 +163,5 @@ if __name__ == "__main__":
     print(w2v.forward(w2v.inputs[0]).shape)
     print(w2v.inputs.shape)
     print(w2v.input_embeddings_matrix.shape)
+    print(w2v.backpropagation(1))
+    print(f"Initial loss: {w2v.train_step(w2v.inputs[0], w2v.outputs[0])}")
