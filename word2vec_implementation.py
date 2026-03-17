@@ -20,6 +20,7 @@ class Word2Vec:
         self.vocabulary, self.vocabulary_size = self.create_vocabulary()
 
         self.inputs, self.outputs = self.create_input_output()
+        self.training_set_length = len(self.inputs)
 
         self.input_embeddings_matrix = self.create_embeddings()
         self.output_embeddings_matrix = self.create_embeddings()
@@ -141,8 +142,26 @@ class Word2Vec:
         self.update_weights(grad_input_embeddings, grad_output_embeddings)
         return loss_value
 
-    def train():
-        pass
+    def train(self, epochs=100):
+        n_examples = len(self.inputs)
+        losses = []
+
+        for epoch_idx in range(epochs):
+            total_loss = 0
+            indices = np.random.permutation(n_examples)
+
+            print(f"=== Currently training epoch number {epoch_idx + 1} ===")
+            for input_idx in indices:
+                loss = self.train_step(self.inputs[input_idx], self.outputs[input_idx])
+                total_loss += loss
+            total_loss /= n_examples
+
+            print(
+                f"=== Total Cross-Entropy Loss after epoch {epoch_idx + 1} equals to {total_loss} ==="
+            )
+            losses.append(total_loss)
+
+        return losses
 
 
 if __name__ == "__main__":
@@ -152,16 +171,4 @@ if __name__ == "__main__":
         "Is that a bird? Is that a plane? No, that's Superman!",
     ]
     w2v = Word2Vec(dataset)
-    print(w2v.inputs)
-    print(w2v.outputs)
-    print(w2v.vocabulary)
-    print(w2v.input_embeddings_matrix)
-    print("AND NOW")
-    print(w2v.outputs[0])
-    print(w2v.forward(w2v.inputs[0]))
-    print(w2v.outputs[0].shape)
-    print(w2v.forward(w2v.inputs[0]).shape)
-    print(w2v.inputs.shape)
-    print(w2v.input_embeddings_matrix.shape)
-    print(w2v.backpropagation(1))
-    print(f"Initial loss: {w2v.train_step(w2v.inputs[0], w2v.outputs[0])}")
+    w2v.train()
