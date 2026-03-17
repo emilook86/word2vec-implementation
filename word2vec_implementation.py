@@ -24,16 +24,20 @@ class Word2Vec:
         self.input_embeddings_matrix = self.create_embeddings()
         self.output_embeddings_matrix = self.create_embeddings()
 
+
     @staticmethod
     def process_vocabulary(vocab):
         processed_vocab = []
+
         for sentence in vocab:
             words = sentence.split()
+
             processed_words = []
             for word in words:
                 clean_word = "".join(char for char in word if char.isalpha())
                 if clean_word:
                     processed_words.append(clean_word.lower())
+
             processed_vocab.append(" ".join(processed_words))
         return processed_vocab
 
@@ -41,6 +45,7 @@ class Word2Vec:
         vocabulary = set()
         for sentence in self.dataset:
             vocabulary.update(sentence.split())
+
         vocabulary = {word: idx for idx, word in enumerate(sorted(list(vocabulary)))}
         vocabulary_size = len(vocabulary)
         return vocabulary, vocabulary_size
@@ -57,35 +62,56 @@ class Word2Vec:
     def create_input_output(self):
         inputs = []
         outputs = []
+
         for sentence in self.dataset:
             words = sentence.split()
             sentence_length = len(words)
             if sentence_length < 2 * self.context_window_size + 1:
                 continue
+
             for idx in range(
                 self.context_window_size, sentence_length - self.context_window_size
             ):
                 input_vector = np.zeros(self.vocabulary_size)
                 output_vector = np.zeros(self.vocabulary_size)
+
                 output_vector[self.vocabulary[words[idx]]] += 1
                 for offset in range(1, self.context_window_size + 1):
                     input_vector[self.vocabulary[words[idx - offset]]] += 1
                     input_vector[self.vocabulary[words[idx + offset]]] += 1
+
                 inputs.append(input_vector)
                 outputs.append(output_vector)
+
         inputs = np.array(inputs)
         outputs = np.array(outputs)
         return inputs, outputs
 
     def forward(self, input):
         """Parse only one vector each time"""
-        hidden_layers = np.array(input) @ self.input_embeddings_matrix
-        output_layers = hidden_layers @ self.output_embeddings_matrix.T
-        softmax_output_layers = np.exp(output_layers) / np.sum(np.exp(output_layers))
-        return softmax_output_layers
+        hidden_layer = np.array(input) @ self.input_embeddings_matrix
+
+        output_layer = hidden_layer @ self.output_embeddings_matrix.T
+        softmax_output_score = np.exp(output_layer) / np.sum(np.exp(output_layer))
+
+        self.cache = {
+            'input_vector': input,
+            'hidden_layer': hidden_layer,
+            'output_layer': output_layer,
+            'softmax_output_score': softmax_output_score
+        }
+
+        return softmax_output_score
 
     def loss(self, y_true, y_pred):
-        pass
+        target_idx = np.argmax(y_true)
+
+        target_prob = y_pred[target_idx]
+        epsilon = 1e-15
+        target_prob = np.clip(target_prob, epsilon, 1-epsilon)
+        
+        loss_value = -np.log(target_prob)
+        return loss_value
 
     def backpropagation(self):
         pass
