@@ -3,7 +3,14 @@ from pathlib import Path
 
 from src.word2vec_implementation import Word2Vec
 from src.config.logger_config import setup_logging
-from src.config.constants import PLOTS_DIR, NUMBER_OF_EPOCHS, SAVE_EVERY, CONFIG_DIR
+from src.config.constants import (
+    PLOTS_DIR,
+    NUMBER_OF_EPOCHS,
+    BATCH_SIZE,
+    SAVE_EVERY,
+    CONFIG_DIR,
+    LEARNING_RATE,
+)
 
 log = setup_logging(__name__)
 
@@ -38,7 +45,15 @@ def plot_scatterplot(embeddings, save_file):
 
 if __name__ == "__main__":
     text = Path(CONFIG_DIR / "text_example.txt").read_text()
-    w2v = Word2Vec(text, embedding_dimension=2, logger=log, save_every=SAVE_EVERY)
+    w2v = Word2Vec(
+        dataset=text,
+        embedding_dimension=2,
+        logger=log,
+        learning_rate=LEARNING_RATE,
+        save_every=SAVE_EVERY,
+        batch_size=BATCH_SIZE,
+    )
+    print(w2v.vocabulary_size)
     w2v.train(epochs=NUMBER_OF_EPOCHS)
 
     embeddings = w2v.get_word_embeddings()

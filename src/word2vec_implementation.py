@@ -7,19 +7,21 @@ class Word2Vec:
         dataset: list[str],
         context_window_size: int = 2,
         embedding_dimension: int = 3,
-        learning_rate: float = 0.0001,
         random_seed: int = 42,
         logger=None,
+        learning_rate: float = 0.01,
         save_every: int = 500,
+        batch_size: int = 16,
     ):
         np.random.seed(random_seed)
 
         self.dataset = self.process_vocabulary(dataset)
         self.context_window_size = context_window_size
         self.embedding_dimension = embedding_dimension
-        self.learning_rate = learning_rate
         self.logger = logger
+        self.learning_rate = learning_rate
         self.save_every = save_every
+        self.batch_size = batch_size
 
         self.vocabulary, self.vocabulary_size = self.create_vocabulary()
 
@@ -105,8 +107,10 @@ class Word2Vec:
 
         output_layer = hidden_layer @ self.output_embeddings_matrix.T
         output_layer_clipped = np.clip(output_layer, -20, 20)
-        softmax_output_score = np.exp(output_layer_clipped) / (
-            1e-15 + np.sum(np.exp(output_layer_clipped))
+
+        exp_scores = np.exp(output_layer_clipped)
+        softmax_output_score = exp_scores / (
+            1e-15 + np.sum(exp_scores, axis=1, keepdims=True)
         )
 
         self.cache = {
@@ -118,44 +122,43 @@ class Word2Vec:
         return softmax_output_score
 
     def loss(self, y_true, y_pred):
-        target_idx = np.argmax(y_true)
-
-        target_prob = y_pred[target_idx]
         epsilon = 1e-15
-        target_prob = np.clip(target_prob, epsilon, 1 - epsilon)
+        y_pred = np.clip(y_pred, epsilon, 1 - epsilon)
 
-        loss_value = -np.log(target_prob)
-        return loss_value
+        loss_value = -np.sum(y_true * np.log(y_pred), axis=1)
+        mean_loss = np.mean(loss_value)
+        return mean_loss
 
     def backpropagation(self, y_true):
-        target_idx = np.argmax(y_true)
-
         softmax_output_score = self.cache["softmax_output_score"]
-        grad_output_score = softmax_output_score.copy()
-        grad_output_score[target_idx] -= 1
+        grad_output_score = softmax_output_score.copy() - y_true
 
         hidden_layer = self.cache["hidden_layer"]
-        grad_output_embeddings = np.outer(grad_output_score, hidden_layer)
+        grad_output_embeddings = grad_output_score.T @ hidden_layer
 
         grad_hidden_layer = grad_output_score @ self.output_embeddings_matrix
 
         input_vector = self.cache["input_vector"]
-        grad_input_embeddings = np.outer(input_vector, grad_hidden_layer)
+        grad_input_embeddings = input_vector.T @ grad_hidden_layer
 
         return grad_input_embeddings, grad_output_embeddings
 
-    def update_weights(self, grad_input, grad_output):
-        self.input_embeddings_matrix -= grad_input * self.learning_rate
-        self.output_embeddings_matrix -= grad_output * self.learning_rate
+    def update_weights(self, grad_input, grad_output, batch_size):
+        self.input_embeddings_matrix -= (grad_input / batch_size) * self.learning_rate
+        self.output_embeddings_matrix -= (grad_output / batch_size) * self.learning_rate
 
-    def train_step(self, input_vector, y_true):
-        y_pred = self.forward(input_vector)
-        loss_value = self.loss(y_true, y_pred)
-        grad_input_embeddings, grad_output_embeddings = self.backpropagation(y_true)
-        self.update_weights(grad_input_embeddings, grad_output_embeddings)
+    def train_step(self, input_batch, y_true_batch):
+        y_pred_batch = self.forward(input_batch)
+        loss_value = self.loss(y_true_batch, y_pred_batch)
+        grad_input_embeddings, grad_output_embeddings = self.backpropagation(
+            y_true_batch
+        )
+        self.update_weights(
+            grad_input_embeddings, grad_output_embeddings, input_batch.shape[0]
+        )
         return loss_value
 
-    def train(self, epochs=100):
+    def train(self, epochs=100, batch_size=16):
         n_examples = len(self.inputs)
         losses = []
 
@@ -163,10 +166,12 @@ class Word2Vec:
             total_loss = 0
             indices = np.random.permutation(n_examples)
 
-            for input_idx in indices:
-                loss = self.train_step(self.inputs[input_idx], self.outputs[input_idx])
-                total_loss += loss
-            total_loss /= n_examples
+            for start in range(0, n_examples, self.batch_size):
+                batch_idx = indices[start : start + self.batch_size]
+                input_batch = self.inputs[batch_idx]
+                output_batch = self.outputs[batch_idx]
+                loss = self.train_step(input_batch, output_batch)
+                total_loss += loss * len(batch_idx)
 
             if epoch_idx % self.save_every == 0:
                 self.logger.info(
