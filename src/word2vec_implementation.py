@@ -4,7 +4,7 @@ import numpy as np
 class Word2Vec:
     def __init__(
         self,
-        dataset: list[str],
+        dataset: str,
         context_window_size: int = 2,
         embedding_dimension: int = 3,
         random_seed: int = 42,
@@ -93,6 +93,7 @@ class Word2Vec:
                 for offset in range(1, self.context_window_size + 1):
                     input_vector[self.vocabulary[words[idx - offset]]] += 1
                     input_vector[self.vocabulary[words[idx + offset]]] += 1
+                input_vector /= np.sum(input_vector)
 
                 inputs.append(input_vector)
                 outputs.append(output_vector)
@@ -101,20 +102,20 @@ class Word2Vec:
         outputs = np.array(outputs)
         return inputs, outputs
 
-    def forward(self, input_vector):
-        """Parse only one vector each time"""
-        hidden_layer = np.array(input_vector) @ self.input_embeddings_matrix
+    def forward(self, input_batch):
+        """Parse only batch each time"""
+        hidden_layer = input_batch @ self.input_embeddings_matrix
 
         output_layer = hidden_layer @ self.output_embeddings_matrix.T
-        output_layer_clipped = np.clip(output_layer, -20, 20)
+        output_layer -= np.max(output_layer, axis=1, keepdims=True)
 
-        exp_scores = np.exp(output_layer_clipped)
+        exp_scores = np.exp(output_layer)
         softmax_output_score = exp_scores / (
             1e-15 + np.sum(exp_scores, axis=1, keepdims=True)
         )
 
         self.cache = {
-            "input_vector": input_vector,
+            "input_batch": input_batch,
             "hidden_layer": hidden_layer,
             "softmax_output_score": softmax_output_score,
         }
@@ -129,36 +130,34 @@ class Word2Vec:
         mean_loss = np.mean(loss_value)
         return mean_loss
 
-    def backpropagation(self, y_true):
+    def backpropagation(self, y_true, batch_size):
         softmax_output_score = self.cache["softmax_output_score"]
-        grad_output_score = softmax_output_score.copy() - y_true
+        grad_output_score = (softmax_output_score.copy() - y_true) / batch_size
 
         hidden_layer = self.cache["hidden_layer"]
         grad_output_embeddings = grad_output_score.T @ hidden_layer
 
         grad_hidden_layer = grad_output_score @ self.output_embeddings_matrix
 
-        input_vector = self.cache["input_vector"]
-        grad_input_embeddings = input_vector.T @ grad_hidden_layer
+        input_batch = self.cache["input_batch"]
+        grad_input_embeddings = input_batch.T @ grad_hidden_layer
 
         return grad_input_embeddings, grad_output_embeddings
 
-    def update_weights(self, grad_input, grad_output, batch_size):
-        self.input_embeddings_matrix -= (grad_input / batch_size) * self.learning_rate
-        self.output_embeddings_matrix -= (grad_output / batch_size) * self.learning_rate
+    def update_weights(self, grad_input, grad_output):
+        self.input_embeddings_matrix -= grad_input * self.learning_rate
+        self.output_embeddings_matrix -= grad_output * self.learning_rate
 
     def train_step(self, input_batch, y_true_batch):
         y_pred_batch = self.forward(input_batch)
         loss_value = self.loss(y_true_batch, y_pred_batch)
         grad_input_embeddings, grad_output_embeddings = self.backpropagation(
-            y_true_batch
+            y_true_batch, batch_size=input_batch.shape[0]
         )
-        self.update_weights(
-            grad_input_embeddings, grad_output_embeddings, input_batch.shape[0]
-        )
+        self.update_weights(grad_input_embeddings, grad_output_embeddings)
         return loss_value
 
-    def train(self, epochs=100, batch_size=16):
+    def train(self, epochs=100):
         n_examples = len(self.inputs)
         losses = []
 
@@ -173,7 +172,7 @@ class Word2Vec:
                 loss = self.train_step(input_batch, output_batch)
                 total_loss += loss * len(batch_idx)
 
-            if epoch_idx % self.save_every == 0:
+            if self.logger and epoch_idx % self.save_every == 0:
                 self.logger.info(
                     f"Total Cross-Entropy Loss after epoch {epoch_idx} equals to {total_loss}."
                 )

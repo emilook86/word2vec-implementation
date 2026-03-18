@@ -53,7 +53,7 @@ if __name__ == "__main__":
         save_every=SAVE_EVERY,
         batch_size=BATCH_SIZE,
     )
-    print(w2v.vocabulary_size)
+
     w2v.train(epochs=NUMBER_OF_EPOCHS)
 
     embeddings = w2v.get_word_embeddings()
