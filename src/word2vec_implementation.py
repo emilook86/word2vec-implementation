@@ -35,6 +35,7 @@ class Word2Vec:
 
     @staticmethod
     def process_vocabulary(vocab):
+        """Cleans and splits raw text into processed sentences of lowercase words"""
         if "." not in vocab:
             raise Exception("The text must have at least one dot")
 
@@ -56,6 +57,7 @@ class Word2Vec:
         return processed_vocab
 
     def create_vocabulary(self):
+        """Builds a mapping from words to unique indices"""
         vocabulary = set()
         for sentence in self.dataset:
             vocabulary.update(sentence.split())
@@ -65,6 +67,7 @@ class Word2Vec:
         return vocabulary, vocabulary_size
 
     def create_embeddings(self):
+        """Initializes embedding matrices with small random values"""
         max_value = np.sqrt(1 / self.vocabulary_size)
         embeddings_matrix = np.random.uniform(
             low=-max_value,
@@ -74,6 +77,7 @@ class Word2Vec:
         return embeddings_matrix
 
     def create_input_output(self):
+        """Generates training input-output pairs based on context windows"""
         inputs = []
         outputs = []
 
@@ -103,7 +107,7 @@ class Word2Vec:
         return inputs, outputs
 
     def forward(self, input_batch):
-        """Parse only batch each time"""
+        """Performs a forward pass to compute predicted probabilities"""
         hidden_layer = input_batch @ self.input_embeddings_matrix
 
         output_layer = hidden_layer @ self.output_embeddings_matrix.T
@@ -123,6 +127,7 @@ class Word2Vec:
         return softmax_output_score
 
     def loss(self, y_true, y_pred):
+        """Computes cross-entropy loss between true and predicted distributions"""
         epsilon = 1e-15
         y_pred = np.clip(y_pred, epsilon, 1 - epsilon)
 
@@ -131,24 +136,38 @@ class Word2Vec:
         return mean_loss
 
     def backpropagation(self, y_true, batch_size):
+        """Computes gradients for embeddings using backpropagation"""
+        # B = batch size (number of training examples in the batch)
+        # D = embedding dimension (size of each word vector)
+        # V = vocabulary size (number of unique words)
+
         softmax_output_score = self.cache["softmax_output_score"]
+        # shape: (B, V)
         grad_output_score = (softmax_output_score.copy() - y_true) / batch_size
+        # shape: (B, V)
 
         hidden_layer = self.cache["hidden_layer"]
+        # shape: (B, D)
         grad_output_embeddings = grad_output_score.T @ hidden_layer
+        # (V, B) @ (B, D) -> (V, D)
 
         grad_hidden_layer = grad_output_score @ self.output_embeddings_matrix
+        # (B, V) @ (V, D) -> (B, D)
 
         input_batch = self.cache["input_batch"]
+        # shape: (B, V)
         grad_input_embeddings = input_batch.T @ grad_hidden_layer
+        # (V, B) @ (B, D) -> (V, D)
 
         return grad_input_embeddings, grad_output_embeddings
 
     def update_weights(self, grad_input, grad_output):
+        """Updates embedding matrices using computed gradients"""
         self.input_embeddings_matrix -= grad_input * self.learning_rate
         self.output_embeddings_matrix -= grad_output * self.learning_rate
 
     def train_step(self, input_batch, y_true_batch):
+        """Executes one full training step (forward, loss, backward, update)"""
         y_pred_batch = self.forward(input_batch)
         loss_value = self.loss(y_true_batch, y_pred_batch)
         grad_input_embeddings, grad_output_embeddings = self.backpropagation(
@@ -158,6 +177,7 @@ class Word2Vec:
         return loss_value
 
     def train(self, epochs=100):
+        """Trains the model over multiple epochs using mini-batches"""
         n_examples = len(self.inputs)
         losses = []
 
@@ -181,6 +201,7 @@ class Word2Vec:
         return losses
 
     def get_word_embeddings(self):
+        """Returns learned word embeddings as a dictionary mapping words to vectors"""
         word_embeddings = dict()
         for word in self.vocabulary:
             word_idx = self.vocabulary[word]
