@@ -47,7 +47,7 @@ def plot_loss_curve(losses, save_file):
         markersize=7,
         alpha=0.8,
     )
-    plt.ylim(0, max(losses) * 1.05)
+    plt.ylim(0, max(sampled_losses) * 1.05)
 
     plt.xlabel("Epochs")
     plt.ylabel("Cross-Entropy Loss")
