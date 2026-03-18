@@ -1,0 +1,1701 @@
+2026-03-18 01:25:13,516 | INFO | === Currently training epoch number 1 ===
+2026-03-18 01:25:13,521 | INFO | === Total Cross-Entropy Loss after epoch 1 equals to 4.267427055747022 ===
+2026-03-18 01:25:13,916 | INFO | === Currently training epoch number 101 ===
+2026-03-18 01:25:13,916 | INFO | === Total Cross-Entropy Loss after epoch 101 equals to 1.2478198203274693 ===
+2026-03-18 01:25:14,239 | INFO | === Currently training epoch number 201 ===
+2026-03-18 01:25:14,244 | INFO | === Total Cross-Entropy Loss after epoch 201 equals to 1.0478725316457627 ===
+2026-03-18 01:25:14,548 | INFO | === Currently training epoch number 301 ===
+2026-03-18 01:25:14,548 | INFO | === Total Cross-Entropy Loss after epoch 301 equals to 0.9215558021947384 ===
+2026-03-18 01:25:14,827 | INFO | === Currently training epoch number 401 ===
+2026-03-18 01:25:14,838 | INFO | === Total Cross-Entropy Loss after epoch 401 equals to 0.9069903427237921 ===
+2026-03-18 01:25:15,095 | INFO | === Currently training epoch number 501 ===
+2026-03-18 01:25:15,095 | INFO | === Total Cross-Entropy Loss after epoch 501 equals to 0.8368184322462218 ===
+2026-03-18 01:25:15,378 | INFO | === Currently training epoch number 601 ===
+2026-03-18 01:25:15,382 | INFO | === Total Cross-Entropy Loss after epoch 601 equals to 0.816403596245997 ===
+2026-03-18 01:25:15,659 | INFO | === Currently training epoch number 701 ===
+2026-03-18 01:25:15,659 | INFO | === Total Cross-Entropy Loss after epoch 701 equals to 0.7893016116017576 ===
+2026-03-18 01:25:15,927 | INFO | === Currently training epoch number 801 ===
+2026-03-18 01:25:15,927 | INFO | === Total Cross-Entropy Loss after epoch 801 equals to 0.8994190633448386 ===
+2026-03-18 01:25:16,192 | INFO | === Currently training epoch number 901 ===
+2026-03-18 01:25:16,192 | INFO | === Total Cross-Entropy Loss after epoch 901 equals to 0.8033001017863151 ===
+2026-03-18 01:25:16,459 | INFO | === Currently training epoch number 1001 ===
+2026-03-18 01:25:16,472 | INFO | === Total Cross-Entropy Loss after epoch 1001 equals to 0.8175403099379548 ===
+2026-03-18 01:25:16,742 | INFO | === Currently training epoch number 1101 ===
+2026-03-18 01:25:16,743 | INFO | === Total Cross-Entropy Loss after epoch 1101 equals to 1.0290814409998081 ===
+2026-03-18 01:25:17,010 | INFO | === Currently training epoch number 1201 ===
+2026-03-18 01:25:17,010 | INFO | === Total Cross-Entropy Loss after epoch 1201 equals to 1.7285023151268921 ===
+2026-03-18 01:25:17,276 | INFO | === Currently training epoch number 1301 ===
+2026-03-18 01:25:17,276 | INFO | === Total Cross-Entropy Loss after epoch 1301 equals to 1.0425822786778989 ===
+2026-03-18 01:25:17,545 | INFO | === Currently training epoch number 1401 ===
+2026-03-18 01:25:17,545 | INFO | === Total Cross-Entropy Loss after epoch 1401 equals to 1.818132464156468 ===
+2026-03-18 01:25:17,809 | INFO | === Currently training epoch number 1501 ===
+2026-03-18 01:25:17,827 | INFO | === Total Cross-Entropy Loss after epoch 1501 equals to 0.9933288177879812 ===
+2026-03-18 01:25:18,078 | INFO | === Currently training epoch number 1601 ===
+2026-03-18 01:25:18,093 | INFO | === Total Cross-Entropy Loss after epoch 1601 equals to 1.738965650343504 ===
+2026-03-18 01:25:18,360 | INFO | === Currently training epoch number 1701 ===
+2026-03-18 01:25:18,360 | INFO | === Total Cross-Entropy Loss after epoch 1701 equals to 1.5514822961827535 ===
+2026-03-18 01:25:18,628 | INFO | === Currently training epoch number 1801 ===
+2026-03-18 01:25:18,628 | INFO | === Total Cross-Entropy Loss after epoch 1801 equals to 1.452086636552896 ===
+2026-03-18 01:25:18,895 | INFO | === Currently training epoch number 1901 ===
+2026-03-18 01:25:18,911 | INFO | === Total Cross-Entropy Loss after epoch 1901 equals to 1.4500664497177604 ===
+2026-03-18 01:25:19,190 | INFO | === Currently training epoch number 2001 ===
+2026-03-18 01:25:19,193 | INFO | === Total Cross-Entropy Loss after epoch 2001 equals to 1.8400257087275478 ===
+2026-03-18 01:25:19,461 | INFO | === Currently training epoch number 2101 ===
+2026-03-18 01:25:19,461 | INFO | === Total Cross-Entropy Loss after epoch 2101 equals to 1.6613292517924305 ===
+2026-03-18 01:25:19,750 | INFO | === Currently training epoch number 2201 ===
+2026-03-18 01:25:19,766 | INFO | === Total Cross-Entropy Loss after epoch 2201 equals to 1.335395698630875 ===
+2026-03-18 01:25:20,027 | INFO | === Currently training epoch number 2301 ===
+2026-03-18 01:25:20,027 | INFO | === Total Cross-Entropy Loss after epoch 2301 equals to 2.015864289659367 ===
+2026-03-18 01:25:20,299 | INFO | === Currently training epoch number 2401 ===
+2026-03-18 01:25:20,314 | INFO | === Total Cross-Entropy Loss after epoch 2401 equals to 1.6558261908971175 ===
+2026-03-18 01:25:20,578 | INFO | === Currently training epoch number 2501 ===
+2026-03-18 01:25:20,578 | INFO | === Total Cross-Entropy Loss after epoch 2501 equals to 1.91902467058326 ===
+2026-03-18 01:25:20,921 | INFO | === Currently training epoch number 2601 ===
+2026-03-18 01:25:20,925 | INFO | === Total Cross-Entropy Loss after epoch 2601 equals to 3.1609803664897105 ===
+2026-03-18 01:25:21,249 | INFO | === Currently training epoch number 2701 ===
+2026-03-18 01:25:21,252 | INFO | === Total Cross-Entropy Loss after epoch 2701 equals to 1.6870028802215546 ===
+2026-03-18 01:25:21,552 | INFO | === Currently training epoch number 2801 ===
+2026-03-18 01:25:21,552 | INFO | === Total Cross-Entropy Loss after epoch 2801 equals to 3.5069201960785548 ===
+2026-03-18 01:25:21,874 | INFO | === Currently training epoch number 2901 ===
+2026-03-18 01:25:21,881 | INFO | === Total Cross-Entropy Loss after epoch 2901 equals to 2.004937946249358 ===
+2026-03-18 01:25:22,191 | INFO | === Currently training epoch number 3001 ===
+2026-03-18 01:25:22,191 | INFO | === Total Cross-Entropy Loss after epoch 3001 equals to 1.3339344431856126 ===
+2026-03-18 01:25:22,495 | INFO | === Currently training epoch number 3101 ===
+2026-03-18 01:25:22,511 | INFO | === Total Cross-Entropy Loss after epoch 3101 equals to 2.166273315661622 ===
+2026-03-18 01:25:22,778 | INFO | === Currently training epoch number 3201 ===
+2026-03-18 01:25:22,778 | INFO | === Total Cross-Entropy Loss after epoch 3201 equals to 2.340465124906651 ===
+2026-03-18 01:25:23,051 | INFO | === Currently training epoch number 3301 ===
+2026-03-18 01:25:23,051 | INFO | === Total Cross-Entropy Loss after epoch 3301 equals to 2.453000935526292 ===
+2026-03-18 01:25:23,313 | INFO | === Currently training epoch number 3401 ===
+2026-03-18 01:25:23,313 | INFO | === Total Cross-Entropy Loss after epoch 3401 equals to 2.5494695725235896 ===
+2026-03-18 01:25:23,595 | INFO | === Currently training epoch number 3501 ===
+2026-03-18 01:25:23,595 | INFO | === Total Cross-Entropy Loss after epoch 3501 equals to 2.4686664470975237 ===
+2026-03-18 01:25:23,876 | INFO | === Currently training epoch number 3601 ===
+2026-03-18 01:25:23,876 | INFO | === Total Cross-Entropy Loss after epoch 3601 equals to 2.294419942772936 ===
+2026-03-18 01:25:24,142 | INFO | === Currently training epoch number 3701 ===
+2026-03-18 01:25:24,153 | INFO | === Total Cross-Entropy Loss after epoch 3701 equals to 2.3422741798671622 ===
+2026-03-18 01:25:24,427 | INFO | === Currently training epoch number 3801 ===
+2026-03-18 01:25:24,427 | INFO | === Total Cross-Entropy Loss after epoch 3801 equals to 1.487888098973931 ===
+2026-03-18 01:25:24,710 | INFO | === Currently training epoch number 3901 ===
+2026-03-18 01:25:24,710 | INFO | === Total Cross-Entropy Loss after epoch 3901 equals to 4.012174972321937 ===
+2026-03-18 01:25:24,978 | INFO | === Currently training epoch number 4001 ===
+2026-03-18 01:25:24,978 | INFO | === Total Cross-Entropy Loss after epoch 4001 equals to 2.5396540346156424 ===
+2026-03-18 01:25:25,261 | INFO | === Currently training epoch number 4101 ===
+2026-03-18 01:25:25,261 | INFO | === Total Cross-Entropy Loss after epoch 4101 equals to 2.480818002727943 ===
+2026-03-18 01:25:25,548 | INFO | === Currently training epoch number 4201 ===
+2026-03-18 01:25:25,552 | INFO | === Total Cross-Entropy Loss after epoch 4201 equals to 1.623300313488166 ===
+2026-03-18 01:25:25,813 | INFO | === Currently training epoch number 4301 ===
+2026-03-18 01:25:25,829 | INFO | === Total Cross-Entropy Loss after epoch 4301 equals to 2.177205791799043 ===
+2026-03-18 01:25:26,100 | INFO | === Currently training epoch number 4401 ===
+2026-03-18 01:25:26,100 | INFO | === Total Cross-Entropy Loss after epoch 4401 equals to 1.9694343827419578 ===
+2026-03-18 01:25:26,361 | INFO | === Currently training epoch number 4501 ===
+2026-03-18 01:25:26,377 | INFO | === Total Cross-Entropy Loss after epoch 4501 equals to 1.7973958685027422 ===
+2026-03-18 01:25:26,657 | INFO | === Currently training epoch number 4601 ===
+2026-03-18 01:25:26,657 | INFO | === Total Cross-Entropy Loss after epoch 4601 equals to 1.368928784490989 ===
+2026-03-18 01:25:26,928 | INFO | === Currently training epoch number 4701 ===
+2026-03-18 01:25:26,928 | INFO | === Total Cross-Entropy Loss after epoch 4701 equals to 4.637760993424546 ===
+2026-03-18 01:25:27,201 | INFO | === Currently training epoch number 4801 ===
+2026-03-18 01:25:27,201 | INFO | === Total Cross-Entropy Loss after epoch 4801 equals to 1.430402865992852 ===
+2026-03-18 01:25:27,525 | INFO | === Currently training epoch number 4901 ===
+2026-03-18 01:25:27,525 | INFO | === Total Cross-Entropy Loss after epoch 4901 equals to 1.1794614732827946 ===
+2026-03-18 01:25:27,799 | INFO | === Currently training epoch number 5001 ===
+2026-03-18 01:25:27,799 | INFO | === Total Cross-Entropy Loss after epoch 5001 equals to 2.6799144255340765 ===
+2026-03-18 01:25:28,088 | INFO | === Currently training epoch number 5101 ===
+2026-03-18 01:25:28,092 | INFO | === Total Cross-Entropy Loss after epoch 5101 equals to nan ===
+2026-03-18 01:25:28,362 | INFO | === Currently training epoch number 5201 ===
+2026-03-18 01:25:28,362 | INFO | === Total Cross-Entropy Loss after epoch 5201 equals to nan ===
+2026-03-18 01:25:28,629 | INFO | === Currently training epoch number 5301 ===
+2026-03-18 01:25:28,629 | INFO | === Total Cross-Entropy Loss after epoch 5301 equals to nan ===
+2026-03-18 01:25:28,910 | INFO | === Currently training epoch number 5401 ===
+2026-03-18 01:25:28,910 | INFO | === Total Cross-Entropy Loss after epoch 5401 equals to nan ===
+2026-03-18 01:25:29,198 | INFO | === Currently training epoch number 5501 ===
+2026-03-18 01:25:29,202 | INFO | === Total Cross-Entropy Loss after epoch 5501 equals to nan ===
+2026-03-18 01:25:29,516 | INFO | === Currently training epoch number 5601 ===
+2026-03-18 01:25:29,522 | INFO | === Total Cross-Entropy Loss after epoch 5601 equals to nan ===
+2026-03-18 01:25:29,819 | INFO | === Currently training epoch number 5701 ===
+2026-03-18 01:25:29,819 | INFO | === Total Cross-Entropy Loss after epoch 5701 equals to nan ===
+2026-03-18 01:25:30,104 | INFO | === Currently training epoch number 5801 ===
+2026-03-18 01:25:30,104 | INFO | === Total Cross-Entropy Loss after epoch 5801 equals to nan ===
+2026-03-18 01:25:30,379 | INFO | === Currently training epoch number 5901 ===
+2026-03-18 01:25:30,382 | INFO | === Total Cross-Entropy Loss after epoch 5901 equals to nan ===
+2026-03-18 01:25:30,649 | INFO | === Currently training epoch number 6001 ===
+2026-03-18 01:25:30,649 | INFO | === Total Cross-Entropy Loss after epoch 6001 equals to nan ===
+2026-03-18 01:25:30,934 | INFO | === Currently training epoch number 6101 ===
+2026-03-18 01:25:30,943 | INFO | === Total Cross-Entropy Loss after epoch 6101 equals to nan ===
+2026-03-18 01:25:31,210 | INFO | === Currently training epoch number 6201 ===
+2026-03-18 01:25:31,214 | INFO | === Total Cross-Entropy Loss after epoch 6201 equals to nan ===
+2026-03-18 01:25:31,481 | INFO | === Currently training epoch number 6301 ===
+2026-03-18 01:25:31,488 | INFO | === Total Cross-Entropy Loss after epoch 6301 equals to nan ===
+2026-03-18 01:25:31,744 | INFO | === Currently training epoch number 6401 ===
+2026-03-18 01:25:31,744 | INFO | === Total Cross-Entropy Loss after epoch 6401 equals to nan ===
+2026-03-18 01:25:32,015 | INFO | === Currently training epoch number 6501 ===
+2026-03-18 01:25:32,015 | INFO | === Total Cross-Entropy Loss after epoch 6501 equals to nan ===
+2026-03-18 01:25:32,293 | INFO | === Currently training epoch number 6601 ===
+2026-03-18 01:25:32,293 | INFO | === Total Cross-Entropy Loss after epoch 6601 equals to nan ===
+2026-03-18 01:25:32,569 | INFO | === Currently training epoch number 6701 ===
+2026-03-18 01:25:32,569 | INFO | === Total Cross-Entropy Loss after epoch 6701 equals to nan ===
+2026-03-18 01:25:32,870 | INFO | === Currently training epoch number 6801 ===
+2026-03-18 01:25:32,877 | INFO | === Total Cross-Entropy Loss after epoch 6801 equals to nan ===
+2026-03-18 01:25:33,174 | INFO | === Currently training epoch number 6901 ===
+2026-03-18 01:25:33,174 | INFO | === Total Cross-Entropy Loss after epoch 6901 equals to nan ===
+2026-03-18 01:25:33,444 | INFO | === Currently training epoch number 7001 ===
+2026-03-18 01:25:33,453 | INFO | === Total Cross-Entropy Loss after epoch 7001 equals to nan ===
+2026-03-18 01:25:33,726 | INFO | === Currently training epoch number 7101 ===
+2026-03-18 01:25:33,726 | INFO | === Total Cross-Entropy Loss after epoch 7101 equals to nan ===
+2026-03-18 01:25:33,993 | INFO | === Currently training epoch number 7201 ===
+2026-03-18 01:25:33,993 | INFO | === Total Cross-Entropy Loss after epoch 7201 equals to nan ===
+2026-03-18 01:25:34,281 | INFO | === Currently training epoch number 7301 ===
+2026-03-18 01:25:34,281 | INFO | === Total Cross-Entropy Loss after epoch 7301 equals to nan ===
+2026-03-18 01:25:34,557 | INFO | === Currently training epoch number 7401 ===
+2026-03-18 01:25:34,560 | INFO | === Total Cross-Entropy Loss after epoch 7401 equals to nan ===
+2026-03-18 01:25:34,827 | INFO | === Currently training epoch number 7501 ===
+2026-03-18 01:25:34,827 | INFO | === Total Cross-Entropy Loss after epoch 7501 equals to nan ===
+2026-03-18 01:25:35,102 | INFO | === Currently training epoch number 7601 ===
+2026-03-18 01:25:35,102 | INFO | === Total Cross-Entropy Loss after epoch 7601 equals to nan ===
+2026-03-18 01:25:35,376 | INFO | === Currently training epoch number 7701 ===
+2026-03-18 01:25:35,376 | INFO | === Total Cross-Entropy Loss after epoch 7701 equals to nan ===
+2026-03-18 01:25:35,656 | INFO | === Currently training epoch number 7801 ===
+2026-03-18 01:25:35,656 | INFO | === Total Cross-Entropy Loss after epoch 7801 equals to nan ===
+2026-03-18 01:25:35,911 | INFO | === Currently training epoch number 7901 ===
+2026-03-18 01:25:35,927 | INFO | === Total Cross-Entropy Loss after epoch 7901 equals to nan ===
+2026-03-18 01:25:36,198 | INFO | === Currently training epoch number 8001 ===
+2026-03-18 01:25:36,198 | INFO | === Total Cross-Entropy Loss after epoch 8001 equals to nan ===
+2026-03-18 01:25:36,481 | INFO | === Currently training epoch number 8101 ===
+2026-03-18 01:25:36,481 | INFO | === Total Cross-Entropy Loss after epoch 8101 equals to nan ===
+2026-03-18 01:25:36,749 | INFO | === Currently training epoch number 8201 ===
+2026-03-18 01:25:36,749 | INFO | === Total Cross-Entropy Loss after epoch 8201 equals to nan ===
+2026-03-18 01:25:37,024 | INFO | === Currently training epoch number 8301 ===
+2026-03-18 01:25:37,024 | INFO | === Total Cross-Entropy Loss after epoch 8301 equals to nan ===
+2026-03-18 01:25:37,315 | INFO | === Currently training epoch number 8401 ===
+2026-03-18 01:25:37,319 | INFO | === Total Cross-Entropy Loss after epoch 8401 equals to nan ===
+2026-03-18 01:25:37,592 | INFO | === Currently training epoch number 8501 ===
+2026-03-18 01:25:37,592 | INFO | === Total Cross-Entropy Loss after epoch 8501 equals to nan ===
+2026-03-18 01:25:37,883 | INFO | === Currently training epoch number 8601 ===
+2026-03-18 01:25:37,883 | INFO | === Total Cross-Entropy Loss after epoch 8601 equals to nan ===
+2026-03-18 01:25:38,160 | INFO | === Currently training epoch number 8701 ===
+2026-03-18 01:25:38,179 | INFO | === Total Cross-Entropy Loss after epoch 8701 equals to nan ===
+2026-03-18 01:25:38,453 | INFO | === Currently training epoch number 8801 ===
+2026-03-18 01:25:38,453 | INFO | === Total Cross-Entropy Loss after epoch 8801 equals to nan ===
+2026-03-18 01:25:38,744 | INFO | === Currently training epoch number 8901 ===
+2026-03-18 01:25:38,744 | INFO | === Total Cross-Entropy Loss after epoch 8901 equals to nan ===
+2026-03-18 01:25:39,013 | INFO | === Currently training epoch number 9001 ===
+2026-03-18 01:25:39,029 | INFO | === Total Cross-Entropy Loss after epoch 9001 equals to nan ===
+2026-03-18 01:25:39,296 | INFO | === Currently training epoch number 9101 ===
+2026-03-18 01:25:39,296 | INFO | === Total Cross-Entropy Loss after epoch 9101 equals to nan ===
+2026-03-18 01:25:39,586 | INFO | === Currently training epoch number 9201 ===
+2026-03-18 01:25:39,586 | INFO | === Total Cross-Entropy Loss after epoch 9201 equals to nan ===
+2026-03-18 01:25:39,856 | INFO | === Currently training epoch number 9301 ===
+2026-03-18 01:25:39,860 | INFO | === Total Cross-Entropy Loss after epoch 9301 equals to nan ===
+2026-03-18 01:25:40,126 | INFO | === Currently training epoch number 9401 ===
+2026-03-18 01:25:40,126 | INFO | === Total Cross-Entropy Loss after epoch 9401 equals to nan ===
+2026-03-18 01:25:40,414 | INFO | === Currently training epoch number 9501 ===
+2026-03-18 01:25:40,418 | INFO | === Total Cross-Entropy Loss after epoch 9501 equals to nan ===
+2026-03-18 01:25:40,690 | INFO | === Currently training epoch number 9601 ===
+2026-03-18 01:25:40,690 | INFO | === Total Cross-Entropy Loss after epoch 9601 equals to nan ===
+2026-03-18 01:25:40,966 | INFO | === Currently training epoch number 9701 ===
+2026-03-18 01:25:40,970 | INFO | === Total Cross-Entropy Loss after epoch 9701 equals to nan ===
+2026-03-18 01:25:41,247 | INFO | === Currently training epoch number 9801 ===
+2026-03-18 01:25:41,251 | INFO | === Total Cross-Entropy Loss after epoch 9801 equals to nan ===
+2026-03-18 01:25:41,517 | INFO | === Currently training epoch number 9901 ===
+2026-03-18 01:25:41,529 | INFO | === Total Cross-Entropy Loss after epoch 9901 equals to nan ===
+2026-03-18 01:28:17,872 | INFO | === Currently training epoch number 1 ===
+2026-03-18 01:30:29,226 | INFO | === Currently training epoch number 1 ===
+2026-03-18 01:30:29,226 | INFO | === Total Cross-Entropy Loss after epoch 1 equals to 4.267427055747022 ===
+2026-03-18 01:30:29,529 | INFO | === Currently training epoch number 101 ===
+2026-03-18 01:30:29,529 | INFO | === Total Cross-Entropy Loss after epoch 101 equals to 1.2478198203274693 ===
+2026-03-18 01:30:29,858 | INFO | === Currently training epoch number 201 ===
+2026-03-18 01:30:29,858 | INFO | === Total Cross-Entropy Loss after epoch 201 equals to 1.0478725316457627 ===
+2026-03-18 01:30:30,168 | INFO | === Currently training epoch number 301 ===
+2026-03-18 01:30:30,168 | INFO | === Total Cross-Entropy Loss after epoch 301 equals to 0.9215558021947384 ===
+2026-03-18 01:30:30,540 | INFO | === Currently training epoch number 401 ===
+2026-03-18 01:30:30,544 | INFO | === Total Cross-Entropy Loss after epoch 401 equals to 0.9069903427237921 ===
+2026-03-18 01:30:30,839 | INFO | === Currently training epoch number 501 ===
+2026-03-18 01:30:30,840 | INFO | === Total Cross-Entropy Loss after epoch 501 equals to 0.8368184322462218 ===
+2026-03-18 01:30:31,138 | INFO | === Currently training epoch number 601 ===
+2026-03-18 01:30:31,145 | INFO | === Total Cross-Entropy Loss after epoch 601 equals to 0.816403596245997 ===
+2026-03-18 01:30:31,453 | INFO | === Currently training epoch number 701 ===
+2026-03-18 01:30:31,470 | INFO | === Total Cross-Entropy Loss after epoch 701 equals to 0.7893016116017576 ===
+2026-03-18 01:30:31,812 | INFO | === Currently training epoch number 801 ===
+2026-03-18 01:30:31,812 | INFO | === Total Cross-Entropy Loss after epoch 801 equals to 0.8994190633448386 ===
+2026-03-18 01:30:32,157 | INFO | === Currently training epoch number 901 ===
+2026-03-18 01:30:32,157 | INFO | === Total Cross-Entropy Loss after epoch 901 equals to 0.8033001017863151 ===
+2026-03-18 01:30:32,498 | INFO | === Currently training epoch number 1001 ===
+2026-03-18 01:30:32,502 | INFO | === Total Cross-Entropy Loss after epoch 1001 equals to 0.8175403099379548 ===
+2026-03-18 01:30:32,859 | INFO | === Currently training epoch number 1101 ===
+2026-03-18 01:30:32,876 | INFO | === Total Cross-Entropy Loss after epoch 1101 equals to 1.0290814409998081 ===
+2026-03-18 01:30:33,175 | INFO | === Currently training epoch number 1201 ===
+2026-03-18 01:30:33,187 | INFO | === Total Cross-Entropy Loss after epoch 1201 equals to 1.7285023151268921 ===
+2026-03-18 01:30:33,487 | INFO | === Currently training epoch number 1301 ===
+2026-03-18 01:30:33,487 | INFO | === Total Cross-Entropy Loss after epoch 1301 equals to 1.0425822786778989 ===
+2026-03-18 01:30:33,772 | INFO | === Currently training epoch number 1401 ===
+2026-03-18 01:30:33,788 | INFO | === Total Cross-Entropy Loss after epoch 1401 equals to 1.818132464156468 ===
+2026-03-18 01:30:34,082 | INFO | === Currently training epoch number 1501 ===
+2026-03-18 01:30:34,089 | INFO | === Total Cross-Entropy Loss after epoch 1501 equals to 0.9933288177879812 ===
+2026-03-18 01:30:34,373 | INFO | === Currently training epoch number 1601 ===
+2026-03-18 01:30:34,382 | INFO | === Total Cross-Entropy Loss after epoch 1601 equals to 1.738965650343504 ===
+2026-03-18 01:30:34,683 | INFO | === Currently training epoch number 1701 ===
+2026-03-18 01:30:34,683 | INFO | === Total Cross-Entropy Loss after epoch 1701 equals to 1.5514822961827535 ===
+2026-03-18 01:30:34,984 | INFO | === Currently training epoch number 1801 ===
+2026-03-18 01:30:34,990 | INFO | === Total Cross-Entropy Loss after epoch 1801 equals to 1.452086636552896 ===
+2026-03-18 01:30:35,282 | INFO | === Currently training epoch number 1901 ===
+2026-03-18 01:30:35,298 | INFO | === Total Cross-Entropy Loss after epoch 1901 equals to 1.4500664497177604 ===
+2026-03-18 01:30:35,602 | INFO | === Currently training epoch number 2001 ===
+2026-03-18 01:30:35,605 | INFO | === Total Cross-Entropy Loss after epoch 2001 equals to 1.8400257087275478 ===
+2026-03-18 01:30:35,890 | INFO | === Currently training epoch number 2101 ===
+2026-03-18 01:30:35,905 | INFO | === Total Cross-Entropy Loss after epoch 2101 equals to 1.6613292517924305 ===
+2026-03-18 01:30:36,217 | INFO | === Currently training epoch number 2201 ===
+2026-03-18 01:30:36,221 | INFO | === Total Cross-Entropy Loss after epoch 2201 equals to 1.335395698630875 ===
+2026-03-18 01:30:36,520 | INFO | === Currently training epoch number 2301 ===
+2026-03-18 01:30:36,520 | INFO | === Total Cross-Entropy Loss after epoch 2301 equals to 2.015864289659367 ===
+2026-03-18 01:30:36,835 | INFO | === Currently training epoch number 2401 ===
+2026-03-18 01:30:36,839 | INFO | === Total Cross-Entropy Loss after epoch 2401 equals to 1.6558261908971175 ===
+2026-03-18 01:30:37,119 | INFO | === Currently training epoch number 2501 ===
+2026-03-18 01:30:37,132 | INFO | === Total Cross-Entropy Loss after epoch 2501 equals to 1.91902467058326 ===
+2026-03-18 01:30:37,439 | INFO | === Currently training epoch number 2601 ===
+2026-03-18 01:30:37,441 | INFO | === Total Cross-Entropy Loss after epoch 2601 equals to 3.1609803664897105 ===
+2026-03-18 01:30:37,733 | INFO | === Currently training epoch number 2701 ===
+2026-03-18 01:30:37,733 | INFO | === Total Cross-Entropy Loss after epoch 2701 equals to 1.6870028802215546 ===
+2026-03-18 01:30:38,039 | INFO | === Currently training epoch number 2801 ===
+2026-03-18 01:30:38,039 | INFO | === Total Cross-Entropy Loss after epoch 2801 equals to 3.5069201960785548 ===
+2026-03-18 01:30:38,341 | INFO | === Currently training epoch number 2901 ===
+2026-03-18 01:30:38,341 | INFO | === Total Cross-Entropy Loss after epoch 2901 equals to 2.004937946249358 ===
+2026-03-18 01:30:38,634 | INFO | === Currently training epoch number 3001 ===
+2026-03-18 01:30:38,634 | INFO | === Total Cross-Entropy Loss after epoch 3001 equals to 1.3339344431856126 ===
+2026-03-18 01:30:38,938 | INFO | === Currently training epoch number 3101 ===
+2026-03-18 01:30:38,953 | INFO | === Total Cross-Entropy Loss after epoch 3101 equals to 2.166273315661622 ===
+2026-03-18 01:30:39,249 | INFO | === Currently training epoch number 3201 ===
+2026-03-18 01:30:39,249 | INFO | === Total Cross-Entropy Loss after epoch 3201 equals to 2.340465124906651 ===
+2026-03-18 01:30:39,550 | INFO | === Currently training epoch number 3301 ===
+2026-03-18 01:30:39,553 | INFO | === Total Cross-Entropy Loss after epoch 3301 equals to 2.453000935526292 ===
+2026-03-18 01:30:39,841 | INFO | === Currently training epoch number 3401 ===
+2026-03-18 01:30:39,856 | INFO | === Total Cross-Entropy Loss after epoch 3401 equals to 2.5494695725235896 ===
+2026-03-18 01:30:40,138 | INFO | === Currently training epoch number 3501 ===
+2026-03-18 01:30:40,155 | INFO | === Total Cross-Entropy Loss after epoch 3501 equals to 2.4686664470975237 ===
+2026-03-18 01:30:40,438 | INFO | === Currently training epoch number 3601 ===
+2026-03-18 01:30:40,456 | INFO | === Total Cross-Entropy Loss after epoch 3601 equals to 2.294419942772936 ===
+2026-03-18 01:30:40,754 | INFO | === Currently training epoch number 3701 ===
+2026-03-18 01:30:40,770 | INFO | === Total Cross-Entropy Loss after epoch 3701 equals to 2.3422741798671622 ===
+2026-03-18 01:30:41,066 | INFO | === Currently training epoch number 3801 ===
+2026-03-18 01:30:41,066 | INFO | === Total Cross-Entropy Loss after epoch 3801 equals to 1.487888098973931 ===
+2026-03-18 01:30:41,373 | INFO | === Currently training epoch number 3901 ===
+2026-03-18 01:30:41,382 | INFO | === Total Cross-Entropy Loss after epoch 3901 equals to 4.012174972321937 ===
+2026-03-18 01:30:41,679 | INFO | === Currently training epoch number 4001 ===
+2026-03-18 01:30:41,683 | INFO | === Total Cross-Entropy Loss after epoch 4001 equals to 2.5396540346156424 ===
+2026-03-18 01:30:41,985 | INFO | === Currently training epoch number 4101 ===
+2026-03-18 01:30:41,985 | INFO | === Total Cross-Entropy Loss after epoch 4101 equals to 2.480818002727943 ===
+2026-03-18 01:30:42,291 | INFO | === Currently training epoch number 4201 ===
+2026-03-18 01:30:42,291 | INFO | === Total Cross-Entropy Loss after epoch 4201 equals to 1.623300313488166 ===
+2026-03-18 01:30:42,600 | INFO | === Currently training epoch number 4301 ===
+2026-03-18 01:30:42,600 | INFO | === Total Cross-Entropy Loss after epoch 4301 equals to 2.177205791799043 ===
+2026-03-18 01:30:42,889 | INFO | === Currently training epoch number 4401 ===
+2026-03-18 01:30:42,889 | INFO | === Total Cross-Entropy Loss after epoch 4401 equals to 1.9694343827419578 ===
+2026-03-18 01:30:43,199 | INFO | === Currently training epoch number 4501 ===
+2026-03-18 01:30:43,199 | INFO | === Total Cross-Entropy Loss after epoch 4501 equals to 1.7973958685027422 ===
+2026-03-18 01:30:43,486 | INFO | === Currently training epoch number 4601 ===
+2026-03-18 01:30:43,502 | INFO | === Total Cross-Entropy Loss after epoch 4601 equals to 1.368928784490989 ===
+2026-03-18 01:30:43,795 | INFO | === Currently training epoch number 4701 ===
+2026-03-18 01:30:43,795 | INFO | === Total Cross-Entropy Loss after epoch 4701 equals to 4.637760993424546 ===
+2026-03-18 01:30:44,098 | INFO | === Currently training epoch number 4801 ===
+2026-03-18 01:30:44,098 | INFO | === Total Cross-Entropy Loss after epoch 4801 equals to 1.430402865992852 ===
+2026-03-18 01:30:44,389 | INFO | === Currently training epoch number 4901 ===
+2026-03-18 01:30:44,389 | INFO | === Total Cross-Entropy Loss after epoch 4901 equals to 1.1794614732827946 ===
+2026-03-18 01:30:44,700 | INFO | === Currently training epoch number 5001 ===
+2026-03-18 01:30:44,705 | INFO | === Total Cross-Entropy Loss after epoch 5001 equals to 2.6799144255340765 ===
+2026-03-18 01:30:44,992 | INFO | === Currently training epoch number 5101 ===
+2026-03-18 01:30:45,011 | INFO | === Total Cross-Entropy Loss after epoch 5101 equals to nan ===
+2026-03-18 01:30:45,312 | INFO | === Currently training epoch number 5201 ===
+2026-03-18 01:30:45,315 | INFO | === Total Cross-Entropy Loss after epoch 5201 equals to nan ===
+2026-03-18 01:30:45,598 | INFO | === Currently training epoch number 5301 ===
+2026-03-18 01:30:45,614 | INFO | === Total Cross-Entropy Loss after epoch 5301 equals to nan ===
+2026-03-18 01:30:45,909 | INFO | === Currently training epoch number 5401 ===
+2026-03-18 01:30:45,913 | INFO | === Total Cross-Entropy Loss after epoch 5401 equals to nan ===
+2026-03-18 01:30:46,200 | INFO | === Currently training epoch number 5501 ===
+2026-03-18 01:30:46,213 | INFO | === Total Cross-Entropy Loss after epoch 5501 equals to nan ===
+2026-03-18 01:30:46,505 | INFO | === Currently training epoch number 5601 ===
+2026-03-18 01:30:46,505 | INFO | === Total Cross-Entropy Loss after epoch 5601 equals to nan ===
+2026-03-18 01:30:46,808 | INFO | === Currently training epoch number 5701 ===
+2026-03-18 01:30:46,812 | INFO | === Total Cross-Entropy Loss after epoch 5701 equals to nan ===
+2026-03-18 01:30:47,118 | INFO | === Currently training epoch number 5801 ===
+2026-03-18 01:30:47,122 | INFO | === Total Cross-Entropy Loss after epoch 5801 equals to nan ===
+2026-03-18 01:30:47,456 | INFO | === Currently training epoch number 5901 ===
+2026-03-18 01:30:47,461 | INFO | === Total Cross-Entropy Loss after epoch 5901 equals to nan ===
+2026-03-18 01:30:47,782 | INFO | === Currently training epoch number 6001 ===
+2026-03-18 01:30:47,786 | INFO | === Total Cross-Entropy Loss after epoch 6001 equals to nan ===
+2026-03-18 01:30:48,096 | INFO | === Currently training epoch number 6101 ===
+2026-03-18 01:30:48,108 | INFO | === Total Cross-Entropy Loss after epoch 6101 equals to nan ===
+2026-03-18 01:30:48,430 | INFO | === Currently training epoch number 6201 ===
+2026-03-18 01:30:48,434 | INFO | === Total Cross-Entropy Loss after epoch 6201 equals to nan ===
+2026-03-18 01:30:48,732 | INFO | === Currently training epoch number 6301 ===
+2026-03-18 01:30:48,734 | INFO | === Total Cross-Entropy Loss after epoch 6301 equals to nan ===
+2026-03-18 01:30:49,055 | INFO | === Currently training epoch number 6401 ===
+2026-03-18 01:30:49,055 | INFO | === Total Cross-Entropy Loss after epoch 6401 equals to nan ===
+2026-03-18 01:30:49,462 | INFO | === Currently training epoch number 6501 ===
+2026-03-18 01:30:49,467 | INFO | === Total Cross-Entropy Loss after epoch 6501 equals to nan ===
+2026-03-18 01:30:49,854 | INFO | === Currently training epoch number 6601 ===
+2026-03-18 01:30:49,858 | INFO | === Total Cross-Entropy Loss after epoch 6601 equals to nan ===
+2026-03-18 01:30:50,169 | INFO | === Currently training epoch number 6701 ===
+2026-03-18 01:30:50,173 | INFO | === Total Cross-Entropy Loss after epoch 6701 equals to nan ===
+2026-03-18 01:30:50,470 | INFO | === Currently training epoch number 6801 ===
+2026-03-18 01:30:50,470 | INFO | === Total Cross-Entropy Loss after epoch 6801 equals to nan ===
+2026-03-18 01:30:50,808 | INFO | === Currently training epoch number 6901 ===
+2026-03-18 01:30:50,826 | INFO | === Total Cross-Entropy Loss after epoch 6901 equals to nan ===
+2026-03-18 01:30:51,099 | INFO | === Currently training epoch number 7001 ===
+2026-03-18 01:30:51,099 | INFO | === Total Cross-Entropy Loss after epoch 7001 equals to nan ===
+2026-03-18 01:30:51,414 | INFO | === Currently training epoch number 7101 ===
+2026-03-18 01:30:51,414 | INFO | === Total Cross-Entropy Loss after epoch 7101 equals to nan ===
+2026-03-18 01:30:51,770 | INFO | === Currently training epoch number 7201 ===
+2026-03-18 01:30:51,775 | INFO | === Total Cross-Entropy Loss after epoch 7201 equals to nan ===
+2026-03-18 01:30:52,066 | INFO | === Currently training epoch number 7301 ===
+2026-03-18 01:30:52,074 | INFO | === Total Cross-Entropy Loss after epoch 7301 equals to nan ===
+2026-03-18 01:30:52,373 | INFO | === Currently training epoch number 7401 ===
+2026-03-18 01:30:52,385 | INFO | === Total Cross-Entropy Loss after epoch 7401 equals to nan ===
+2026-03-18 01:30:52,681 | INFO | === Currently training epoch number 7501 ===
+2026-03-18 01:30:52,686 | INFO | === Total Cross-Entropy Loss after epoch 7501 equals to nan ===
+2026-03-18 01:30:52,985 | INFO | === Currently training epoch number 7601 ===
+2026-03-18 01:30:52,985 | INFO | === Total Cross-Entropy Loss after epoch 7601 equals to nan ===
+2026-03-18 01:30:53,279 | INFO | === Currently training epoch number 7701 ===
+2026-03-18 01:30:53,297 | INFO | === Total Cross-Entropy Loss after epoch 7701 equals to nan ===
+2026-03-18 01:30:53,605 | INFO | === Currently training epoch number 7801 ===
+2026-03-18 01:30:53,611 | INFO | === Total Cross-Entropy Loss after epoch 7801 equals to nan ===
+2026-03-18 01:30:53,947 | INFO | === Currently training epoch number 7901 ===
+2026-03-18 01:30:53,952 | INFO | === Total Cross-Entropy Loss after epoch 7901 equals to nan ===
+2026-03-18 01:30:54,276 | INFO | === Currently training epoch number 8001 ===
+2026-03-18 01:30:54,281 | INFO | === Total Cross-Entropy Loss after epoch 8001 equals to nan ===
+2026-03-18 01:30:54,587 | INFO | === Currently training epoch number 8101 ===
+2026-03-18 01:30:54,587 | INFO | === Total Cross-Entropy Loss after epoch 8101 equals to nan ===
+2026-03-18 01:30:54,951 | INFO | === Currently training epoch number 8201 ===
+2026-03-18 01:30:54,955 | INFO | === Total Cross-Entropy Loss after epoch 8201 equals to nan ===
+2026-03-18 01:30:55,278 | INFO | === Currently training epoch number 8301 ===
+2026-03-18 01:30:55,278 | INFO | === Total Cross-Entropy Loss after epoch 8301 equals to nan ===
+2026-03-18 01:30:55,618 | INFO | === Currently training epoch number 8401 ===
+2026-03-18 01:30:55,622 | INFO | === Total Cross-Entropy Loss after epoch 8401 equals to nan ===
+2026-03-18 01:30:55,946 | INFO | === Currently training epoch number 8501 ===
+2026-03-18 01:30:55,950 | INFO | === Total Cross-Entropy Loss after epoch 8501 equals to nan ===
+2026-03-18 01:30:56,274 | INFO | === Currently training epoch number 8601 ===
+2026-03-18 01:30:56,274 | INFO | === Total Cross-Entropy Loss after epoch 8601 equals to nan ===
+2026-03-18 01:30:56,609 | INFO | === Currently training epoch number 8701 ===
+2026-03-18 01:30:56,609 | INFO | === Total Cross-Entropy Loss after epoch 8701 equals to nan ===
+2026-03-18 01:30:56,955 | INFO | === Currently training epoch number 8801 ===
+2026-03-18 01:30:56,960 | INFO | === Total Cross-Entropy Loss after epoch 8801 equals to nan ===
+2026-03-18 01:30:57,312 | INFO | === Currently training epoch number 8901 ===
+2026-03-18 01:30:57,313 | INFO | === Total Cross-Entropy Loss after epoch 8901 equals to nan ===
+2026-03-18 01:30:57,659 | INFO | === Currently training epoch number 9001 ===
+2026-03-18 01:30:57,663 | INFO | === Total Cross-Entropy Loss after epoch 9001 equals to nan ===
+2026-03-18 01:30:58,015 | INFO | === Currently training epoch number 9101 ===
+2026-03-18 01:30:58,019 | INFO | === Total Cross-Entropy Loss after epoch 9101 equals to nan ===
+2026-03-18 01:30:58,354 | INFO | === Currently training epoch number 9201 ===
+2026-03-18 01:30:58,357 | INFO | === Total Cross-Entropy Loss after epoch 9201 equals to nan ===
+2026-03-18 01:30:58,693 | INFO | === Currently training epoch number 9301 ===
+2026-03-18 01:30:58,695 | INFO | === Total Cross-Entropy Loss after epoch 9301 equals to nan ===
+2026-03-18 01:30:58,999 | INFO | === Currently training epoch number 9401 ===
+2026-03-18 01:30:59,007 | INFO | === Total Cross-Entropy Loss after epoch 9401 equals to nan ===
+2026-03-18 01:30:59,340 | INFO | === Currently training epoch number 9501 ===
+2026-03-18 01:30:59,341 | INFO | === Total Cross-Entropy Loss after epoch 9501 equals to nan ===
+2026-03-18 01:30:59,643 | INFO | === Currently training epoch number 9601 ===
+2026-03-18 01:30:59,643 | INFO | === Total Cross-Entropy Loss after epoch 9601 equals to nan ===
+2026-03-18 01:30:59,972 | INFO | === Currently training epoch number 9701 ===
+2026-03-18 01:30:59,972 | INFO | === Total Cross-Entropy Loss after epoch 9701 equals to nan ===
+2026-03-18 01:31:00,310 | INFO | === Currently training epoch number 9801 ===
+2026-03-18 01:31:00,313 | INFO | === Total Cross-Entropy Loss after epoch 9801 equals to nan ===
+2026-03-18 01:31:00,626 | INFO | === Currently training epoch number 9901 ===
+2026-03-18 01:31:00,633 | INFO | === Total Cross-Entropy Loss after epoch 9901 equals to nan ===
+2026-03-18 01:33:47,646 | INFO | === Currently training epoch number 1 ===
+2026-03-18 01:33:47,647 | INFO | === Total Cross-Entropy Loss after epoch 1 equals to 4.267427055747022 ===
+2026-03-18 01:33:48,030 | INFO | === Currently training epoch number 101 ===
+2026-03-18 01:33:48,046 | INFO | === Total Cross-Entropy Loss after epoch 101 equals to 7.560927875938479 ===
+2026-03-18 01:33:48,428 | INFO | === Currently training epoch number 201 ===
+2026-03-18 01:33:48,429 | INFO | === Total Cross-Entropy Loss after epoch 201 equals to 7.212813577099216 ===
+2026-03-18 01:33:48,745 | INFO | === Currently training epoch number 301 ===
+2026-03-18 01:33:48,762 | INFO | === Total Cross-Entropy Loss after epoch 301 equals to 6.659121830586939 ===
+2026-03-18 01:33:49,069 | INFO | === Currently training epoch number 401 ===
+2026-03-18 01:33:49,069 | INFO | === Total Cross-Entropy Loss after epoch 401 equals to 7.485866550420625 ===
+2026-03-18 01:33:49,386 | INFO | === Currently training epoch number 501 ===
+2026-03-18 01:33:49,386 | INFO | === Total Cross-Entropy Loss after epoch 501 equals to 7.3826260548969 ===
+2026-03-18 01:33:49,799 | INFO | === Currently training epoch number 601 ===
+2026-03-18 01:33:49,811 | INFO | === Total Cross-Entropy Loss after epoch 601 equals to 8.610253407064539 ===
+2026-03-18 01:33:50,230 | INFO | === Currently training epoch number 701 ===
+2026-03-18 01:33:50,247 | INFO | === Total Cross-Entropy Loss after epoch 701 equals to 8.795160034966809 ===
+2026-03-18 01:33:50,618 | INFO | === Currently training epoch number 801 ===
+2026-03-18 01:33:50,622 | INFO | === Total Cross-Entropy Loss after epoch 801 equals to 9.636526767833855 ===
+2026-03-18 01:33:50,965 | INFO | === Currently training epoch number 901 ===
+2026-03-18 01:33:50,980 | INFO | === Total Cross-Entropy Loss after epoch 901 equals to nan ===
+2026-03-18 01:33:51,313 | INFO | === Currently training epoch number 1001 ===
+2026-03-18 01:33:51,313 | INFO | === Total Cross-Entropy Loss after epoch 1001 equals to nan ===
+2026-03-18 01:33:51,627 | INFO | === Currently training epoch number 1101 ===
+2026-03-18 01:33:51,646 | INFO | === Total Cross-Entropy Loss after epoch 1101 equals to nan ===
+2026-03-18 01:33:51,935 | INFO | === Currently training epoch number 1201 ===
+2026-03-18 01:33:51,935 | INFO | === Total Cross-Entropy Loss after epoch 1201 equals to nan ===
+2026-03-18 01:33:52,235 | INFO | === Currently training epoch number 1301 ===
+2026-03-18 01:33:52,235 | INFO | === Total Cross-Entropy Loss after epoch 1301 equals to nan ===
+2026-03-18 01:33:52,534 | INFO | === Currently training epoch number 1401 ===
+2026-03-18 01:33:52,534 | INFO | === Total Cross-Entropy Loss after epoch 1401 equals to nan ===
+2026-03-18 01:33:52,822 | INFO | === Currently training epoch number 1501 ===
+2026-03-18 01:33:52,838 | INFO | === Total Cross-Entropy Loss after epoch 1501 equals to nan ===
+2026-03-18 01:33:53,128 | INFO | === Currently training epoch number 1601 ===
+2026-03-18 01:33:53,145 | INFO | === Total Cross-Entropy Loss after epoch 1601 equals to nan ===
+2026-03-18 01:33:53,466 | INFO | === Currently training epoch number 1701 ===
+2026-03-18 01:33:53,470 | INFO | === Total Cross-Entropy Loss after epoch 1701 equals to nan ===
+2026-03-18 01:33:53,776 | INFO | === Currently training epoch number 1801 ===
+2026-03-18 01:33:53,776 | INFO | === Total Cross-Entropy Loss after epoch 1801 equals to nan ===
+2026-03-18 01:33:54,077 | INFO | === Currently training epoch number 1901 ===
+2026-03-18 01:33:54,081 | INFO | === Total Cross-Entropy Loss after epoch 1901 equals to nan ===
+2026-03-18 01:33:54,371 | INFO | === Currently training epoch number 2001 ===
+2026-03-18 01:33:54,371 | INFO | === Total Cross-Entropy Loss after epoch 2001 equals to nan ===
+2026-03-18 01:33:54,683 | INFO | === Currently training epoch number 2101 ===
+2026-03-18 01:33:54,687 | INFO | === Total Cross-Entropy Loss after epoch 2101 equals to nan ===
+2026-03-18 01:33:54,990 | INFO | === Currently training epoch number 2201 ===
+2026-03-18 01:33:55,006 | INFO | === Total Cross-Entropy Loss after epoch 2201 equals to nan ===
+2026-03-18 01:33:55,309 | INFO | === Currently training epoch number 2301 ===
+2026-03-18 01:33:55,325 | INFO | === Total Cross-Entropy Loss after epoch 2301 equals to nan ===
+2026-03-18 01:33:55,602 | INFO | === Currently training epoch number 2401 ===
+2026-03-18 01:33:55,620 | INFO | === Total Cross-Entropy Loss after epoch 2401 equals to nan ===
+2026-03-18 01:33:55,906 | INFO | === Currently training epoch number 2501 ===
+2026-03-18 01:33:55,922 | INFO | === Total Cross-Entropy Loss after epoch 2501 equals to nan ===
+2026-03-18 01:33:56,211 | INFO | === Currently training epoch number 2601 ===
+2026-03-18 01:33:56,227 | INFO | === Total Cross-Entropy Loss after epoch 2601 equals to nan ===
+2026-03-18 01:33:56,518 | INFO | === Currently training epoch number 2701 ===
+2026-03-18 01:33:56,518 | INFO | === Total Cross-Entropy Loss after epoch 2701 equals to nan ===
+2026-03-18 01:33:56,825 | INFO | === Currently training epoch number 2801 ===
+2026-03-18 01:33:56,828 | INFO | === Total Cross-Entropy Loss after epoch 2801 equals to nan ===
+2026-03-18 01:33:57,118 | INFO | === Currently training epoch number 2901 ===
+2026-03-18 01:33:57,118 | INFO | === Total Cross-Entropy Loss after epoch 2901 equals to nan ===
+2026-03-18 01:33:57,409 | INFO | === Currently training epoch number 3001 ===
+2026-03-18 01:33:57,425 | INFO | === Total Cross-Entropy Loss after epoch 3001 equals to nan ===
+2026-03-18 01:33:57,749 | INFO | === Currently training epoch number 3101 ===
+2026-03-18 01:33:57,750 | INFO | === Total Cross-Entropy Loss after epoch 3101 equals to nan ===
+2026-03-18 01:33:58,078 | INFO | === Currently training epoch number 3201 ===
+2026-03-18 01:33:58,078 | INFO | === Total Cross-Entropy Loss after epoch 3201 equals to nan ===
+2026-03-18 01:33:58,409 | INFO | === Currently training epoch number 3301 ===
+2026-03-18 01:33:58,413 | INFO | === Total Cross-Entropy Loss after epoch 3301 equals to nan ===
+2026-03-18 01:33:58,727 | INFO | === Currently training epoch number 3401 ===
+2026-03-18 01:33:58,732 | INFO | === Total Cross-Entropy Loss after epoch 3401 equals to nan ===
+2026-03-18 01:33:59,064 | INFO | === Currently training epoch number 3501 ===
+2026-03-18 01:33:59,064 | INFO | === Total Cross-Entropy Loss after epoch 3501 equals to nan ===
+2026-03-18 01:33:59,363 | INFO | === Currently training epoch number 3601 ===
+2026-03-18 01:33:59,382 | INFO | === Total Cross-Entropy Loss after epoch 3601 equals to nan ===
+2026-03-18 01:33:59,699 | INFO | === Currently training epoch number 3701 ===
+2026-03-18 01:33:59,703 | INFO | === Total Cross-Entropy Loss after epoch 3701 equals to nan ===
+2026-03-18 01:34:00,018 | INFO | === Currently training epoch number 3801 ===
+2026-03-18 01:34:00,022 | INFO | === Total Cross-Entropy Loss after epoch 3801 equals to nan ===
+2026-03-18 01:34:00,331 | INFO | === Currently training epoch number 3901 ===
+2026-03-18 01:34:00,331 | INFO | === Total Cross-Entropy Loss after epoch 3901 equals to nan ===
+2026-03-18 01:34:00,648 | INFO | === Currently training epoch number 4001 ===
+2026-03-18 01:34:00,663 | INFO | === Total Cross-Entropy Loss after epoch 4001 equals to nan ===
+2026-03-18 01:34:00,981 | INFO | === Currently training epoch number 4101 ===
+2026-03-18 01:34:00,981 | INFO | === Total Cross-Entropy Loss after epoch 4101 equals to nan ===
+2026-03-18 01:34:01,314 | INFO | === Currently training epoch number 4201 ===
+2026-03-18 01:34:01,314 | INFO | === Total Cross-Entropy Loss after epoch 4201 equals to nan ===
+2026-03-18 01:34:01,633 | INFO | === Currently training epoch number 4301 ===
+2026-03-18 01:34:01,637 | INFO | === Total Cross-Entropy Loss after epoch 4301 equals to nan ===
+2026-03-18 01:34:01,963 | INFO | === Currently training epoch number 4401 ===
+2026-03-18 01:34:01,967 | INFO | === Total Cross-Entropy Loss after epoch 4401 equals to nan ===
+2026-03-18 01:34:02,275 | INFO | === Currently training epoch number 4501 ===
+2026-03-18 01:34:02,283 | INFO | === Total Cross-Entropy Loss after epoch 4501 equals to nan ===
+2026-03-18 01:34:02,581 | INFO | === Currently training epoch number 4601 ===
+2026-03-18 01:34:02,587 | INFO | === Total Cross-Entropy Loss after epoch 4601 equals to nan ===
+2026-03-18 01:34:02,882 | INFO | === Currently training epoch number 4701 ===
+2026-03-18 01:34:02,886 | INFO | === Total Cross-Entropy Loss after epoch 4701 equals to nan ===
+2026-03-18 01:34:03,190 | INFO | === Currently training epoch number 4801 ===
+2026-03-18 01:34:03,194 | INFO | === Total Cross-Entropy Loss after epoch 4801 equals to nan ===
+2026-03-18 01:34:03,513 | INFO | === Currently training epoch number 4901 ===
+2026-03-18 01:34:03,514 | INFO | === Total Cross-Entropy Loss after epoch 4901 equals to nan ===
+2026-03-18 01:34:03,840 | INFO | === Currently training epoch number 5001 ===
+2026-03-18 01:34:03,840 | INFO | === Total Cross-Entropy Loss after epoch 5001 equals to nan ===
+2026-03-18 01:34:04,142 | INFO | === Currently training epoch number 5101 ===
+2026-03-18 01:34:04,142 | INFO | === Total Cross-Entropy Loss after epoch 5101 equals to nan ===
+2026-03-18 01:34:04,437 | INFO | === Currently training epoch number 5201 ===
+2026-03-18 01:34:04,437 | INFO | === Total Cross-Entropy Loss after epoch 5201 equals to nan ===
+2026-03-18 01:34:04,744 | INFO | === Currently training epoch number 5301 ===
+2026-03-18 01:34:04,744 | INFO | === Total Cross-Entropy Loss after epoch 5301 equals to nan ===
+2026-03-18 01:34:05,035 | INFO | === Currently training epoch number 5401 ===
+2026-03-18 01:34:05,035 | INFO | === Total Cross-Entropy Loss after epoch 5401 equals to nan ===
+2026-03-18 01:34:05,327 | INFO | === Currently training epoch number 5501 ===
+2026-03-18 01:34:05,343 | INFO | === Total Cross-Entropy Loss after epoch 5501 equals to nan ===
+2026-03-18 01:34:05,656 | INFO | === Currently training epoch number 5601 ===
+2026-03-18 01:34:05,662 | INFO | === Total Cross-Entropy Loss after epoch 5601 equals to nan ===
+2026-03-18 01:34:05,960 | INFO | === Currently training epoch number 5701 ===
+2026-03-18 01:34:05,971 | INFO | === Total Cross-Entropy Loss after epoch 5701 equals to nan ===
+2026-03-18 01:34:06,293 | INFO | === Currently training epoch number 5801 ===
+2026-03-18 01:34:06,293 | INFO | === Total Cross-Entropy Loss after epoch 5801 equals to nan ===
+2026-03-18 01:34:06,676 | INFO | === Currently training epoch number 5901 ===
+2026-03-18 01:34:06,683 | INFO | === Total Cross-Entropy Loss after epoch 5901 equals to nan ===
+2026-03-18 01:34:07,038 | INFO | === Currently training epoch number 6001 ===
+2026-03-18 01:34:07,048 | INFO | === Total Cross-Entropy Loss after epoch 6001 equals to nan ===
+2026-03-18 01:34:07,375 | INFO | === Currently training epoch number 6101 ===
+2026-03-18 01:34:07,378 | INFO | === Total Cross-Entropy Loss after epoch 6101 equals to nan ===
+2026-03-18 01:34:07,695 | INFO | === Currently training epoch number 6201 ===
+2026-03-18 01:34:07,695 | INFO | === Total Cross-Entropy Loss after epoch 6201 equals to nan ===
+2026-03-18 01:34:08,025 | INFO | === Currently training epoch number 6301 ===
+2026-03-18 01:34:08,029 | INFO | === Total Cross-Entropy Loss after epoch 6301 equals to nan ===
+2026-03-18 01:34:08,347 | INFO | === Currently training epoch number 6401 ===
+2026-03-18 01:34:08,347 | INFO | === Total Cross-Entropy Loss after epoch 6401 equals to nan ===
+2026-03-18 01:34:08,678 | INFO | === Currently training epoch number 6501 ===
+2026-03-18 01:34:08,678 | INFO | === Total Cross-Entropy Loss after epoch 6501 equals to nan ===
+2026-03-18 01:34:08,990 | INFO | === Currently training epoch number 6601 ===
+2026-03-18 01:34:08,992 | INFO | === Total Cross-Entropy Loss after epoch 6601 equals to nan ===
+2026-03-18 01:34:09,317 | INFO | === Currently training epoch number 6701 ===
+2026-03-18 01:34:09,330 | INFO | === Total Cross-Entropy Loss after epoch 6701 equals to nan ===
+2026-03-18 01:34:09,679 | INFO | === Currently training epoch number 6801 ===
+2026-03-18 01:34:09,685 | INFO | === Total Cross-Entropy Loss after epoch 6801 equals to nan ===
+2026-03-18 01:34:09,996 | INFO | === Currently training epoch number 6901 ===
+2026-03-18 01:34:10,012 | INFO | === Total Cross-Entropy Loss after epoch 6901 equals to nan ===
+2026-03-18 01:34:10,383 | INFO | === Currently training epoch number 7001 ===
+2026-03-18 01:34:10,383 | INFO | === Total Cross-Entropy Loss after epoch 7001 equals to nan ===
+2026-03-18 01:34:10,766 | INFO | === Currently training epoch number 7101 ===
+2026-03-18 01:34:10,770 | INFO | === Total Cross-Entropy Loss after epoch 7101 equals to nan ===
+2026-03-18 01:34:11,070 | INFO | === Currently training epoch number 7201 ===
+2026-03-18 01:34:11,070 | INFO | === Total Cross-Entropy Loss after epoch 7201 equals to nan ===
+2026-03-18 01:34:11,388 | INFO | === Currently training epoch number 7301 ===
+2026-03-18 01:34:11,388 | INFO | === Total Cross-Entropy Loss after epoch 7301 equals to nan ===
+2026-03-18 01:34:11,763 | INFO | === Currently training epoch number 7401 ===
+2026-03-18 01:34:11,769 | INFO | === Total Cross-Entropy Loss after epoch 7401 equals to nan ===
+2026-03-18 01:34:12,107 | INFO | === Currently training epoch number 7501 ===
+2026-03-18 01:34:12,112 | INFO | === Total Cross-Entropy Loss after epoch 7501 equals to nan ===
+2026-03-18 01:34:12,556 | INFO | === Currently training epoch number 7601 ===
+2026-03-18 01:34:12,562 | INFO | === Total Cross-Entropy Loss after epoch 7601 equals to nan ===
+2026-03-18 01:34:12,898 | INFO | === Currently training epoch number 7701 ===
+2026-03-18 01:34:12,916 | INFO | === Total Cross-Entropy Loss after epoch 7701 equals to nan ===
+2026-03-18 01:34:13,246 | INFO | === Currently training epoch number 7801 ===
+2026-03-18 01:34:13,246 | INFO | === Total Cross-Entropy Loss after epoch 7801 equals to nan ===
+2026-03-18 01:34:13,612 | INFO | === Currently training epoch number 7901 ===
+2026-03-18 01:34:13,628 | INFO | === Total Cross-Entropy Loss after epoch 7901 equals to nan ===
+2026-03-18 01:34:13,975 | INFO | === Currently training epoch number 8001 ===
+2026-03-18 01:34:13,982 | INFO | === Total Cross-Entropy Loss after epoch 8001 equals to nan ===
+2026-03-18 01:34:14,345 | INFO | === Currently training epoch number 8101 ===
+2026-03-18 01:34:14,345 | INFO | === Total Cross-Entropy Loss after epoch 8101 equals to nan ===
+2026-03-18 01:34:14,689 | INFO | === Currently training epoch number 8201 ===
+2026-03-18 01:34:14,693 | INFO | === Total Cross-Entropy Loss after epoch 8201 equals to nan ===
+2026-03-18 01:34:15,016 | INFO | === Currently training epoch number 8301 ===
+2026-03-18 01:34:15,020 | INFO | === Total Cross-Entropy Loss after epoch 8301 equals to nan ===
+2026-03-18 01:34:15,349 | INFO | === Currently training epoch number 8401 ===
+2026-03-18 01:34:15,353 | INFO | === Total Cross-Entropy Loss after epoch 8401 equals to nan ===
+2026-03-18 01:34:15,704 | INFO | === Currently training epoch number 8501 ===
+2026-03-18 01:34:15,708 | INFO | === Total Cross-Entropy Loss after epoch 8501 equals to nan ===
+2026-03-18 01:34:16,053 | INFO | === Currently training epoch number 8601 ===
+2026-03-18 01:34:16,053 | INFO | === Total Cross-Entropy Loss after epoch 8601 equals to nan ===
+2026-03-18 01:34:16,384 | INFO | === Currently training epoch number 8701 ===
+2026-03-18 01:34:16,387 | INFO | === Total Cross-Entropy Loss after epoch 8701 equals to nan ===
+2026-03-18 01:34:16,678 | INFO | === Currently training epoch number 8801 ===
+2026-03-18 01:34:16,678 | INFO | === Total Cross-Entropy Loss after epoch 8801 equals to nan ===
+2026-03-18 01:34:16,996 | INFO | === Currently training epoch number 8901 ===
+2026-03-18 01:34:17,005 | INFO | === Total Cross-Entropy Loss after epoch 8901 equals to nan ===
+2026-03-18 01:34:17,320 | INFO | === Currently training epoch number 9001 ===
+2026-03-18 01:34:17,330 | INFO | === Total Cross-Entropy Loss after epoch 9001 equals to nan ===
+2026-03-18 01:34:17,638 | INFO | === Currently training epoch number 9101 ===
+2026-03-18 01:34:17,642 | INFO | === Total Cross-Entropy Loss after epoch 9101 equals to nan ===
+2026-03-18 01:34:17,940 | INFO | === Currently training epoch number 9201 ===
+2026-03-18 01:34:17,960 | INFO | === Total Cross-Entropy Loss after epoch 9201 equals to nan ===
+2026-03-18 01:34:18,312 | INFO | === Currently training epoch number 9301 ===
+2026-03-18 01:34:18,317 | INFO | === Total Cross-Entropy Loss after epoch 9301 equals to nan ===
+2026-03-18 01:34:18,627 | INFO | === Currently training epoch number 9401 ===
+2026-03-18 01:34:18,627 | INFO | === Total Cross-Entropy Loss after epoch 9401 equals to nan ===
+2026-03-18 01:34:18,944 | INFO | === Currently training epoch number 9501 ===
+2026-03-18 01:34:18,950 | INFO | === Total Cross-Entropy Loss after epoch 9501 equals to nan ===
+2026-03-18 01:34:19,301 | INFO | === Currently training epoch number 9601 ===
+2026-03-18 01:34:19,305 | INFO | === Total Cross-Entropy Loss after epoch 9601 equals to nan ===
+2026-03-18 01:34:19,677 | INFO | === Currently training epoch number 9701 ===
+2026-03-18 01:34:19,677 | INFO | === Total Cross-Entropy Loss after epoch 9701 equals to nan ===
+2026-03-18 01:34:19,988 | INFO | === Currently training epoch number 9801 ===
+2026-03-18 01:34:20,004 | INFO | === Total Cross-Entropy Loss after epoch 9801 equals to nan ===
+2026-03-18 01:34:20,296 | INFO | === Currently training epoch number 9901 ===
+2026-03-18 01:34:20,296 | INFO | === Total Cross-Entropy Loss after epoch 9901 equals to nan ===
+2026-03-18 01:35:36,268 | INFO | === Currently training epoch number 1 ===
+2026-03-18 01:35:36,268 | INFO | === Total Cross-Entropy Loss after epoch 1 equals to 4.267427055747022 ===
+2026-03-18 01:35:36,582 | INFO | === Currently training epoch number 101 ===
+2026-03-18 01:35:36,586 | INFO | === Total Cross-Entropy Loss after epoch 101 equals to 10.789752272119427 ===
+2026-03-18 01:35:36,975 | INFO | === Currently training epoch number 201 ===
+2026-03-18 01:35:36,975 | INFO | === Total Cross-Entropy Loss after epoch 201 equals to 9.59405279678546 ===
+2026-03-18 01:35:37,296 | INFO | === Currently training epoch number 301 ===
+2026-03-18 01:35:37,312 | INFO | === Total Cross-Entropy Loss after epoch 301 equals to 8.90026583871094 ===
+2026-03-18 01:35:37,629 | INFO | === Currently training epoch number 401 ===
+2026-03-18 01:35:37,633 | INFO | === Total Cross-Entropy Loss after epoch 401 equals to 9.666586495030549 ===
+2026-03-18 01:35:37,942 | INFO | === Currently training epoch number 501 ===
+2026-03-18 01:35:37,944 | INFO | === Total Cross-Entropy Loss after epoch 501 equals to 9.34681276640987 ===
+2026-03-18 01:35:38,276 | INFO | === Currently training epoch number 601 ===
+2026-03-18 01:35:38,276 | INFO | === Total Cross-Entropy Loss after epoch 601 equals to 12.559467688616062 ===
+2026-03-18 01:35:38,602 | INFO | === Currently training epoch number 701 ===
+2026-03-18 01:35:38,606 | INFO | === Total Cross-Entropy Loss after epoch 701 equals to 11.877456229067114 ===
+2026-03-18 01:35:38,928 | INFO | === Currently training epoch number 801 ===
+2026-03-18 01:35:38,936 | INFO | === Total Cross-Entropy Loss after epoch 801 equals to 13.583869601279652 ===
+2026-03-18 01:35:39,265 | INFO | === Currently training epoch number 901 ===
+2026-03-18 01:35:39,265 | INFO | === Total Cross-Entropy Loss after epoch 901 equals to nan ===
+2026-03-18 01:35:39,614 | INFO | === Currently training epoch number 1001 ===
+2026-03-18 01:35:39,614 | INFO | === Total Cross-Entropy Loss after epoch 1001 equals to nan ===
+2026-03-18 01:35:39,938 | INFO | === Currently training epoch number 1101 ===
+2026-03-18 01:35:39,938 | INFO | === Total Cross-Entropy Loss after epoch 1101 equals to nan ===
+2026-03-18 01:35:40,244 | INFO | === Currently training epoch number 1201 ===
+2026-03-18 01:35:40,260 | INFO | === Total Cross-Entropy Loss after epoch 1201 equals to nan ===
+2026-03-18 01:35:40,563 | INFO | === Currently training epoch number 1301 ===
+2026-03-18 01:35:40,567 | INFO | === Total Cross-Entropy Loss after epoch 1301 equals to nan ===
+2026-03-18 01:35:40,877 | INFO | === Currently training epoch number 1401 ===
+2026-03-18 01:35:40,881 | INFO | === Total Cross-Entropy Loss after epoch 1401 equals to nan ===
+2026-03-18 01:35:41,199 | INFO | === Currently training epoch number 1501 ===
+2026-03-18 01:35:41,199 | INFO | === Total Cross-Entropy Loss after epoch 1501 equals to nan ===
+2026-03-18 01:35:41,528 | INFO | === Currently training epoch number 1601 ===
+2026-03-18 01:35:41,532 | INFO | === Total Cross-Entropy Loss after epoch 1601 equals to nan ===
+2026-03-18 01:35:41,865 | INFO | === Currently training epoch number 1701 ===
+2026-03-18 01:35:41,868 | INFO | === Total Cross-Entropy Loss after epoch 1701 equals to nan ===
+2026-03-18 01:35:42,206 | INFO | === Currently training epoch number 1801 ===
+2026-03-18 01:35:42,210 | INFO | === Total Cross-Entropy Loss after epoch 1801 equals to nan ===
+2026-03-18 01:35:42,526 | INFO | === Currently training epoch number 1901 ===
+2026-03-18 01:35:42,543 | INFO | === Total Cross-Entropy Loss after epoch 1901 equals to nan ===
+2026-03-18 01:35:42,864 | INFO | === Currently training epoch number 2001 ===
+2026-03-18 01:35:42,864 | INFO | === Total Cross-Entropy Loss after epoch 2001 equals to nan ===
+2026-03-18 01:35:43,170 | INFO | === Currently training epoch number 2101 ===
+2026-03-18 01:35:43,179 | INFO | === Total Cross-Entropy Loss after epoch 2101 equals to nan ===
+2026-03-18 01:35:43,476 | INFO | === Currently training epoch number 2201 ===
+2026-03-18 01:35:43,476 | INFO | === Total Cross-Entropy Loss after epoch 2201 equals to nan ===
+2026-03-18 01:35:43,809 | INFO | === Currently training epoch number 2301 ===
+2026-03-18 01:35:43,814 | INFO | === Total Cross-Entropy Loss after epoch 2301 equals to nan ===
+2026-03-18 01:35:44,105 | INFO | === Currently training epoch number 2401 ===
+2026-03-18 01:35:44,105 | INFO | === Total Cross-Entropy Loss after epoch 2401 equals to nan ===
+2026-03-18 01:35:44,411 | INFO | === Currently training epoch number 2501 ===
+2026-03-18 01:35:44,411 | INFO | === Total Cross-Entropy Loss after epoch 2501 equals to nan ===
+2026-03-18 01:35:44,730 | INFO | === Currently training epoch number 2601 ===
+2026-03-18 01:35:44,748 | INFO | === Total Cross-Entropy Loss after epoch 2601 equals to nan ===
+2026-03-18 01:35:45,075 | INFO | === Currently training epoch number 2701 ===
+2026-03-18 01:35:45,075 | INFO | === Total Cross-Entropy Loss after epoch 2701 equals to nan ===
+2026-03-18 01:35:45,381 | INFO | === Currently training epoch number 2801 ===
+2026-03-18 01:35:45,381 | INFO | === Total Cross-Entropy Loss after epoch 2801 equals to nan ===
+2026-03-18 01:35:45,689 | INFO | === Currently training epoch number 2901 ===
+2026-03-18 01:35:45,689 | INFO | === Total Cross-Entropy Loss after epoch 2901 equals to nan ===
+2026-03-18 01:35:45,992 | INFO | === Currently training epoch number 3001 ===
+2026-03-18 01:35:45,992 | INFO | === Total Cross-Entropy Loss after epoch 3001 equals to nan ===
+2026-03-18 01:35:46,288 | INFO | === Currently training epoch number 3101 ===
+2026-03-18 01:35:46,288 | INFO | === Total Cross-Entropy Loss after epoch 3101 equals to nan ===
+2026-03-18 01:35:46,598 | INFO | === Currently training epoch number 3201 ===
+2026-03-18 01:35:46,611 | INFO | === Total Cross-Entropy Loss after epoch 3201 equals to nan ===
+2026-03-18 01:35:46,912 | INFO | === Currently training epoch number 3301 ===
+2026-03-18 01:35:46,912 | INFO | === Total Cross-Entropy Loss after epoch 3301 equals to nan ===
+2026-03-18 01:35:47,208 | INFO | === Currently training epoch number 3401 ===
+2026-03-18 01:35:47,224 | INFO | === Total Cross-Entropy Loss after epoch 3401 equals to nan ===
+2026-03-18 01:35:47,509 | INFO | === Currently training epoch number 3501 ===
+2026-03-18 01:35:47,525 | INFO | === Total Cross-Entropy Loss after epoch 3501 equals to nan ===
+2026-03-18 01:35:47,823 | INFO | === Currently training epoch number 3601 ===
+2026-03-18 01:35:47,826 | INFO | === Total Cross-Entropy Loss after epoch 3601 equals to nan ===
+2026-03-18 01:35:48,120 | INFO | === Currently training epoch number 3701 ===
+2026-03-18 01:35:48,120 | INFO | === Total Cross-Entropy Loss after epoch 3701 equals to nan ===
+2026-03-18 01:35:48,427 | INFO | === Currently training epoch number 3801 ===
+2026-03-18 01:35:48,427 | INFO | === Total Cross-Entropy Loss after epoch 3801 equals to nan ===
+2026-03-18 01:35:48,744 | INFO | === Currently training epoch number 3901 ===
+2026-03-18 01:35:48,752 | INFO | === Total Cross-Entropy Loss after epoch 3901 equals to nan ===
+2026-03-18 01:35:49,055 | INFO | === Currently training epoch number 4001 ===
+2026-03-18 01:35:49,055 | INFO | === Total Cross-Entropy Loss after epoch 4001 equals to nan ===
+2026-03-18 01:35:49,369 | INFO | === Currently training epoch number 4101 ===
+2026-03-18 01:35:49,373 | INFO | === Total Cross-Entropy Loss after epoch 4101 equals to nan ===
+2026-03-18 01:35:49,671 | INFO | === Currently training epoch number 4201 ===
+2026-03-18 01:35:49,671 | INFO | === Total Cross-Entropy Loss after epoch 4201 equals to nan ===
+2026-03-18 01:35:49,976 | INFO | === Currently training epoch number 4301 ===
+2026-03-18 01:35:49,976 | INFO | === Total Cross-Entropy Loss after epoch 4301 equals to nan ===
+2026-03-18 01:35:50,280 | INFO | === Currently training epoch number 4401 ===
+2026-03-18 01:35:50,280 | INFO | === Total Cross-Entropy Loss after epoch 4401 equals to nan ===
+2026-03-18 01:35:50,589 | INFO | === Currently training epoch number 4501 ===
+2026-03-18 01:35:50,589 | INFO | === Total Cross-Entropy Loss after epoch 4501 equals to nan ===
+2026-03-18 01:35:50,897 | INFO | === Currently training epoch number 4601 ===
+2026-03-18 01:35:50,897 | INFO | === Total Cross-Entropy Loss after epoch 4601 equals to nan ===
+2026-03-18 01:35:51,204 | INFO | === Currently training epoch number 4701 ===
+2026-03-18 01:35:51,204 | INFO | === Total Cross-Entropy Loss after epoch 4701 equals to nan ===
+2026-03-18 01:35:51,508 | INFO | === Currently training epoch number 4801 ===
+2026-03-18 01:35:51,518 | INFO | === Total Cross-Entropy Loss after epoch 4801 equals to nan ===
+2026-03-18 01:35:51,822 | INFO | === Currently training epoch number 4901 ===
+2026-03-18 01:35:51,822 | INFO | === Total Cross-Entropy Loss after epoch 4901 equals to nan ===
+2026-03-18 01:35:52,121 | INFO | === Currently training epoch number 5001 ===
+2026-03-18 01:35:52,121 | INFO | === Total Cross-Entropy Loss after epoch 5001 equals to nan ===
+2026-03-18 01:35:52,430 | INFO | === Currently training epoch number 5101 ===
+2026-03-18 01:35:52,445 | INFO | === Total Cross-Entropy Loss after epoch 5101 equals to nan ===
+2026-03-18 01:35:52,739 | INFO | === Currently training epoch number 5201 ===
+2026-03-18 01:35:52,747 | INFO | === Total Cross-Entropy Loss after epoch 5201 equals to nan ===
+2026-03-18 01:35:53,057 | INFO | === Currently training epoch number 5301 ===
+2026-03-18 01:35:53,063 | INFO | === Total Cross-Entropy Loss after epoch 5301 equals to nan ===
+2026-03-18 01:35:53,365 | INFO | === Currently training epoch number 5401 ===
+2026-03-18 01:35:53,365 | INFO | === Total Cross-Entropy Loss after epoch 5401 equals to nan ===
+2026-03-18 01:35:53,671 | INFO | === Currently training epoch number 5501 ===
+2026-03-18 01:35:53,671 | INFO | === Total Cross-Entropy Loss after epoch 5501 equals to nan ===
+2026-03-18 01:35:53,980 | INFO | === Currently training epoch number 5601 ===
+2026-03-18 01:35:53,980 | INFO | === Total Cross-Entropy Loss after epoch 5601 equals to nan ===
+2026-03-18 01:35:54,282 | INFO | === Currently training epoch number 5701 ===
+2026-03-18 01:35:54,282 | INFO | === Total Cross-Entropy Loss after epoch 5701 equals to nan ===
+2026-03-18 01:35:54,596 | INFO | === Currently training epoch number 5801 ===
+2026-03-18 01:35:54,611 | INFO | === Total Cross-Entropy Loss after epoch 5801 equals to nan ===
+2026-03-18 01:35:54,953 | INFO | === Currently training epoch number 5901 ===
+2026-03-18 01:35:54,953 | INFO | === Total Cross-Entropy Loss after epoch 5901 equals to nan ===
+2026-03-18 01:35:55,282 | INFO | === Currently training epoch number 6001 ===
+2026-03-18 01:35:55,282 | INFO | === Total Cross-Entropy Loss after epoch 6001 equals to nan ===
+2026-03-18 01:35:55,616 | INFO | === Currently training epoch number 6101 ===
+2026-03-18 01:35:55,619 | INFO | === Total Cross-Entropy Loss after epoch 6101 equals to nan ===
+2026-03-18 01:35:55,954 | INFO | === Currently training epoch number 6201 ===
+2026-03-18 01:35:55,954 | INFO | === Total Cross-Entropy Loss after epoch 6201 equals to nan ===
+2026-03-18 01:35:56,333 | INFO | === Currently training epoch number 6301 ===
+2026-03-18 01:35:56,333 | INFO | === Total Cross-Entropy Loss after epoch 6301 equals to nan ===
+2026-03-18 01:35:56,671 | INFO | === Currently training epoch number 6401 ===
+2026-03-18 01:35:56,680 | INFO | === Total Cross-Entropy Loss after epoch 6401 equals to nan ===
+2026-03-18 01:35:57,016 | INFO | === Currently training epoch number 6501 ===
+2026-03-18 01:35:57,016 | INFO | === Total Cross-Entropy Loss after epoch 6501 equals to nan ===
+2026-03-18 01:35:57,339 | INFO | === Currently training epoch number 6601 ===
+2026-03-18 01:35:57,343 | INFO | === Total Cross-Entropy Loss after epoch 6601 equals to nan ===
+2026-03-18 01:35:57,674 | INFO | === Currently training epoch number 6701 ===
+2026-03-18 01:35:57,678 | INFO | === Total Cross-Entropy Loss after epoch 6701 equals to nan ===
+2026-03-18 01:35:57,993 | INFO | === Currently training epoch number 6801 ===
+2026-03-18 01:35:57,997 | INFO | === Total Cross-Entropy Loss after epoch 6801 equals to nan ===
+2026-03-18 01:35:58,356 | INFO | === Currently training epoch number 6901 ===
+2026-03-18 01:35:58,360 | INFO | === Total Cross-Entropy Loss after epoch 6901 equals to nan ===
+2026-03-18 01:35:58,727 | INFO | === Currently training epoch number 7001 ===
+2026-03-18 01:35:58,731 | INFO | === Total Cross-Entropy Loss after epoch 7001 equals to nan ===
+2026-03-18 01:35:59,084 | INFO | === Currently training epoch number 7101 ===
+2026-03-18 01:35:59,093 | INFO | === Total Cross-Entropy Loss after epoch 7101 equals to nan ===
+2026-03-18 01:35:59,427 | INFO | === Currently training epoch number 7201 ===
+2026-03-18 01:35:59,438 | INFO | === Total Cross-Entropy Loss after epoch 7201 equals to nan ===
+2026-03-18 01:35:59,762 | INFO | === Currently training epoch number 7301 ===
+2026-03-18 01:35:59,768 | INFO | === Total Cross-Entropy Loss after epoch 7301 equals to nan ===
+2026-03-18 01:36:00,085 | INFO | === Currently training epoch number 7401 ===
+2026-03-18 01:36:00,085 | INFO | === Total Cross-Entropy Loss after epoch 7401 equals to nan ===
+2026-03-18 01:36:00,398 | INFO | === Currently training epoch number 7501 ===
+2026-03-18 01:36:00,414 | INFO | === Total Cross-Entropy Loss after epoch 7501 equals to nan ===
+2026-03-18 01:36:00,748 | INFO | === Currently training epoch number 7601 ===
+2026-03-18 01:36:00,748 | INFO | === Total Cross-Entropy Loss after epoch 7601 equals to nan ===
+2026-03-18 01:36:01,082 | INFO | === Currently training epoch number 7701 ===
+2026-03-18 01:36:01,082 | INFO | === Total Cross-Entropy Loss after epoch 7701 equals to nan ===
+2026-03-18 01:36:01,421 | INFO | === Currently training epoch number 7801 ===
+2026-03-18 01:36:01,425 | INFO | === Total Cross-Entropy Loss after epoch 7801 equals to nan ===
+2026-03-18 01:36:01,731 | INFO | === Currently training epoch number 7901 ===
+2026-03-18 01:36:01,747 | INFO | === Total Cross-Entropy Loss after epoch 7901 equals to nan ===
+2026-03-18 01:36:02,058 | INFO | === Currently training epoch number 8001 ===
+2026-03-18 01:36:02,058 | INFO | === Total Cross-Entropy Loss after epoch 8001 equals to nan ===
+2026-03-18 01:36:02,389 | INFO | === Currently training epoch number 8101 ===
+2026-03-18 01:36:02,394 | INFO | === Total Cross-Entropy Loss after epoch 8101 equals to nan ===
+2026-03-18 01:36:02,748 | INFO | === Currently training epoch number 8201 ===
+2026-03-18 01:36:02,764 | INFO | === Total Cross-Entropy Loss after epoch 8201 equals to nan ===
+2026-03-18 01:36:03,083 | INFO | === Currently training epoch number 8301 ===
+2026-03-18 01:36:03,083 | INFO | === Total Cross-Entropy Loss after epoch 8301 equals to nan ===
+2026-03-18 01:36:03,417 | INFO | === Currently training epoch number 8401 ===
+2026-03-18 01:36:03,431 | INFO | === Total Cross-Entropy Loss after epoch 8401 equals to nan ===
+2026-03-18 01:36:03,764 | INFO | === Currently training epoch number 8501 ===
+2026-03-18 01:36:03,767 | INFO | === Total Cross-Entropy Loss after epoch 8501 equals to nan ===
+2026-03-18 01:36:04,083 | INFO | === Currently training epoch number 8601 ===
+2026-03-18 01:36:04,100 | INFO | === Total Cross-Entropy Loss after epoch 8601 equals to nan ===
+2026-03-18 01:36:04,433 | INFO | === Currently training epoch number 8701 ===
+2026-03-18 01:36:04,438 | INFO | === Total Cross-Entropy Loss after epoch 8701 equals to nan ===
+2026-03-18 01:36:04,782 | INFO | === Currently training epoch number 8801 ===
+2026-03-18 01:36:04,785 | INFO | === Total Cross-Entropy Loss after epoch 8801 equals to nan ===
+2026-03-18 01:36:05,114 | INFO | === Currently training epoch number 8901 ===
+2026-03-18 01:36:05,114 | INFO | === Total Cross-Entropy Loss after epoch 8901 equals to nan ===
+2026-03-18 01:36:05,463 | INFO | === Currently training epoch number 9001 ===
+2026-03-18 01:36:05,468 | INFO | === Total Cross-Entropy Loss after epoch 9001 equals to nan ===
+2026-03-18 01:36:05,819 | INFO | === Currently training epoch number 9101 ===
+2026-03-18 01:36:05,820 | INFO | === Total Cross-Entropy Loss after epoch 9101 equals to nan ===
+2026-03-18 01:36:06,155 | INFO | === Currently training epoch number 9201 ===
+2026-03-18 01:36:06,158 | INFO | === Total Cross-Entropy Loss after epoch 9201 equals to nan ===
+2026-03-18 01:36:06,484 | INFO | === Currently training epoch number 9301 ===
+2026-03-18 01:36:06,484 | INFO | === Total Cross-Entropy Loss after epoch 9301 equals to nan ===
+2026-03-18 01:36:06,812 | INFO | === Currently training epoch number 9401 ===
+2026-03-18 01:36:06,832 | INFO | === Total Cross-Entropy Loss after epoch 9401 equals to nan ===
+2026-03-18 01:36:07,138 | INFO | === Currently training epoch number 9501 ===
+2026-03-18 01:36:07,154 | INFO | === Total Cross-Entropy Loss after epoch 9501 equals to nan ===
+2026-03-18 01:36:07,485 | INFO | === Currently training epoch number 9601 ===
+2026-03-18 01:36:07,490 | INFO | === Total Cross-Entropy Loss after epoch 9601 equals to nan ===
+2026-03-18 01:36:07,796 | INFO | === Currently training epoch number 9701 ===
+2026-03-18 01:36:07,812 | INFO | === Total Cross-Entropy Loss after epoch 9701 equals to nan ===
+2026-03-18 01:36:08,120 | INFO | === Currently training epoch number 9801 ===
+2026-03-18 01:36:08,136 | INFO | === Total Cross-Entropy Loss after epoch 9801 equals to nan ===
+2026-03-18 01:36:08,447 | INFO | === Currently training epoch number 9901 ===
+2026-03-18 01:36:08,447 | INFO | === Total Cross-Entropy Loss after epoch 9901 equals to nan ===
+2026-03-18 01:37:39,415 | INFO | === Currently training epoch number 1 ===
+2026-03-18 01:37:39,416 | INFO | === Total Cross-Entropy Loss after epoch 1 equals to 4.27558823663121 ===
+2026-03-18 01:37:39,735 | INFO | === Currently training epoch number 101 ===
+2026-03-18 01:37:39,739 | INFO | === Total Cross-Entropy Loss after epoch 101 equals to 2.19512052151537 ===
+2026-03-18 01:37:40,099 | INFO | === Currently training epoch number 201 ===
+2026-03-18 01:37:40,099 | INFO | === Total Cross-Entropy Loss after epoch 201 equals to 1.9234058946986756 ===
+2026-03-18 01:37:40,422 | INFO | === Currently training epoch number 301 ===
+2026-03-18 01:37:40,426 | INFO | === Total Cross-Entropy Loss after epoch 301 equals to 2.4971790867083596 ===
+2026-03-18 01:37:40,739 | INFO | === Currently training epoch number 401 ===
+2026-03-18 01:37:40,744 | INFO | === Total Cross-Entropy Loss after epoch 401 equals to 6.488249912781111 ===
+2026-03-18 01:37:41,039 | INFO | === Currently training epoch number 501 ===
+2026-03-18 01:37:41,039 | INFO | === Total Cross-Entropy Loss after epoch 501 equals to 9.290462438886424 ===
+2026-03-18 01:37:41,376 | INFO | === Currently training epoch number 601 ===
+2026-03-18 01:37:41,392 | INFO | === Total Cross-Entropy Loss after epoch 601 equals to 10.705701221610447 ===
+2026-03-18 01:37:41,703 | INFO | === Currently training epoch number 701 ===
+2026-03-18 01:37:41,706 | INFO | === Total Cross-Entropy Loss after epoch 701 equals to 9.623750636426879 ===
+2026-03-18 01:37:42,030 | INFO | === Currently training epoch number 801 ===
+2026-03-18 01:37:42,030 | INFO | === Total Cross-Entropy Loss after epoch 801 equals to 10.625851037267951 ===
+2026-03-18 01:37:42,329 | INFO | === Currently training epoch number 901 ===
+2026-03-18 01:37:42,329 | INFO | === Total Cross-Entropy Loss after epoch 901 equals to 9.927968741735835 ===
+2026-03-18 01:37:42,625 | INFO | === Currently training epoch number 1001 ===
+2026-03-18 01:37:42,641 | INFO | === Total Cross-Entropy Loss after epoch 1001 equals to 10.385715090266402 ===
+2026-03-18 01:37:42,940 | INFO | === Currently training epoch number 1101 ===
+2026-03-18 01:37:42,940 | INFO | === Total Cross-Entropy Loss after epoch 1101 equals to 10.938882717895313 ===
+2026-03-18 01:37:43,253 | INFO | === Currently training epoch number 1201 ===
+2026-03-18 01:37:43,257 | INFO | === Total Cross-Entropy Loss after epoch 1201 equals to 8.604140754161174 ===
+2026-03-18 01:37:43,558 | INFO | === Currently training epoch number 1301 ===
+2026-03-18 01:37:43,558 | INFO | === Total Cross-Entropy Loss after epoch 1301 equals to 9.394202595710293 ===
+2026-03-18 01:37:43,867 | INFO | === Currently training epoch number 1401 ===
+2026-03-18 01:37:43,877 | INFO | === Total Cross-Entropy Loss after epoch 1401 equals to 8.624292812800592 ===
+2026-03-18 01:37:44,178 | INFO | === Currently training epoch number 1501 ===
+2026-03-18 01:37:44,178 | INFO | === Total Cross-Entropy Loss after epoch 1501 equals to 9.248595585233243 ===
+2026-03-18 01:37:44,488 | INFO | === Currently training epoch number 1601 ===
+2026-03-18 01:37:44,491 | INFO | === Total Cross-Entropy Loss after epoch 1601 equals to 8.634022439491362 ===
+2026-03-18 01:37:44,798 | INFO | === Currently training epoch number 1701 ===
+2026-03-18 01:37:44,798 | INFO | === Total Cross-Entropy Loss after epoch 1701 equals to 10.004027185483137 ===
+2026-03-18 01:37:45,107 | INFO | === Currently training epoch number 1801 ===
+2026-03-18 01:37:45,107 | INFO | === Total Cross-Entropy Loss after epoch 1801 equals to 9.982692627455489 ===
+2026-03-18 01:37:45,415 | INFO | === Currently training epoch number 1901 ===
+2026-03-18 01:37:45,415 | INFO | === Total Cross-Entropy Loss after epoch 1901 equals to 9.713299721002416 ===
+2026-03-18 01:37:45,729 | INFO | === Currently training epoch number 2001 ===
+2026-03-18 01:37:45,733 | INFO | === Total Cross-Entropy Loss after epoch 2001 equals to 8.881353881306715 ===
+2026-03-18 01:37:46,027 | INFO | === Currently training epoch number 2101 ===
+2026-03-18 01:37:46,042 | INFO | === Total Cross-Entropy Loss after epoch 2101 equals to 9.197812897450296 ===
+2026-03-18 01:37:46,345 | INFO | === Currently training epoch number 2201 ===
+2026-03-18 01:37:46,347 | INFO | === Total Cross-Entropy Loss after epoch 2201 equals to 11.07293683182872 ===
+2026-03-18 01:37:46,657 | INFO | === Currently training epoch number 2301 ===
+2026-03-18 01:37:46,657 | INFO | === Total Cross-Entropy Loss after epoch 2301 equals to 9.362605198184982 ===
+2026-03-18 01:37:46,962 | INFO | === Currently training epoch number 2401 ===
+2026-03-18 01:37:46,965 | INFO | === Total Cross-Entropy Loss after epoch 2401 equals to 10.981629605933366 ===
+2026-03-18 01:37:47,266 | INFO | === Currently training epoch number 2501 ===
+2026-03-18 01:37:47,266 | INFO | === Total Cross-Entropy Loss after epoch 2501 equals to 9.600009868185804 ===
+2026-03-18 01:37:47,564 | INFO | === Currently training epoch number 2601 ===
+2026-03-18 01:37:47,564 | INFO | === Total Cross-Entropy Loss after epoch 2601 equals to 8.719215279700748 ===
+2026-03-18 01:37:47,878 | INFO | === Currently training epoch number 2701 ===
+2026-03-18 01:37:47,878 | INFO | === Total Cross-Entropy Loss after epoch 2701 equals to 9.642949948827447 ===
+2026-03-18 01:37:48,192 | INFO | === Currently training epoch number 2801 ===
+2026-03-18 01:37:48,192 | INFO | === Total Cross-Entropy Loss after epoch 2801 equals to 8.973804342094839 ===
+2026-03-18 01:37:48,492 | INFO | === Currently training epoch number 2901 ===
+2026-03-18 01:37:48,492 | INFO | === Total Cross-Entropy Loss after epoch 2901 equals to 8.960717206237918 ===
+2026-03-18 01:37:48,814 | INFO | === Currently training epoch number 3001 ===
+2026-03-18 01:37:48,814 | INFO | === Total Cross-Entropy Loss after epoch 3001 equals to 8.316090529423205 ===
+2026-03-18 01:37:49,130 | INFO | === Currently training epoch number 3101 ===
+2026-03-18 01:37:49,130 | INFO | === Total Cross-Entropy Loss after epoch 3101 equals to 10.997830999093399 ===
+2026-03-18 01:37:49,442 | INFO | === Currently training epoch number 3201 ===
+2026-03-18 01:37:49,442 | INFO | === Total Cross-Entropy Loss after epoch 3201 equals to 8.944669724538162 ===
+2026-03-18 01:37:49,759 | INFO | === Currently training epoch number 3301 ===
+2026-03-18 01:37:49,763 | INFO | === Total Cross-Entropy Loss after epoch 3301 equals to 8.924167519637235 ===
+2026-03-18 01:37:50,058 | INFO | === Currently training epoch number 3401 ===
+2026-03-18 01:37:50,058 | INFO | === Total Cross-Entropy Loss after epoch 3401 equals to 10.37176546363523 ===
+2026-03-18 01:37:50,378 | INFO | === Currently training epoch number 3501 ===
+2026-03-18 01:37:50,389 | INFO | === Total Cross-Entropy Loss after epoch 3501 equals to 9.576773908601897 ===
+2026-03-18 01:37:50,699 | INFO | === Currently training epoch number 3601 ===
+2026-03-18 01:37:50,699 | INFO | === Total Cross-Entropy Loss after epoch 3601 equals to 9.992251748104739 ===
+2026-03-18 01:37:51,019 | INFO | === Currently training epoch number 3701 ===
+2026-03-18 01:37:51,021 | INFO | === Total Cross-Entropy Loss after epoch 3701 equals to 10.323755248077326 ===
+2026-03-18 01:37:51,314 | INFO | === Currently training epoch number 3801 ===
+2026-03-18 01:37:51,330 | INFO | === Total Cross-Entropy Loss after epoch 3801 equals to 8.981095759302283 ===
+2026-03-18 01:37:51,624 | INFO | === Currently training epoch number 3901 ===
+2026-03-18 01:37:51,640 | INFO | === Total Cross-Entropy Loss after epoch 3901 equals to 9.667558228280422 ===
+2026-03-18 01:37:51,941 | INFO | === Currently training epoch number 4001 ===
+2026-03-18 01:37:51,941 | INFO | === Total Cross-Entropy Loss after epoch 4001 equals to 11.0202239175368 ===
+2026-03-18 01:37:52,249 | INFO | === Currently training epoch number 4101 ===
+2026-03-18 01:37:52,249 | INFO | === Total Cross-Entropy Loss after epoch 4101 equals to 9.352214443775384 ===
+2026-03-18 01:37:52,557 | INFO | === Currently training epoch number 4201 ===
+2026-03-18 01:37:52,557 | INFO | === Total Cross-Entropy Loss after epoch 4201 equals to 9.998097122136633 ===
+2026-03-18 01:37:52,887 | INFO | === Currently training epoch number 4301 ===
+2026-03-18 01:37:52,889 | INFO | === Total Cross-Entropy Loss after epoch 4301 equals to 9.295259472957227 ===
+2026-03-18 01:37:53,195 | INFO | === Currently training epoch number 4401 ===
+2026-03-18 01:37:53,195 | INFO | === Total Cross-Entropy Loss after epoch 4401 equals to 10.034649269081257 ===
+2026-03-18 01:37:53,507 | INFO | === Currently training epoch number 4501 ===
+2026-03-18 01:37:53,507 | INFO | === Total Cross-Entropy Loss after epoch 4501 equals to 10.408386329966907 ===
+2026-03-18 01:37:53,814 | INFO | === Currently training epoch number 4601 ===
+2026-03-18 01:37:53,814 | INFO | === Total Cross-Entropy Loss after epoch 4601 equals to 9.69166135266951 ===
+2026-03-18 01:37:54,109 | INFO | === Currently training epoch number 4701 ===
+2026-03-18 01:37:54,125 | INFO | === Total Cross-Entropy Loss after epoch 4701 equals to 8.720557643389686 ===
+2026-03-18 01:37:54,431 | INFO | === Currently training epoch number 4801 ===
+2026-03-18 01:37:54,431 | INFO | === Total Cross-Entropy Loss after epoch 4801 equals to 8.903045602494737 ===
+2026-03-18 01:37:54,750 | INFO | === Currently training epoch number 4901 ===
+2026-03-18 01:37:54,750 | INFO | === Total Cross-Entropy Loss after epoch 4901 equals to 9.36609271993181 ===
+2026-03-18 01:37:55,060 | INFO | === Currently training epoch number 5001 ===
+2026-03-18 01:37:55,060 | INFO | === Total Cross-Entropy Loss after epoch 5001 equals to 9.997641821226978 ===
+2026-03-18 01:37:55,378 | INFO | === Currently training epoch number 5101 ===
+2026-03-18 01:37:55,378 | INFO | === Total Cross-Entropy Loss after epoch 5101 equals to 8.939560158156501 ===
+2026-03-18 01:37:55,690 | INFO | === Currently training epoch number 5201 ===
+2026-03-18 01:37:55,697 | INFO | === Total Cross-Entropy Loss after epoch 5201 equals to 9.97509061980644 ===
+2026-03-18 01:37:56,014 | INFO | === Currently training epoch number 5301 ===
+2026-03-18 01:37:56,030 | INFO | === Total Cross-Entropy Loss after epoch 5301 equals to 9.565687277948328 ===
+2026-03-18 01:37:56,345 | INFO | === Currently training epoch number 5401 ===
+2026-03-18 01:37:56,345 | INFO | === Total Cross-Entropy Loss after epoch 5401 equals to 13.102885171798485 ===
+2026-03-18 01:37:56,676 | INFO | === Currently training epoch number 5501 ===
+2026-03-18 01:37:56,692 | INFO | === Total Cross-Entropy Loss after epoch 5501 equals to 9.905364367900525 ===
+2026-03-18 01:37:57,008 | INFO | === Currently training epoch number 5601 ===
+2026-03-18 01:37:57,022 | INFO | === Total Cross-Entropy Loss after epoch 5601 equals to 12.45538036913091 ===
+2026-03-18 01:37:57,345 | INFO | === Currently training epoch number 5701 ===
+2026-03-18 01:37:57,345 | INFO | === Total Cross-Entropy Loss after epoch 5701 equals to 10.6775333139254 ===
+2026-03-18 01:37:57,667 | INFO | === Currently training epoch number 5801 ===
+2026-03-18 01:37:57,678 | INFO | === Total Cross-Entropy Loss after epoch 5801 equals to 10.567180556793964 ===
+2026-03-18 01:37:58,051 | INFO | === Currently training epoch number 5901 ===
+2026-03-18 01:37:58,051 | INFO | === Total Cross-Entropy Loss after epoch 5901 equals to 9.58084644916767 ===
+2026-03-18 01:37:58,417 | INFO | === Currently training epoch number 6001 ===
+2026-03-18 01:37:58,433 | INFO | === Total Cross-Entropy Loss after epoch 6001 equals to 11.602739740102177 ===
+2026-03-18 01:37:58,785 | INFO | === Currently training epoch number 6101 ===
+2026-03-18 01:37:58,785 | INFO | === Total Cross-Entropy Loss after epoch 6101 equals to 9.895033051253119 ===
+2026-03-18 01:37:59,147 | INFO | === Currently training epoch number 6201 ===
+2026-03-18 01:37:59,153 | INFO | === Total Cross-Entropy Loss after epoch 6201 equals to 11.481113739689235 ===
+2026-03-18 01:37:59,554 | INFO | === Currently training epoch number 6301 ===
+2026-03-18 01:37:59,559 | INFO | === Total Cross-Entropy Loss after epoch 6301 equals to 12.477578955297991 ===
+2026-03-18 01:37:59,904 | INFO | === Currently training epoch number 6401 ===
+2026-03-18 01:37:59,904 | INFO | === Total Cross-Entropy Loss after epoch 6401 equals to 11.889022866873303 ===
+2026-03-18 01:38:00,268 | INFO | === Currently training epoch number 6501 ===
+2026-03-18 01:38:00,268 | INFO | === Total Cross-Entropy Loss after epoch 6501 equals to 10.883994231567291 ===
+2026-03-18 01:38:00,632 | INFO | === Currently training epoch number 6601 ===
+2026-03-18 01:38:00,636 | INFO | === Total Cross-Entropy Loss after epoch 6601 equals to 13.148034660677242 ===
+2026-03-18 01:38:00,988 | INFO | === Currently training epoch number 6701 ===
+2026-03-18 01:38:00,993 | INFO | === Total Cross-Entropy Loss after epoch 6701 equals to 11.426678429227847 ===
+2026-03-18 01:38:01,334 | INFO | === Currently training epoch number 6801 ===
+2026-03-18 01:38:01,337 | INFO | === Total Cross-Entropy Loss after epoch 6801 equals to 10.95271715635978 ===
+2026-03-18 01:38:01,675 | INFO | === Currently training epoch number 6901 ===
+2026-03-18 01:38:01,679 | INFO | === Total Cross-Entropy Loss after epoch 6901 equals to 11.229231849632734 ===
+2026-03-18 01:38:02,011 | INFO | === Currently training epoch number 7001 ===
+2026-03-18 01:38:02,014 | INFO | === Total Cross-Entropy Loss after epoch 7001 equals to 9.585556403680936 ===
+2026-03-18 01:38:02,355 | INFO | === Currently training epoch number 7101 ===
+2026-03-18 01:38:02,359 | INFO | === Total Cross-Entropy Loss after epoch 7101 equals to 13.492622811413725 ===
+2026-03-18 01:38:02,707 | INFO | === Currently training epoch number 7201 ===
+2026-03-18 01:38:02,716 | INFO | === Total Cross-Entropy Loss after epoch 7201 equals to 10.932981498185008 ===
+2026-03-18 01:38:03,084 | INFO | === Currently training epoch number 7301 ===
+2026-03-18 01:38:03,084 | INFO | === Total Cross-Entropy Loss after epoch 7301 equals to 11.445076399044554 ===
+2026-03-18 01:38:03,471 | INFO | === Currently training epoch number 7401 ===
+2026-03-18 01:38:03,483 | INFO | === Total Cross-Entropy Loss after epoch 7401 equals to 13.808370482884408 ===
+2026-03-18 01:38:03,822 | INFO | === Currently training epoch number 7501 ===
+2026-03-18 01:38:03,837 | INFO | === Total Cross-Entropy Loss after epoch 7501 equals to 10.642943520782179 ===
+2026-03-18 01:38:04,218 | INFO | === Currently training epoch number 7601 ===
+2026-03-18 01:38:04,235 | INFO | === Total Cross-Entropy Loss after epoch 7601 equals to 10.96585178783762 ===
+2026-03-18 01:38:04,584 | INFO | === Currently training epoch number 7701 ===
+2026-03-18 01:38:04,584 | INFO | === Total Cross-Entropy Loss after epoch 7701 equals to 10.17277562925492 ===
+2026-03-18 01:38:04,987 | INFO | === Currently training epoch number 7801 ===
+2026-03-18 01:38:04,992 | INFO | === Total Cross-Entropy Loss after epoch 7801 equals to 12.506134384672324 ===
+2026-03-18 01:38:05,338 | INFO | === Currently training epoch number 7901 ===
+2026-03-18 01:38:05,343 | INFO | === Total Cross-Entropy Loss after epoch 7901 equals to nan ===
+2026-03-18 01:38:05,645 | INFO | === Currently training epoch number 8001 ===
+2026-03-18 01:38:05,661 | INFO | === Total Cross-Entropy Loss after epoch 8001 equals to nan ===
+2026-03-18 01:38:05,974 | INFO | === Currently training epoch number 8101 ===
+2026-03-18 01:38:05,974 | INFO | === Total Cross-Entropy Loss after epoch 8101 equals to nan ===
+2026-03-18 01:38:06,297 | INFO | === Currently training epoch number 8201 ===
+2026-03-18 01:38:06,297 | INFO | === Total Cross-Entropy Loss after epoch 8201 equals to nan ===
+2026-03-18 01:38:06,627 | INFO | === Currently training epoch number 8301 ===
+2026-03-18 01:38:06,630 | INFO | === Total Cross-Entropy Loss after epoch 8301 equals to nan ===
+2026-03-18 01:38:06,967 | INFO | === Currently training epoch number 8401 ===
+2026-03-18 01:38:06,967 | INFO | === Total Cross-Entropy Loss after epoch 8401 equals to nan ===
+2026-03-18 01:38:07,334 | INFO | === Currently training epoch number 8501 ===
+2026-03-18 01:38:07,334 | INFO | === Total Cross-Entropy Loss after epoch 8501 equals to nan ===
+2026-03-18 01:38:07,683 | INFO | === Currently training epoch number 8601 ===
+2026-03-18 01:38:07,683 | INFO | === Total Cross-Entropy Loss after epoch 8601 equals to nan ===
+2026-03-18 01:38:08,066 | INFO | === Currently training epoch number 8701 ===
+2026-03-18 01:38:08,067 | INFO | === Total Cross-Entropy Loss after epoch 8701 equals to nan ===
+2026-03-18 01:38:08,451 | INFO | === Currently training epoch number 8801 ===
+2026-03-18 01:38:08,452 | INFO | === Total Cross-Entropy Loss after epoch 8801 equals to nan ===
+2026-03-18 01:38:08,816 | INFO | === Currently training epoch number 8901 ===
+2026-03-18 01:38:08,822 | INFO | === Total Cross-Entropy Loss after epoch 8901 equals to nan ===
+2026-03-18 01:38:09,168 | INFO | === Currently training epoch number 9001 ===
+2026-03-18 01:38:09,172 | INFO | === Total Cross-Entropy Loss after epoch 9001 equals to nan ===
+2026-03-18 01:38:09,493 | INFO | === Currently training epoch number 9101 ===
+2026-03-18 01:38:09,500 | INFO | === Total Cross-Entropy Loss after epoch 9101 equals to nan ===
+2026-03-18 01:38:09,820 | INFO | === Currently training epoch number 9201 ===
+2026-03-18 01:38:09,820 | INFO | === Total Cross-Entropy Loss after epoch 9201 equals to nan ===
+2026-03-18 01:38:10,126 | INFO | === Currently training epoch number 9301 ===
+2026-03-18 01:38:10,139 | INFO | === Total Cross-Entropy Loss after epoch 9301 equals to nan ===
+2026-03-18 01:38:10,600 | INFO | === Currently training epoch number 9401 ===
+2026-03-18 01:38:10,604 | INFO | === Total Cross-Entropy Loss after epoch 9401 equals to nan ===
+2026-03-18 01:38:10,942 | INFO | === Currently training epoch number 9501 ===
+2026-03-18 01:38:10,947 | INFO | === Total Cross-Entropy Loss after epoch 9501 equals to nan ===
+2026-03-18 01:38:11,322 | INFO | === Currently training epoch number 9601 ===
+2026-03-18 01:38:11,322 | INFO | === Total Cross-Entropy Loss after epoch 9601 equals to nan ===
+2026-03-18 01:38:11,666 | INFO | === Currently training epoch number 9701 ===
+2026-03-18 01:38:11,672 | INFO | === Total Cross-Entropy Loss after epoch 9701 equals to nan ===
+2026-03-18 01:38:12,035 | INFO | === Currently training epoch number 9801 ===
+2026-03-18 01:38:12,039 | INFO | === Total Cross-Entropy Loss after epoch 9801 equals to nan ===
+2026-03-18 01:38:12,384 | INFO | === Currently training epoch number 9901 ===
+2026-03-18 01:38:12,384 | INFO | === Total Cross-Entropy Loss after epoch 9901 equals to nan ===
+2026-03-18 01:38:24,531 | INFO | === Currently training epoch number 1 ===
+2026-03-18 01:38:24,547 | INFO | === Total Cross-Entropy Loss after epoch 1 equals to 4.2760460968099165 ===
+2026-03-18 01:38:24,910 | INFO | === Currently training epoch number 101 ===
+2026-03-18 01:38:24,914 | INFO | === Total Cross-Entropy Loss after epoch 101 equals to 4.2183859737514835 ===
+2026-03-18 01:38:25,283 | INFO | === Currently training epoch number 201 ===
+2026-03-18 01:38:25,287 | INFO | === Total Cross-Entropy Loss after epoch 201 equals to 3.684471907526402 ===
+2026-03-18 01:38:25,621 | INFO | === Currently training epoch number 301 ===
+2026-03-18 01:38:25,621 | INFO | === Total Cross-Entropy Loss after epoch 301 equals to 3.3051317501705864 ===
+2026-03-18 01:38:25,966 | INFO | === Currently training epoch number 401 ===
+2026-03-18 01:38:25,976 | INFO | === Total Cross-Entropy Loss after epoch 401 equals to 3.049258778603672 ===
+2026-03-18 01:38:26,306 | INFO | === Currently training epoch number 501 ===
+2026-03-18 01:38:26,306 | INFO | === Total Cross-Entropy Loss after epoch 501 equals to 2.857264194167202 ===
+2026-03-18 01:38:26,632 | INFO | === Currently training epoch number 601 ===
+2026-03-18 01:38:26,632 | INFO | === Total Cross-Entropy Loss after epoch 601 equals to 2.6629122603720075 ===
+2026-03-18 01:38:26,969 | INFO | === Currently training epoch number 701 ===
+2026-03-18 01:38:26,969 | INFO | === Total Cross-Entropy Loss after epoch 701 equals to 2.486390461448446 ===
+2026-03-18 01:38:27,280 | INFO | === Currently training epoch number 801 ===
+2026-03-18 01:38:27,296 | INFO | === Total Cross-Entropy Loss after epoch 801 equals to 2.354237989935331 ===
+2026-03-18 01:38:27,610 | INFO | === Currently training epoch number 901 ===
+2026-03-18 01:38:27,610 | INFO | === Total Cross-Entropy Loss after epoch 901 equals to 2.2488396547839 ===
+2026-03-18 01:38:27,932 | INFO | === Currently training epoch number 1001 ===
+2026-03-18 01:38:27,932 | INFO | === Total Cross-Entropy Loss after epoch 1001 equals to 2.158700489175384 ===
+2026-03-18 01:38:28,248 | INFO | === Currently training epoch number 1101 ===
+2026-03-18 01:38:28,264 | INFO | === Total Cross-Entropy Loss after epoch 1101 equals to 2.0788311872893055 ===
+2026-03-18 01:38:28,576 | INFO | === Currently training epoch number 1201 ===
+2026-03-18 01:38:28,592 | INFO | === Total Cross-Entropy Loss after epoch 1201 equals to 2.0071706630257515 ===
+2026-03-18 01:38:28,900 | INFO | === Currently training epoch number 1301 ===
+2026-03-18 01:38:28,901 | INFO | === Total Cross-Entropy Loss after epoch 1301 equals to 1.9448098716904023 ===
+2026-03-18 01:38:29,225 | INFO | === Currently training epoch number 1401 ===
+2026-03-18 01:38:29,226 | INFO | === Total Cross-Entropy Loss after epoch 1401 equals to 1.9000910708398122 ===
+2026-03-18 01:38:29,539 | INFO | === Currently training epoch number 1501 ===
+2026-03-18 01:38:29,543 | INFO | === Total Cross-Entropy Loss after epoch 1501 equals to 1.8870815859515158 ===
+2026-03-18 01:38:29,861 | INFO | === Currently training epoch number 1601 ===
+2026-03-18 01:38:29,865 | INFO | === Total Cross-Entropy Loss after epoch 1601 equals to 1.9058700145571394 ===
+2026-03-18 01:38:30,174 | INFO | === Currently training epoch number 1701 ===
+2026-03-18 01:38:30,185 | INFO | === Total Cross-Entropy Loss after epoch 1701 equals to 1.913107974427413 ===
+2026-03-18 01:38:30,495 | INFO | === Currently training epoch number 1801 ===
+2026-03-18 01:38:30,505 | INFO | === Total Cross-Entropy Loss after epoch 1801 equals to 1.902936227775442 ===
+2026-03-18 01:38:30,823 | INFO | === Currently training epoch number 1901 ===
+2026-03-18 01:38:30,828 | INFO | === Total Cross-Entropy Loss after epoch 1901 equals to 1.8834845661141377 ===
+2026-03-18 01:38:31,141 | INFO | === Currently training epoch number 2001 ===
+2026-03-18 01:38:31,141 | INFO | === Total Cross-Entropy Loss after epoch 2001 equals to 1.8622731578243017 ===
+2026-03-18 01:38:31,446 | INFO | === Currently training epoch number 2101 ===
+2026-03-18 01:38:31,446 | INFO | === Total Cross-Entropy Loss after epoch 2101 equals to 1.8357632591631003 ===
+2026-03-18 01:38:31,774 | INFO | === Currently training epoch number 2201 ===
+2026-03-18 01:38:31,774 | INFO | === Total Cross-Entropy Loss after epoch 2201 equals to 1.8170394156888288 ===
+2026-03-18 01:38:32,106 | INFO | === Currently training epoch number 2301 ===
+2026-03-18 01:38:32,110 | INFO | === Total Cross-Entropy Loss after epoch 2301 equals to 1.7989311354222137 ===
+2026-03-18 01:38:32,544 | INFO | === Currently training epoch number 2401 ===
+2026-03-18 01:38:32,557 | INFO | === Total Cross-Entropy Loss after epoch 2401 equals to 1.8329085906906522 ===
+2026-03-18 01:38:32,884 | INFO | === Currently training epoch number 2501 ===
+2026-03-18 01:38:32,902 | INFO | === Total Cross-Entropy Loss after epoch 2501 equals to 1.8807517915925693 ===
+2026-03-18 01:38:33,208 | INFO | === Currently training epoch number 2601 ===
+2026-03-18 01:38:33,228 | INFO | === Total Cross-Entropy Loss after epoch 2601 equals to 1.949226729402289 ===
+2026-03-18 01:38:33,547 | INFO | === Currently training epoch number 2701 ===
+2026-03-18 01:38:33,547 | INFO | === Total Cross-Entropy Loss after epoch 2701 equals to 2.10618982769395 ===
+2026-03-18 01:38:33,880 | INFO | === Currently training epoch number 2801 ===
+2026-03-18 01:38:33,884 | INFO | === Total Cross-Entropy Loss after epoch 2801 equals to 2.3774610180251923 ===
+2026-03-18 01:38:34,208 | INFO | === Currently training epoch number 2901 ===
+2026-03-18 01:38:34,208 | INFO | === Total Cross-Entropy Loss after epoch 2901 equals to 2.868716790869923 ===
+2026-03-18 01:38:34,539 | INFO | === Currently training epoch number 3001 ===
+2026-03-18 01:38:34,543 | INFO | === Total Cross-Entropy Loss after epoch 3001 equals to 3.529976177284263 ===
+2026-03-18 01:38:34,868 | INFO | === Currently training epoch number 3101 ===
+2026-03-18 01:38:34,872 | INFO | === Total Cross-Entropy Loss after epoch 3101 equals to 4.6552345252492024 ===
+2026-03-18 01:38:35,180 | INFO | === Currently training epoch number 3201 ===
+2026-03-18 01:38:35,195 | INFO | === Total Cross-Entropy Loss after epoch 3201 equals to 4.698209896025835 ===
+2026-03-18 01:38:35,569 | INFO | === Currently training epoch number 3301 ===
+2026-03-18 01:38:35,569 | INFO | === Total Cross-Entropy Loss after epoch 3301 equals to 4.262076898447479 ===
+2026-03-18 01:38:35,884 | INFO | === Currently training epoch number 3401 ===
+2026-03-18 01:38:35,884 | INFO | === Total Cross-Entropy Loss after epoch 3401 equals to 4.298001018203801 ===
+2026-03-18 01:38:36,214 | INFO | === Currently training epoch number 3501 ===
+2026-03-18 01:38:36,219 | INFO | === Total Cross-Entropy Loss after epoch 3501 equals to 4.719553586627902 ===
+2026-03-18 01:38:36,527 | INFO | === Currently training epoch number 3601 ===
+2026-03-18 01:38:36,545 | INFO | === Total Cross-Entropy Loss after epoch 3601 equals to 4.964461853282872 ===
+2026-03-18 01:38:36,876 | INFO | === Currently training epoch number 3701 ===
+2026-03-18 01:38:36,880 | INFO | === Total Cross-Entropy Loss after epoch 3701 equals to 5.976144569846905 ===
+2026-03-18 01:38:37,201 | INFO | === Currently training epoch number 3801 ===
+2026-03-18 01:38:37,201 | INFO | === Total Cross-Entropy Loss after epoch 3801 equals to 7.474724557694205 ===
+2026-03-18 01:38:37,529 | INFO | === Currently training epoch number 3901 ===
+2026-03-18 01:38:37,533 | INFO | === Total Cross-Entropy Loss after epoch 3901 equals to 7.818836551549157 ===
+2026-03-18 01:38:37,855 | INFO | === Currently training epoch number 4001 ===
+2026-03-18 01:38:37,859 | INFO | === Total Cross-Entropy Loss after epoch 4001 equals to 8.437978370628313 ===
+2026-03-18 01:38:38,181 | INFO | === Currently training epoch number 4101 ===
+2026-03-18 01:38:38,181 | INFO | === Total Cross-Entropy Loss after epoch 4101 equals to 9.373147462538125 ===
+2026-03-18 01:38:38,512 | INFO | === Currently training epoch number 4201 ===
+2026-03-18 01:38:38,512 | INFO | === Total Cross-Entropy Loss after epoch 4201 equals to 10.411546273634459 ===
+2026-03-18 01:38:38,836 | INFO | === Currently training epoch number 4301 ===
+2026-03-18 01:38:38,836 | INFO | === Total Cross-Entropy Loss after epoch 4301 equals to 10.640410718865711 ===
+2026-03-18 01:38:39,173 | INFO | === Currently training epoch number 4401 ===
+2026-03-18 01:38:39,173 | INFO | === Total Cross-Entropy Loss after epoch 4401 equals to 11.828269036412435 ===
+2026-03-18 01:38:39,495 | INFO | === Currently training epoch number 4501 ===
+2026-03-18 01:38:39,495 | INFO | === Total Cross-Entropy Loss after epoch 4501 equals to 11.74317188684265 ===
+2026-03-18 01:38:39,828 | INFO | === Currently training epoch number 4601 ===
+2026-03-18 01:38:39,832 | INFO | === Total Cross-Entropy Loss after epoch 4601 equals to 10.301369091141556 ===
+2026-03-18 01:38:40,140 | INFO | === Currently training epoch number 4701 ===
+2026-03-18 01:38:40,156 | INFO | === Total Cross-Entropy Loss after epoch 4701 equals to 9.155845918174737 ===
+2026-03-18 01:38:40,464 | INFO | === Currently training epoch number 4801 ===
+2026-03-18 01:38:40,464 | INFO | === Total Cross-Entropy Loss after epoch 4801 equals to 9.221845978995871 ===
+2026-03-18 01:38:40,805 | INFO | === Currently training epoch number 4901 ===
+2026-03-18 01:38:40,808 | INFO | === Total Cross-Entropy Loss after epoch 4901 equals to 9.636490339884343 ===
+2026-03-18 01:38:41,140 | INFO | === Currently training epoch number 5001 ===
+2026-03-18 01:38:41,140 | INFO | === Total Cross-Entropy Loss after epoch 5001 equals to 8.642862539674915 ===
+2026-03-18 01:38:41,484 | INFO | === Currently training epoch number 5101 ===
+2026-03-18 01:38:41,489 | INFO | === Total Cross-Entropy Loss after epoch 5101 equals to 8.95030235926664 ===
+2026-03-18 01:38:41,855 | INFO | === Currently training epoch number 5201 ===
+2026-03-18 01:38:41,858 | INFO | === Total Cross-Entropy Loss after epoch 5201 equals to 10.05022183756207 ===
+2026-03-18 01:38:42,188 | INFO | === Currently training epoch number 5301 ===
+2026-03-18 01:38:42,203 | INFO | === Total Cross-Entropy Loss after epoch 5301 equals to 8.544710164926107 ===
+2026-03-18 01:38:42,551 | INFO | === Currently training epoch number 5401 ===
+2026-03-18 01:38:42,568 | INFO | === Total Cross-Entropy Loss after epoch 5401 equals to 9.502254503185895 ===
+2026-03-18 01:38:42,991 | INFO | === Currently training epoch number 5501 ===
+2026-03-18 01:38:42,996 | INFO | === Total Cross-Entropy Loss after epoch 5501 equals to 8.248517805008463 ===
+2026-03-18 01:38:43,369 | INFO | === Currently training epoch number 5601 ===
+2026-03-18 01:38:43,369 | INFO | === Total Cross-Entropy Loss after epoch 5601 equals to 7.855348590713677 ===
+2026-03-18 01:38:43,756 | INFO | === Currently training epoch number 5701 ===
+2026-03-18 01:38:43,761 | INFO | === Total Cross-Entropy Loss after epoch 5701 equals to 10.636582719595573 ===
+2026-03-18 01:38:44,105 | INFO | === Currently training epoch number 5801 ===
+2026-03-18 01:38:44,109 | INFO | === Total Cross-Entropy Loss after epoch 5801 equals to 9.250285630613886 ===
+2026-03-18 01:38:44,438 | INFO | === Currently training epoch number 5901 ===
+2026-03-18 01:38:44,442 | INFO | === Total Cross-Entropy Loss after epoch 5901 equals to 9.917296666734636 ===
+2026-03-18 01:38:44,792 | INFO | === Currently training epoch number 6001 ===
+2026-03-18 01:38:44,792 | INFO | === Total Cross-Entropy Loss after epoch 6001 equals to 8.637439843031716 ===
+2026-03-18 01:38:45,282 | INFO | === Currently training epoch number 6101 ===
+2026-03-18 01:38:45,282 | INFO | === Total Cross-Entropy Loss after epoch 6101 equals to 8.931403053469825 ===
+2026-03-18 01:38:45,632 | INFO | === Currently training epoch number 6201 ===
+2026-03-18 01:38:45,632 | INFO | === Total Cross-Entropy Loss after epoch 6201 equals to 9.530596026722188 ===
+2026-03-18 01:38:45,992 | INFO | === Currently training epoch number 6301 ===
+2026-03-18 01:38:46,002 | INFO | === Total Cross-Entropy Loss after epoch 6301 equals to 9.418168005146018 ===
+2026-03-18 01:38:46,370 | INFO | === Currently training epoch number 6401 ===
+2026-03-18 01:38:46,372 | INFO | === Total Cross-Entropy Loss after epoch 6401 equals to 8.552905057522736 ===
+2026-03-18 01:38:46,721 | INFO | === Currently training epoch number 6501 ===
+2026-03-18 01:38:46,721 | INFO | === Total Cross-Entropy Loss after epoch 6501 equals to 9.221984994306442 ===
+2026-03-18 01:38:47,047 | INFO | === Currently training epoch number 6601 ===
+2026-03-18 01:38:47,057 | INFO | === Total Cross-Entropy Loss after epoch 6601 equals to 8.7168456499337 ===
+2026-03-18 01:38:47,389 | INFO | === Currently training epoch number 6701 ===
+2026-03-18 01:38:47,389 | INFO | === Total Cross-Entropy Loss after epoch 6701 equals to 10.331696571455137 ===
+2026-03-18 01:38:47,707 | INFO | === Currently training epoch number 6801 ===
+2026-03-18 01:38:47,723 | INFO | === Total Cross-Entropy Loss after epoch 6801 equals to 10.359175278157924 ===
+2026-03-18 01:38:48,051 | INFO | === Currently training epoch number 6901 ===
+2026-03-18 01:38:48,051 | INFO | === Total Cross-Entropy Loss after epoch 6901 equals to 8.9398370266966 ===
+2026-03-18 01:38:48,377 | INFO | === Currently training epoch number 7001 ===
+2026-03-18 01:38:48,377 | INFO | === Total Cross-Entropy Loss after epoch 7001 equals to 9.968387641096616 ===
+2026-03-18 01:38:53,472 | INFO | === Currently training epoch number 1 ===
+2026-03-18 01:38:53,473 | INFO | === Total Cross-Entropy Loss after epoch 1 equals to 4.27609061869297 ===
+2026-03-18 01:38:53,835 | INFO | === Currently training epoch number 101 ===
+2026-03-18 01:38:53,852 | INFO | === Total Cross-Entropy Loss after epoch 101 equals to 4.274261668538174 ===
+2026-03-18 01:38:54,182 | INFO | === Currently training epoch number 201 ===
+2026-03-18 01:38:54,182 | INFO | === Total Cross-Entropy Loss after epoch 201 equals to 4.272224847370274 ===
+2026-03-18 01:38:54,512 | INFO | === Currently training epoch number 301 ===
+2026-03-18 01:38:54,517 | INFO | === Total Cross-Entropy Loss after epoch 301 equals to 4.269845887639258 ===
+2026-03-18 01:38:54,862 | INFO | === Currently training epoch number 401 ===
+2026-03-18 01:38:54,862 | INFO | === Total Cross-Entropy Loss after epoch 401 equals to 4.266954392054204 ===
+2026-03-18 01:38:55,240 | INFO | === Currently training epoch number 501 ===
+2026-03-18 01:38:55,249 | INFO | === Total Cross-Entropy Loss after epoch 501 equals to 4.263326294976102 ===
+2026-03-18 01:38:55,582 | INFO | === Currently training epoch number 601 ===
+2026-03-18 01:38:55,582 | INFO | === Total Cross-Entropy Loss after epoch 601 equals to 4.258660539882392 ===
+2026-03-18 01:38:55,928 | INFO | === Currently training epoch number 701 ===
+2026-03-18 01:38:55,928 | INFO | === Total Cross-Entropy Loss after epoch 701 equals to 4.252547853098566 ===
+2026-03-18 01:38:56,251 | INFO | === Currently training epoch number 801 ===
+2026-03-18 01:38:56,255 | INFO | === Total Cross-Entropy Loss after epoch 801 equals to 4.244428900794857 ===
+2026-03-18 01:38:56,566 | INFO | === Currently training epoch number 901 ===
+2026-03-18 01:38:56,573 | INFO | === Total Cross-Entropy Loss after epoch 901 equals to 4.233538963401963 ===
+2026-03-18 01:38:56,880 | INFO | === Currently training epoch number 1001 ===
+2026-03-18 01:38:56,896 | INFO | === Total Cross-Entropy Loss after epoch 1001 equals to 4.218837292197566 ===
+2026-03-18 01:38:57,215 | INFO | === Currently training epoch number 1101 ===
+2026-03-18 01:38:57,215 | INFO | === Total Cross-Entropy Loss after epoch 1101 equals to 4.1989226238198505 ===
+2026-03-18 01:38:57,533 | INFO | === Currently training epoch number 1201 ===
+2026-03-18 01:38:57,543 | INFO | === Total Cross-Entropy Loss after epoch 1201 equals to 4.171948938837879 ===
+2026-03-18 01:38:57,859 | INFO | === Currently training epoch number 1301 ===
+2026-03-18 01:38:57,863 | INFO | === Total Cross-Entropy Loss after epoch 1301 equals to 4.135589532107022 ===
+2026-03-18 01:38:58,192 | INFO | === Currently training epoch number 1401 ===
+2026-03-18 01:38:58,192 | INFO | === Total Cross-Entropy Loss after epoch 1401 equals to 4.087196325157133 ===
+2026-03-18 01:38:58,517 | INFO | === Currently training epoch number 1501 ===
+2026-03-18 01:38:58,518 | INFO | === Total Cross-Entropy Loss after epoch 1501 equals to 4.024558388080023 ===
+2026-03-18 01:38:58,826 | INFO | === Currently training epoch number 1601 ===
+2026-03-18 01:38:58,826 | INFO | === Total Cross-Entropy Loss after epoch 1601 equals to 3.9481520511797044 ===
+2026-03-18 01:38:59,145 | INFO | === Currently training epoch number 1701 ===
+2026-03-18 01:38:59,161 | INFO | === Total Cross-Entropy Loss after epoch 1701 equals to 3.8652593482751323 ===
+2026-03-18 01:38:59,471 | INFO | === Currently training epoch number 1801 ===
+2026-03-18 01:38:59,484 | INFO | === Total Cross-Entropy Loss after epoch 1801 equals to 3.7899295944321723 ===
+2026-03-18 01:38:59,791 | INFO | === Currently training epoch number 1901 ===
+2026-03-18 01:38:59,807 | INFO | === Total Cross-Entropy Loss after epoch 1901 equals to 3.730777502189509 ===
+2026-03-18 01:39:00,144 | INFO | === Currently training epoch number 2001 ===
+2026-03-18 01:39:00,148 | INFO | === Total Cross-Entropy Loss after epoch 2001 equals to 3.6848194181389093 ===
+2026-03-18 01:39:00,476 | INFO | === Currently training epoch number 2101 ===
+2026-03-18 01:39:00,478 | INFO | === Total Cross-Entropy Loss after epoch 2101 equals to 3.6459376374638723 ===
+2026-03-18 01:39:00,807 | INFO | === Currently training epoch number 2201 ===
+2026-03-18 01:39:00,815 | INFO | === Total Cross-Entropy Loss after epoch 2201 equals to 3.6100413921308356 ===
+2026-03-18 01:39:01,130 | INFO | === Currently training epoch number 2301 ===
+2026-03-18 01:39:01,130 | INFO | === Total Cross-Entropy Loss after epoch 2301 equals to 3.5749113840972195 ===
+2026-03-18 01:39:01,458 | INFO | === Currently training epoch number 2401 ===
+2026-03-18 01:39:01,458 | INFO | === Total Cross-Entropy Loss after epoch 2401 equals to 3.539284165836313 ===
+2026-03-18 01:39:01,774 | INFO | === Currently training epoch number 2501 ===
+2026-03-18 01:39:01,790 | INFO | === Total Cross-Entropy Loss after epoch 2501 equals to 3.5024099074915815 ===
+2026-03-18 01:39:02,117 | INFO | === Currently training epoch number 2601 ===
+2026-03-18 01:39:02,117 | INFO | === Total Cross-Entropy Loss after epoch 2601 equals to 3.4639545316122424 ===
+2026-03-18 01:39:02,439 | INFO | === Currently training epoch number 2701 ===
+2026-03-18 01:39:02,443 | INFO | === Total Cross-Entropy Loss after epoch 2701 equals to 3.4240487182447423 ===
+2026-03-18 01:39:02,746 | INFO | === Currently training epoch number 2801 ===
+2026-03-18 01:39:02,762 | INFO | === Total Cross-Entropy Loss after epoch 2801 equals to 3.383338900626638 ===
+2026-03-18 01:39:03,081 | INFO | === Currently training epoch number 2901 ===
+2026-03-18 01:39:03,088 | INFO | === Total Cross-Entropy Loss after epoch 2901 equals to 3.342930283910891 ===
+2026-03-18 01:39:03,455 | INFO | === Currently training epoch number 3001 ===
+2026-03-18 01:39:03,455 | INFO | === Total Cross-Entropy Loss after epoch 3001 equals to 3.3041368337744865 ===
+2026-03-18 01:39:03,779 | INFO | === Currently training epoch number 3101 ===
+2026-03-18 01:39:03,779 | INFO | === Total Cross-Entropy Loss after epoch 3101 equals to 3.268085421630126 ===
+2026-03-18 01:39:04,108 | INFO | === Currently training epoch number 3201 ===
+2026-03-18 01:39:04,112 | INFO | === Total Cross-Entropy Loss after epoch 3201 equals to 3.235361775222449 ===
+2026-03-18 01:39:04,427 | INFO | === Currently training epoch number 3301 ===
+2026-03-18 01:39:04,441 | INFO | === Total Cross-Entropy Loss after epoch 3301 equals to 3.2059046829735345 ===
+2026-03-18 01:39:04,766 | INFO | === Currently training epoch number 3401 ===
+2026-03-18 01:39:04,771 | INFO | === Total Cross-Entropy Loss after epoch 3401 equals to 3.179197770510783 ===
+2026-03-18 01:39:05,082 | INFO | === Currently training epoch number 3501 ===
+2026-03-18 01:39:05,082 | INFO | === Total Cross-Entropy Loss after epoch 3501 equals to 3.154581949008926 ===
+2026-03-18 01:39:05,395 | INFO | === Currently training epoch number 3601 ===
+2026-03-18 01:39:05,412 | INFO | === Total Cross-Entropy Loss after epoch 3601 equals to 3.1314805193779813 ===
+2026-03-18 01:39:05,740 | INFO | === Currently training epoch number 3701 ===
+2026-03-18 01:39:05,742 | INFO | === Total Cross-Entropy Loss after epoch 3701 equals to 3.1094719747086366 ===
+2026-03-18 01:39:06,066 | INFO | === Currently training epoch number 3801 ===
+2026-03-18 01:39:06,082 | INFO | === Total Cross-Entropy Loss after epoch 3801 equals to 3.0882681470117253 ===
+2026-03-18 01:39:06,397 | INFO | === Currently training epoch number 3901 ===
+2026-03-18 01:39:06,409 | INFO | === Total Cross-Entropy Loss after epoch 3901 equals to 3.067671396365037 ===
+2026-03-18 01:39:06,723 | INFO | === Currently training epoch number 4001 ===
+2026-03-18 01:39:06,732 | INFO | === Total Cross-Entropy Loss after epoch 4001 equals to 3.047539422875931 ===
+2026-03-18 01:39:07,050 | INFO | === Currently training epoch number 4101 ===
+2026-03-18 01:39:07,057 | INFO | === Total Cross-Entropy Loss after epoch 4101 equals to 3.02776196960189 ===
+2026-03-18 01:39:07,375 | INFO | === Currently training epoch number 4201 ===
+2026-03-18 01:39:07,379 | INFO | === Total Cross-Entropy Loss after epoch 4201 equals to 3.008250373987715 ===
+2026-03-18 01:39:07,693 | INFO | === Currently training epoch number 4301 ===
+2026-03-18 01:39:07,693 | INFO | === Total Cross-Entropy Loss after epoch 4301 equals to 2.9889309442158543 ===
+2026-03-18 01:39:08,017 | INFO | === Currently training epoch number 4401 ===
+2026-03-18 01:39:08,017 | INFO | === Total Cross-Entropy Loss after epoch 4401 equals to 2.969742099984327 ===
+2026-03-18 01:39:08,343 | INFO | === Currently training epoch number 4501 ===
+2026-03-18 01:39:08,343 | INFO | === Total Cross-Entropy Loss after epoch 4501 equals to 2.950632660771748 ===
+2026-03-18 01:39:08,676 | INFO | === Currently training epoch number 4601 ===
+2026-03-18 01:39:08,676 | INFO | === Total Cross-Entropy Loss after epoch 4601 equals to 2.931560401893205 ===
+2026-03-18 01:39:09,001 | INFO | === Currently training epoch number 4701 ===
+2026-03-18 01:39:09,001 | INFO | === Total Cross-Entropy Loss after epoch 4701 equals to 2.912491301574727 ===
+2026-03-18 01:39:09,325 | INFO | === Currently training epoch number 4801 ===
+2026-03-18 01:39:09,325 | INFO | === Total Cross-Entropy Loss after epoch 4801 equals to 2.893398627836327 ===
+2026-03-18 01:39:09,645 | INFO | === Currently training epoch number 4901 ===
+2026-03-18 01:39:09,661 | INFO | === Total Cross-Entropy Loss after epoch 4901 equals to 2.8742620164217967 ===
+2026-03-18 01:39:09,993 | INFO | === Currently training epoch number 5001 ===
+2026-03-18 01:39:09,997 | INFO | === Total Cross-Entropy Loss after epoch 5001 equals to 2.855066206887036 ===
+2026-03-18 01:39:10,325 | INFO | === Currently training epoch number 5101 ===
+2026-03-18 01:39:10,325 | INFO | === Total Cross-Entropy Loss after epoch 5101 equals to 2.835801428714714 ===
+2026-03-18 01:39:10,648 | INFO | === Currently training epoch number 5201 ===
+2026-03-18 01:39:10,648 | INFO | === Total Cross-Entropy Loss after epoch 5201 equals to 2.8164631076890223 ===
+2026-03-18 01:39:10,989 | INFO | === Currently training epoch number 5301 ===
+2026-03-18 01:39:10,993 | INFO | === Total Cross-Entropy Loss after epoch 5301 equals to 2.797050658655454 ===
+2026-03-18 01:39:11,309 | INFO | === Currently training epoch number 5401 ===
+2026-03-18 01:39:11,309 | INFO | === Total Cross-Entropy Loss after epoch 5401 equals to 2.7775692472953026 ===
+2026-03-18 01:39:11,638 | INFO | === Currently training epoch number 5501 ===
+2026-03-18 01:39:11,638 | INFO | === Total Cross-Entropy Loss after epoch 5501 equals to 2.758028872549876 ===
+2026-03-18 01:39:11,967 | INFO | === Currently training epoch number 5601 ===
+2026-03-18 01:39:11,971 | INFO | === Total Cross-Entropy Loss after epoch 5601 equals to 2.7384451239322236 ===
+2026-03-18 01:39:12,298 | INFO | === Currently training epoch number 5701 ===
+2026-03-18 01:39:12,298 | INFO | === Total Cross-Entropy Loss after epoch 5701 equals to 2.7188408918074 ===
+2026-03-18 01:39:12,614 | INFO | === Currently training epoch number 5801 ===
+2026-03-18 01:39:12,614 | INFO | === Total Cross-Entropy Loss after epoch 5801 equals to 2.6992456592515626 ===
+2026-03-18 01:39:12,941 | INFO | === Currently training epoch number 5901 ===
+2026-03-18 01:39:12,941 | INFO | === Total Cross-Entropy Loss after epoch 5901 equals to 2.679698091057029 ===
+2026-03-18 01:39:13,265 | INFO | === Currently training epoch number 6001 ===
+2026-03-18 01:39:13,265 | INFO | === Total Cross-Entropy Loss after epoch 6001 equals to 2.6602436577162756 ===
+2026-03-18 01:39:13,582 | INFO | === Currently training epoch number 6101 ===
+2026-03-18 01:39:13,598 | INFO | === Total Cross-Entropy Loss after epoch 6101 equals to 2.6409368106654503 ===
+2026-03-18 01:39:13,927 | INFO | === Currently training epoch number 6201 ===
+2026-03-18 01:39:13,929 | INFO | === Total Cross-Entropy Loss after epoch 6201 equals to 2.621838228533155 ===
+2026-03-18 01:39:14,242 | INFO | === Currently training epoch number 6301 ===
+2026-03-18 01:39:14,242 | INFO | === Total Cross-Entropy Loss after epoch 6301 equals to 2.603012580742566 ===
+2026-03-18 01:39:14,565 | INFO | === Currently training epoch number 6401 ===
+2026-03-18 01:39:14,583 | INFO | === Total Cross-Entropy Loss after epoch 6401 equals to 2.5845259492398935 ===
+2026-03-18 01:39:14,912 | INFO | === Currently training epoch number 6501 ===
+2026-03-18 01:39:14,912 | INFO | === Total Cross-Entropy Loss after epoch 6501 equals to 2.5664391447908192 ===
+2026-03-18 01:39:15,242 | INFO | === Currently training epoch number 6601 ===
+2026-03-18 01:39:15,243 | INFO | === Total Cross-Entropy Loss after epoch 6601 equals to 2.5488051393664057 ===
+2026-03-18 01:39:15,564 | INFO | === Currently training epoch number 6701 ===
+2026-03-18 01:39:15,580 | INFO | === Total Cross-Entropy Loss after epoch 6701 equals to 2.5316649538404605 ===
+2026-03-18 01:39:15,902 | INFO | === Currently training epoch number 6801 ===
+2026-03-18 01:39:15,902 | INFO | === Total Cross-Entropy Loss after epoch 6801 equals to 2.515042755508697 ===
+2026-03-18 01:39:16,238 | INFO | === Currently training epoch number 6901 ===
+2026-03-18 01:39:16,245 | INFO | === Total Cross-Entropy Loss after epoch 6901 equals to 2.4989483812119246 ===
+2026-03-18 01:39:16,614 | INFO | === Currently training epoch number 7001 ===
+2026-03-18 01:39:16,618 | INFO | === Total Cross-Entropy Loss after epoch 7001 equals to 2.4833768176514943 ===
+2026-03-18 01:39:16,951 | INFO | === Currently training epoch number 7101 ===
+2026-03-18 01:39:16,951 | INFO | === Total Cross-Entropy Loss after epoch 7101 equals to 2.468310989781126 ===
+2026-03-18 01:39:17,275 | INFO | === Currently training epoch number 7201 ===
+2026-03-18 01:39:17,275 | INFO | === Total Cross-Entropy Loss after epoch 7201 equals to 2.4537262357297984 ===
+2026-03-18 01:39:17,612 | INFO | === Currently training epoch number 7301 ===
+2026-03-18 01:39:17,628 | INFO | === Total Cross-Entropy Loss after epoch 7301 equals to 2.4395934101651484 ===
+2026-03-18 01:39:17,957 | INFO | === Currently training epoch number 7401 ===
+2026-03-18 01:39:17,957 | INFO | === Total Cross-Entropy Loss after epoch 7401 equals to 2.4258807826375994 ===
+2026-03-18 01:39:18,275 | INFO | === Currently training epoch number 7501 ===
+2026-03-18 01:39:18,275 | INFO | === Total Cross-Entropy Loss after epoch 7501 equals to 2.4125576708377503 ===
+2026-03-18 01:39:18,597 | INFO | === Currently training epoch number 7601 ===
+2026-03-18 01:39:18,597 | INFO | === Total Cross-Entropy Loss after epoch 7601 equals to 2.3995953859090666 ===
+2026-03-18 01:39:18,925 | INFO | === Currently training epoch number 7701 ===
+2026-03-18 01:39:18,925 | INFO | === Total Cross-Entropy Loss after epoch 7701 equals to 2.3869675348624506 ===
+2026-03-18 01:39:19,259 | INFO | === Currently training epoch number 7801 ===
+2026-03-18 01:39:19,259 | INFO | === Total Cross-Entropy Loss after epoch 7801 equals to 2.374650591811382 ===
+2026-03-18 01:39:19,592 | INFO | === Currently training epoch number 7901 ===
+2026-03-18 01:39:19,596 | INFO | === Total Cross-Entropy Loss after epoch 7901 equals to 2.3626234512771567 ===
+2026-03-18 01:39:19,924 | INFO | === Currently training epoch number 8001 ===
+2026-03-18 01:39:19,924 | INFO | === Total Cross-Entropy Loss after epoch 8001 equals to 2.3508671726685226 ===
+2026-03-18 01:39:20,252 | INFO | === Currently training epoch number 8101 ===
+2026-03-18 01:39:20,261 | INFO | === Total Cross-Entropy Loss after epoch 8101 equals to 2.3393656922632493 ===
+2026-03-18 01:39:20,582 | INFO | === Currently training epoch number 8201 ===
+2026-03-18 01:39:20,582 | INFO | === Total Cross-Entropy Loss after epoch 8201 equals to 2.328103024217666 ===
+2026-03-18 01:39:20,908 | INFO | === Currently training epoch number 8301 ===
+2026-03-18 01:39:20,908 | INFO | === Total Cross-Entropy Loss after epoch 8301 equals to 2.3170661076821006 ===
+2026-03-18 01:39:21,254 | INFO | === Currently training epoch number 8401 ===
+2026-03-18 01:39:21,264 | INFO | === Total Cross-Entropy Loss after epoch 8401 equals to 2.3062409031421027 ===
+2026-03-18 01:39:21,581 | INFO | === Currently training epoch number 8501 ===
+2026-03-18 01:39:21,581 | INFO | === Total Cross-Entropy Loss after epoch 8501 equals to 2.2956176712273293 ===
+2026-03-18 01:39:21,893 | INFO | === Currently training epoch number 8601 ===
+2026-03-18 01:39:21,909 | INFO | === Total Cross-Entropy Loss after epoch 8601 equals to 2.2851835516623797 ===
+2026-03-18 01:39:22,231 | INFO | === Currently training epoch number 8701 ===
+2026-03-18 01:39:22,234 | INFO | === Total Cross-Entropy Loss after epoch 8701 equals to 2.274930060010533 ===
+2026-03-18 01:39:22,582 | INFO | === Currently training epoch number 8801 ===
+2026-03-18 01:39:22,600 | INFO | === Total Cross-Entropy Loss after epoch 8801 equals to 2.2648467169916757 ===
+2026-03-18 01:39:22,967 | INFO | === Currently training epoch number 8901 ===
+2026-03-18 01:39:22,972 | INFO | === Total Cross-Entropy Loss after epoch 8901 equals to 2.25492531221519 ===
+2026-03-18 01:39:23,332 | INFO | === Currently training epoch number 9001 ===
+2026-03-18 01:39:23,332 | INFO | === Total Cross-Entropy Loss after epoch 9001 equals to 2.245158742339674 ===
+2026-03-18 01:39:23,727 | INFO | === Currently training epoch number 9101 ===
+2026-03-18 01:39:23,733 | INFO | === Total Cross-Entropy Loss after epoch 9101 equals to 2.235538948175013 ===
+2026-03-18 01:39:24,168 | INFO | === Currently training epoch number 9201 ===
+2026-03-18 01:39:24,172 | INFO | === Total Cross-Entropy Loss after epoch 9201 equals to 2.2260602875829867 ===
+2026-03-18 01:39:24,595 | INFO | === Currently training epoch number 9301 ===
+2026-03-18 01:39:24,604 | INFO | === Total Cross-Entropy Loss after epoch 9301 equals to 2.216716301392023 ===
+2026-03-18 01:39:25,101 | INFO | === Currently training epoch number 9401 ===
+2026-03-18 01:39:25,106 | INFO | === Total Cross-Entropy Loss after epoch 9401 equals to 2.2075014632047485 ===
+2026-03-18 01:39:25,590 | INFO | === Currently training epoch number 9501 ===
+2026-03-18 01:39:25,590 | INFO | === Total Cross-Entropy Loss after epoch 9501 equals to 2.1984118381985267 ===
+2026-03-18 01:39:26,003 | INFO | === Currently training epoch number 9601 ===
+2026-03-18 01:39:26,009 | INFO | === Total Cross-Entropy Loss after epoch 9601 equals to 2.1894416189612027 ===
+2026-03-18 01:39:26,362 | INFO | === Currently training epoch number 9701 ===
+2026-03-18 01:39:26,374 | INFO | === Total Cross-Entropy Loss after epoch 9701 equals to 2.18058721014081 ===
+2026-03-18 01:39:26,740 | INFO | === Currently training epoch number 9801 ===
+2026-03-18 01:39:26,740 | INFO | === Total Cross-Entropy Loss after epoch 9801 equals to 2.1718444743350656 ===
+2026-03-18 01:39:27,084 | INFO | === Currently training epoch number 9901 ===
+2026-03-18 01:39:27,096 | INFO | === Total Cross-Entropy Loss after epoch 9901 equals to 2.1632097774880337 ===
+2026-03-18 01:40:17,871 | INFO | === Currently training epoch number 1 ===
+2026-03-18 01:40:17,871 | INFO | === Total Cross-Entropy Loss after epoch 1 equals to 4.27608074228275 ===
+2026-03-18 01:40:18,305 | INFO | === Currently training epoch number 101 ===
+2026-03-18 01:40:18,319 | INFO | === Total Cross-Entropy Loss after epoch 101 equals to 4.269830131512527 ===
+2026-03-18 01:40:18,739 | INFO | === Currently training epoch number 201 ===
+2026-03-18 01:40:18,752 | INFO | === Total Cross-Entropy Loss after epoch 201 equals to 4.25862733827154 ===
+2026-03-18 01:40:19,102 | INFO | === Currently training epoch number 301 ===
+2026-03-18 01:40:19,109 | INFO | === Total Cross-Entropy Loss after epoch 301 equals to 4.233463279683218 ===
+2026-03-18 01:40:19,411 | INFO | === Currently training epoch number 401 ===
+2026-03-18 01:40:19,427 | INFO | === Total Cross-Entropy Loss after epoch 401 equals to 4.171777204726502 ===
+2026-03-18 01:40:19,761 | INFO | === Currently training epoch number 501 ===
+2026-03-18 01:40:19,766 | INFO | === Total Cross-Entropy Loss after epoch 501 equals to 4.024221424700185 ===
+2026-03-18 01:40:20,084 | INFO | === Currently training epoch number 601 ===
+2026-03-18 01:40:20,084 | INFO | === Total Cross-Entropy Loss after epoch 601 equals to 3.789679900651831 ===
+2026-03-18 01:40:20,577 | INFO | === Currently training epoch number 701 ===
+2026-03-18 01:40:20,581 | INFO | === Total Cross-Entropy Loss after epoch 701 equals to 3.645905296492598 ===
+2026-03-18 01:40:21,002 | INFO | === Currently training epoch number 801 ===
+2026-03-18 01:40:21,005 | INFO | === Total Cross-Entropy Loss after epoch 801 equals to 3.539324459379538 ===
+2026-03-18 01:40:21,377 | INFO | === Currently training epoch number 901 ===
+2026-03-18 01:40:21,381 | INFO | === Total Cross-Entropy Loss after epoch 901 equals to 3.424172003229743 ===
+2026-03-18 01:40:21,729 | INFO | === Currently training epoch number 1001 ===
+2026-03-18 01:40:21,729 | INFO | === Total Cross-Entropy Loss after epoch 1001 equals to 3.304357277358019 ===
+2026-03-18 01:40:22,086 | INFO | === Currently training epoch number 1101 ===
+2026-03-18 01:40:22,101 | INFO | === Total Cross-Entropy Loss after epoch 1101 equals to 3.2061929118607364 ===
+2026-03-18 01:40:22,457 | INFO | === Currently training epoch number 1201 ===
+2026-03-18 01:40:22,457 | INFO | === Total Cross-Entropy Loss after epoch 1201 equals to 3.1318123995998497 ===
+2026-03-18 01:40:22,839 | INFO | === Currently training epoch number 1301 ===
+2026-03-18 01:40:22,845 | INFO | === Total Cross-Entropy Loss after epoch 1301 equals to 3.06804218745835 ===
+2026-03-18 01:40:23,213 | INFO | === Currently training epoch number 1401 ===
+2026-03-18 01:40:23,213 | INFO | === Total Cross-Entropy Loss after epoch 1401 equals to 3.0086565456398127 ===
+2026-03-18 01:40:23,569 | INFO | === Currently training epoch number 1501 ===
+2026-03-18 01:40:23,583 | INFO | === Total Cross-Entropy Loss after epoch 1501 equals to 2.9510726995066627 ===
+2026-03-18 01:40:23,947 | INFO | === Currently training epoch number 1601 ===
+2026-03-18 01:40:23,947 | INFO | === Total Cross-Entropy Loss after epoch 1601 equals to 2.893870624282826 ===
+2026-03-18 01:40:24,304 | INFO | === Currently training epoch number 1701 ===
+2026-03-18 01:40:24,308 | INFO | === Total Cross-Entropy Loss after epoch 1701 equals to 2.8363065293109053 ===
+2026-03-18 01:40:24,657 | INFO | === Currently training epoch number 1801 ===
+2026-03-18 01:40:24,661 | INFO | === Total Cross-Entropy Loss after epoch 1801 equals to 2.77810472907914 ===
+2026-03-18 01:40:25,033 | INFO | === Currently training epoch number 1901 ===
+2026-03-18 01:40:25,037 | INFO | === Total Cross-Entropy Loss after epoch 1901 equals to 2.7194089082192643 ===
+2026-03-18 01:40:25,403 | INFO | === Currently training epoch number 2001 ===
+2026-03-18 01:40:25,408 | INFO | === Total Cross-Entropy Loss after epoch 2001 equals to 2.660841314542151 ===
+2026-03-18 01:40:25,762 | INFO | === Currently training epoch number 2101 ===
+2026-03-18 01:40:25,762 | INFO | === Total Cross-Entropy Loss after epoch 2101 equals to 2.6036327139264164 ===
+2026-03-18 01:40:26,118 | INFO | === Currently training epoch number 2201 ===
+2026-03-18 01:40:26,118 | INFO | === Total Cross-Entropy Loss after epoch 2201 equals to 2.5494490228129796 ===
+2026-03-18 01:40:26,484 | INFO | === Currently training epoch number 2301 ===
+2026-03-18 01:40:26,484 | INFO | === Total Cross-Entropy Loss after epoch 2301 equals to 2.4996164657455737 ===
+2026-03-18 01:40:26,848 | INFO | === Currently training epoch number 2401 ===
+2026-03-18 01:40:26,852 | INFO | === Total Cross-Entropy Loss after epoch 2401 equals to 2.454411395483066 ===
+2026-03-18 01:40:27,249 | INFO | === Currently training epoch number 2501 ===
+2026-03-18 01:40:27,265 | INFO | === Total Cross-Entropy Loss after epoch 2501 equals to 2.4132690361730544 ===
+2026-03-18 01:40:27,625 | INFO | === Currently training epoch number 2601 ===
+2026-03-18 01:40:27,625 | INFO | === Total Cross-Entropy Loss after epoch 2601 equals to 2.375384975008255 ===
+2026-03-18 01:40:27,974 | INFO | === Currently training epoch number 2701 ===
+2026-03-18 01:40:27,974 | INFO | === Total Cross-Entropy Loss after epoch 2701 equals to 2.340122172750491 ===
+2026-03-18 01:40:28,334 | INFO | === Currently training epoch number 2801 ===
+2026-03-18 01:40:28,338 | INFO | === Total Cross-Entropy Loss after epoch 2801 equals to 2.307024252613767 ===
+2026-03-18 01:40:28,696 | INFO | === Currently training epoch number 2901 ===
+2026-03-18 01:40:28,700 | INFO | === Total Cross-Entropy Loss after epoch 2901 equals to 2.275734863989211 ===
+2026-03-18 01:40:29,133 | INFO | === Currently training epoch number 3001 ===
+2026-03-18 01:40:29,137 | INFO | === Total Cross-Entropy Loss after epoch 3001 equals to 2.245983459587866 ===
+2026-03-18 01:40:29,496 | INFO | === Currently training epoch number 3101 ===
+2026-03-18 01:40:29,496 | INFO | === Total Cross-Entropy Loss after epoch 3101 equals to 2.217565774904121 ===
+2026-03-18 01:40:29,861 | INFO | === Currently training epoch number 3201 ===
+2026-03-18 01:40:29,864 | INFO | === Total Cross-Entropy Loss after epoch 3201 equals to 2.1903109793560605 ===
+2026-03-18 01:40:30,213 | INFO | === Currently training epoch number 3301 ===
+2026-03-18 01:40:30,229 | INFO | === Total Cross-Entropy Loss after epoch 3301 equals to 2.164098486480405 ===
+2026-03-18 01:40:30,587 | INFO | === Currently training epoch number 3401 ===
+2026-03-18 01:40:30,591 | INFO | === Total Cross-Entropy Loss after epoch 3401 equals to 2.1388299397174713 ===
+2026-03-18 01:40:31,405 | INFO | === Currently training epoch number 3501 ===
+2026-03-18 01:40:31,429 | INFO | === Total Cross-Entropy Loss after epoch 3501 equals to 2.1144178506928086 ===
+2026-03-18 01:40:32,086 | INFO | === Currently training epoch number 3601 ===
+2026-03-18 01:40:32,099 | INFO | === Total Cross-Entropy Loss after epoch 3601 equals to 2.0908212941215965 ===
+2026-03-18 01:40:32,548 | INFO | === Currently training epoch number 3701 ===
+2026-03-18 01:40:32,556 | INFO | === Total Cross-Entropy Loss after epoch 3701 equals to 2.0679708108437196 ===
+2026-03-18 01:40:33,021 | INFO | === Currently training epoch number 3801 ===
+2026-03-18 01:40:33,027 | INFO | === Total Cross-Entropy Loss after epoch 3801 equals to 2.0458503925468183 ===
+2026-03-18 01:40:33,410 | INFO | === Currently training epoch number 3901 ===
+2026-03-18 01:40:33,414 | INFO | === Total Cross-Entropy Loss after epoch 3901 equals to 2.024426298458892 ===
+2026-03-18 01:40:33,821 | INFO | === Currently training epoch number 4001 ===
+2026-03-18 01:40:33,827 | INFO | === Total Cross-Entropy Loss after epoch 4001 equals to 2.003721121558739 ===
+2026-03-18 01:40:34,202 | INFO | === Currently training epoch number 4101 ===
+2026-03-18 01:40:34,206 | INFO | === Total Cross-Entropy Loss after epoch 4101 equals to 1.9836982225345359 ===
+2026-03-18 01:40:34,553 | INFO | === Currently training epoch number 4201 ===
+2026-03-18 01:40:34,556 | INFO | === Total Cross-Entropy Loss after epoch 4201 equals to 1.9643693854280513 ===
+2026-03-18 01:40:34,924 | INFO | === Currently training epoch number 4301 ===
+2026-03-18 01:40:34,924 | INFO | === Total Cross-Entropy Loss after epoch 4301 equals to 1.946791883065852 ===
+2026-03-18 01:40:35,298 | INFO | === Currently training epoch number 4401 ===
+2026-03-18 01:40:35,314 | INFO | === Total Cross-Entropy Loss after epoch 4401 equals to 1.9307611954019932 ===
+2026-03-18 01:40:35,695 | INFO | === Currently training epoch number 4501 ===
+2026-03-18 01:40:35,700 | INFO | === Total Cross-Entropy Loss after epoch 4501 equals to 1.9162995065817476 ===
+2026-03-18 01:40:36,060 | INFO | === Currently training epoch number 4601 ===
+2026-03-18 01:40:36,064 | INFO | === Total Cross-Entropy Loss after epoch 4601 equals to 1.903807172633741 ===
+2026-03-18 01:40:36,395 | INFO | === Currently training epoch number 4701 ===
+2026-03-18 01:40:36,395 | INFO | === Total Cross-Entropy Loss after epoch 4701 equals to 1.893655183700632 ===
+2026-03-18 01:40:36,753 | INFO | === Currently training epoch number 4801 ===
+2026-03-18 01:40:36,753 | INFO | === Total Cross-Entropy Loss after epoch 4801 equals to 1.8865178916114216 ===
+2026-03-18 01:40:37,116 | INFO | === Currently training epoch number 4901 ===
+2026-03-18 01:40:37,116 | INFO | === Total Cross-Entropy Loss after epoch 4901 equals to 1.8830072272374196 ===
+2026-03-18 01:40:37,462 | INFO | === Currently training epoch number 5001 ===
+2026-03-18 01:40:37,478 | INFO | === Total Cross-Entropy Loss after epoch 5001 equals to 1.8836328566583085 ===
+2026-03-18 01:40:37,819 | INFO | === Currently training epoch number 5101 ===
+2026-03-18 01:40:37,819 | INFO | === Total Cross-Entropy Loss after epoch 5101 equals to 1.8879786756813817 ===
+2026-03-18 01:40:38,183 | INFO | === Currently training epoch number 5201 ===
+2026-03-18 01:40:38,199 | INFO | === Total Cross-Entropy Loss after epoch 5201 equals to 1.8945579313249377 ===
+2026-03-18 01:40:38,549 | INFO | === Currently training epoch number 5301 ===
+2026-03-18 01:40:38,553 | INFO | === Total Cross-Entropy Loss after epoch 5301 equals to 1.9016195651422743 ===
+2026-03-18 01:40:38,885 | INFO | === Currently training epoch number 5401 ===
+2026-03-18 01:40:38,885 | INFO | === Total Cross-Entropy Loss after epoch 5401 equals to 1.9074348519174065 ===
+2026-03-18 01:40:39,249 | INFO | === Currently training epoch number 5501 ===
+2026-03-18 01:40:39,252 | INFO | === Total Cross-Entropy Loss after epoch 5501 equals to 1.9106328616905 ===
+2026-03-18 01:40:39,602 | INFO | === Currently training epoch number 5601 ===
+2026-03-18 01:40:39,602 | INFO | === Total Cross-Entropy Loss after epoch 5601 equals to 1.9105075236565483 ===
+2026-03-18 01:40:39,980 | INFO | === Currently training epoch number 5701 ===
+2026-03-18 01:40:39,986 | INFO | === Total Cross-Entropy Loss after epoch 5701 equals to 1.907473850736072 ===
+2026-03-18 01:40:40,340 | INFO | === Currently training epoch number 5801 ===
+2026-03-18 01:40:40,344 | INFO | === Total Cross-Entropy Loss after epoch 5801 equals to 1.9037454071764568 ===
+2026-03-18 01:40:40,682 | INFO | === Currently training epoch number 5901 ===
+2026-03-18 01:40:40,682 | INFO | === Total Cross-Entropy Loss after epoch 5901 equals to 1.900866890775004 ===
+2026-03-18 01:40:41,059 | INFO | === Currently training epoch number 6001 ===
+2026-03-18 01:40:41,063 | INFO | === Total Cross-Entropy Loss after epoch 6001 equals to 1.896891435042434 ===
+2026-03-18 01:40:41,391 | INFO | === Currently training epoch number 6101 ===
+2026-03-18 01:40:41,391 | INFO | === Total Cross-Entropy Loss after epoch 6101 equals to 1.8917623832731565 ===
+2026-03-18 01:40:41,744 | INFO | === Currently training epoch number 6201 ===
+2026-03-18 01:40:41,764 | INFO | === Total Cross-Entropy Loss after epoch 6201 equals to 1.8853927535819035 ===
+2026-03-18 01:40:42,171 | INFO | === Currently training epoch number 6301 ===
+2026-03-18 01:40:42,175 | INFO | === Total Cross-Entropy Loss after epoch 6301 equals to 1.879567029158331 ===
+2026-03-18 01:40:42,515 | INFO | === Currently training epoch number 6401 ===
+2026-03-18 01:40:42,517 | INFO | === Total Cross-Entropy Loss after epoch 6401 equals to 1.8737497993209642 ===
+2026-03-18 01:40:42,863 | INFO | === Currently training epoch number 6501 ===
+2026-03-18 01:40:42,875 | INFO | === Total Cross-Entropy Loss after epoch 6501 equals to 1.8678694653884114 ===
+2026-03-18 01:40:43,215 | INFO | === Currently training epoch number 6601 ===
+2026-03-18 01:40:43,215 | INFO | === Total Cross-Entropy Loss after epoch 6601 equals to 1.8609004031258587 ===
+2026-03-18 01:40:43,570 | INFO | === Currently training epoch number 6701 ===
+2026-03-18 01:40:43,586 | INFO | === Total Cross-Entropy Loss after epoch 6701 equals to 1.8528881320920896 ===
+2026-03-18 01:40:43,932 | INFO | === Currently training epoch number 6801 ===
+2026-03-18 01:40:43,932 | INFO | === Total Cross-Entropy Loss after epoch 6801 equals to 1.8445628195919062 ===
+2026-03-18 01:40:44,288 | INFO | === Currently training epoch number 6901 ===
+2026-03-18 01:40:44,296 | INFO | === Total Cross-Entropy Loss after epoch 6901 equals to 1.8363840482350497 ===
+2026-03-18 01:40:44,651 | INFO | === Currently training epoch number 7001 ===
+2026-03-18 01:40:44,651 | INFO | === Total Cross-Entropy Loss after epoch 7001 equals to 1.8292589465912354 ===
+2026-03-18 01:40:45,013 | INFO | === Currently training epoch number 7101 ===
+2026-03-18 01:40:45,017 | INFO | === Total Cross-Entropy Loss after epoch 7101 equals to 1.8228400073026456 ===
+2026-03-18 01:40:45,374 | INFO | === Currently training epoch number 7201 ===
+2026-03-18 01:40:45,378 | INFO | === Total Cross-Entropy Loss after epoch 7201 equals to 1.817276958848496 ===
+2026-03-18 01:40:45,751 | INFO | === Currently training epoch number 7301 ===
+2026-03-18 01:40:45,755 | INFO | === Total Cross-Entropy Loss after epoch 7301 equals to 1.8120869626993958 ===
+2026-03-18 01:40:46,157 | INFO | === Currently training epoch number 7401 ===
+2026-03-18 01:40:46,161 | INFO | === Total Cross-Entropy Loss after epoch 7401 equals to 1.8068010314142717 ===
+2026-03-18 01:40:46,508 | INFO | === Currently training epoch number 7501 ===
+2026-03-18 01:40:46,508 | INFO | === Total Cross-Entropy Loss after epoch 7501 equals to 1.8003774157509091 ===
+2026-03-18 01:40:46,866 | INFO | === Currently training epoch number 7601 ===
+2026-03-18 01:40:46,887 | INFO | === Total Cross-Entropy Loss after epoch 7601 equals to 1.793271920012323 ===
+2026-03-18 01:40:47,256 | INFO | === Currently training epoch number 7701 ===
+2026-03-18 01:40:47,262 | INFO | === Total Cross-Entropy Loss after epoch 7701 equals to 1.7905303915731559 ===
+2026-03-18 01:40:47,624 | INFO | === Currently training epoch number 7801 ===
+2026-03-18 01:40:47,628 | INFO | === Total Cross-Entropy Loss after epoch 7801 equals to 1.8004231240360151 ===
+2026-03-18 01:40:48,051 | INFO | === Currently training epoch number 7901 ===
+2026-03-18 01:40:48,062 | INFO | === Total Cross-Entropy Loss after epoch 7901 equals to 1.8138722392047464 ===
+2026-03-18 01:40:48,515 | INFO | === Currently training epoch number 8001 ===
+2026-03-18 01:40:48,521 | INFO | === Total Cross-Entropy Loss after epoch 8001 equals to 1.832380304510681 ===
+2026-03-18 01:40:48,937 | INFO | === Currently training epoch number 8101 ===
+2026-03-18 01:40:48,942 | INFO | === Total Cross-Entropy Loss after epoch 8101 equals to 1.8478489388217159 ===
+2026-03-18 01:40:49,325 | INFO | === Currently training epoch number 8201 ===
+2026-03-18 01:40:49,325 | INFO | === Total Cross-Entropy Loss after epoch 8201 equals to 1.862361032133497 ===
+2026-03-18 01:40:49,691 | INFO | === Currently training epoch number 8301 ===
+2026-03-18 01:40:49,694 | INFO | === Total Cross-Entropy Loss after epoch 8301 equals to 1.8749135973850999 ===
+2026-03-18 01:40:50,046 | INFO | === Currently training epoch number 8401 ===
+2026-03-18 01:40:50,050 | INFO | === Total Cross-Entropy Loss after epoch 8401 equals to 1.8879234402183889 ===
+2026-03-18 01:40:50,396 | INFO | === Currently training epoch number 8501 ===
+2026-03-18 01:40:50,409 | INFO | === Total Cross-Entropy Loss after epoch 8501 equals to 1.9153425598620055 ===
+2026-03-18 01:40:50,778 | INFO | === Currently training epoch number 8601 ===
+2026-03-18 01:40:50,778 | INFO | === Total Cross-Entropy Loss after epoch 8601 equals to 1.9409411405879375 ===
+2026-03-18 01:40:51,135 | INFO | === Currently training epoch number 8701 ===
+2026-03-18 01:40:51,135 | INFO | === Total Cross-Entropy Loss after epoch 8701 equals to 1.9671018821077408 ===
+2026-03-18 01:40:51,483 | INFO | === Currently training epoch number 8801 ===
+2026-03-18 01:40:51,483 | INFO | === Total Cross-Entropy Loss after epoch 8801 equals to 2.0030678368355184 ===
+2026-03-18 01:40:51,825 | INFO | === Currently training epoch number 8901 ===
+2026-03-18 01:40:51,825 | INFO | === Total Cross-Entropy Loss after epoch 8901 equals to 2.059602759756042 ===
+2026-03-18 01:40:52,197 | INFO | === Currently training epoch number 9001 ===
+2026-03-18 01:40:52,201 | INFO | === Total Cross-Entropy Loss after epoch 9001 equals to 2.1184456261384934 ===
+2026-03-18 01:40:52,597 | INFO | === Currently training epoch number 9101 ===
+2026-03-18 01:40:52,604 | INFO | === Total Cross-Entropy Loss after epoch 9101 equals to 2.1693039584844303 ===
+2026-03-18 01:40:52,997 | INFO | === Currently training epoch number 9201 ===
+2026-03-18 01:40:52,999 | INFO | === Total Cross-Entropy Loss after epoch 9201 equals to 2.2620619087352627 ===
+2026-03-18 01:40:53,397 | INFO | === Currently training epoch number 9301 ===
+2026-03-18 01:40:53,397 | INFO | === Total Cross-Entropy Loss after epoch 9301 equals to 2.3938626642086374 ===
+2026-03-18 01:40:53,798 | INFO | === Currently training epoch number 9401 ===
+2026-03-18 01:40:53,798 | INFO | === Total Cross-Entropy Loss after epoch 9401 equals to 2.5298637502119696 ===
+2026-03-18 01:40:54,236 | INFO | === Currently training epoch number 9501 ===
+2026-03-18 01:40:54,238 | INFO | === Total Cross-Entropy Loss after epoch 9501 equals to 2.6796560119552733 ===
+2026-03-18 01:40:54,605 | INFO | === Currently training epoch number 9601 ===
+2026-03-18 01:40:54,618 | INFO | === Total Cross-Entropy Loss after epoch 9601 equals to 2.8590984446415417 ===
+2026-03-18 01:40:54,975 | INFO | === Currently training epoch number 9701 ===
+2026-03-18 01:40:54,980 | INFO | === Total Cross-Entropy Loss after epoch 9701 equals to 3.053753854607011 ===
+2026-03-18 01:40:55,344 | INFO | === Currently training epoch number 9801 ===
+2026-03-18 01:40:55,348 | INFO | === Total Cross-Entropy Loss after epoch 9801 equals to 3.2603416437763744 ===
+2026-03-18 01:40:55,762 | INFO | === Currently training epoch number 9901 ===
+2026-03-18 01:40:55,762 | INFO | === Total Cross-Entropy Loss after epoch 9901 equals to 3.449881157195788 ===
+2026-03-18 01:52:08,900 | INFO | === Currently training epoch number 1 ===
+2026-03-18 01:52:08,916 | INFO | === Total Cross-Entropy Loss after epoch 1 equals to 4.27608074228275 ===
+2026-03-18 01:52:09,243 | INFO | === Currently training epoch number 101 ===
+2026-03-18 01:52:09,247 | INFO | === Total Cross-Entropy Loss after epoch 101 equals to 4.269830131512527 ===
+2026-03-18 01:52:09,554 | INFO | === Currently training epoch number 201 ===
+2026-03-18 01:52:09,558 | INFO | === Total Cross-Entropy Loss after epoch 201 equals to 4.25862733827154 ===
+2026-03-18 01:52:09,866 | INFO | === Currently training epoch number 301 ===
+2026-03-18 01:52:09,866 | INFO | === Total Cross-Entropy Loss after epoch 301 equals to 4.233463279683218 ===
+2026-03-18 01:52:10,216 | INFO | === Currently training epoch number 401 ===
+2026-03-18 01:52:10,220 | INFO | === Total Cross-Entropy Loss after epoch 401 equals to 4.171777204726502 ===
+2026-03-18 01:52:10,530 | INFO | === Currently training epoch number 501 ===
+2026-03-18 01:52:10,535 | INFO | === Total Cross-Entropy Loss after epoch 501 equals to 4.024221424700185 ===
+2026-03-18 01:52:10,845 | INFO | === Currently training epoch number 601 ===
+2026-03-18 01:52:10,845 | INFO | === Total Cross-Entropy Loss after epoch 601 equals to 3.789679900651831 ===
+2026-03-18 01:52:11,146 | INFO | === Currently training epoch number 701 ===
+2026-03-18 01:52:11,146 | INFO | === Total Cross-Entropy Loss after epoch 701 equals to 3.645905296492598 ===
+2026-03-18 01:52:11,465 | INFO | === Currently training epoch number 801 ===
+2026-03-18 01:52:11,465 | INFO | === Total Cross-Entropy Loss after epoch 801 equals to 3.539324459379538 ===
+2026-03-18 01:52:11,759 | INFO | === Currently training epoch number 901 ===
+2026-03-18 01:52:11,775 | INFO | === Total Cross-Entropy Loss after epoch 901 equals to 3.424172003229743 ===
+2026-03-18 01:52:12,066 | INFO | === Currently training epoch number 1001 ===
+2026-03-18 01:52:12,066 | INFO | === Total Cross-Entropy Loss after epoch 1001 equals to 3.304357277358019 ===
+2026-03-18 01:52:12,358 | INFO | === Currently training epoch number 1101 ===
+2026-03-18 01:52:12,376 | INFO | === Total Cross-Entropy Loss after epoch 1101 equals to 3.2061929118607364 ===
+2026-03-18 01:52:12,678 | INFO | === Currently training epoch number 1201 ===
+2026-03-18 01:52:12,680 | INFO | === Total Cross-Entropy Loss after epoch 1201 equals to 3.1318123995998497 ===
+2026-03-18 01:52:12,990 | INFO | === Currently training epoch number 1301 ===
+2026-03-18 01:52:12,994 | INFO | === Total Cross-Entropy Loss after epoch 1301 equals to 3.06804218745835 ===
+2026-03-18 01:52:13,307 | INFO | === Currently training epoch number 1401 ===
+2026-03-18 01:52:13,307 | INFO | === Total Cross-Entropy Loss after epoch 1401 equals to 3.0086565456398127 ===
+2026-03-18 01:52:13,598 | INFO | === Currently training epoch number 1501 ===
+2026-03-18 01:52:13,598 | INFO | === Total Cross-Entropy Loss after epoch 1501 equals to 2.9510726995066627 ===
+2026-03-18 01:52:13,909 | INFO | === Currently training epoch number 1601 ===
+2026-03-18 01:52:13,909 | INFO | === Total Cross-Entropy Loss after epoch 1601 equals to 2.893870624282826 ===
+2026-03-18 01:52:14,210 | INFO | === Currently training epoch number 1701 ===
+2026-03-18 01:52:14,221 | INFO | === Total Cross-Entropy Loss after epoch 1701 equals to 2.8363065293109053 ===
+2026-03-18 01:52:14,523 | INFO | === Currently training epoch number 1801 ===
+2026-03-18 01:52:14,528 | INFO | === Total Cross-Entropy Loss after epoch 1801 equals to 2.77810472907914 ===
+2026-03-18 01:52:14,808 | INFO | === Currently training epoch number 1901 ===
+2026-03-18 01:52:14,823 | INFO | === Total Cross-Entropy Loss after epoch 1901 equals to 2.7194089082192643 ===
+2026-03-18 01:52:15,162 | INFO | === Currently training epoch number 2001 ===
+2026-03-18 01:52:15,166 | INFO | === Total Cross-Entropy Loss after epoch 2001 equals to 2.660841314542151 ===
+2026-03-18 01:52:15,505 | INFO | === Currently training epoch number 2101 ===
+2026-03-18 01:52:15,509 | INFO | === Total Cross-Entropy Loss after epoch 2101 equals to 2.6036327139264164 ===
+2026-03-18 01:52:15,850 | INFO | === Currently training epoch number 2201 ===
+2026-03-18 01:52:15,854 | INFO | === Total Cross-Entropy Loss after epoch 2201 equals to 2.5494490228129796 ===
+2026-03-18 01:52:16,163 | INFO | === Currently training epoch number 2301 ===
+2026-03-18 01:52:16,163 | INFO | === Total Cross-Entropy Loss after epoch 2301 equals to 2.4996164657455737 ===
+2026-03-18 01:52:16,633 | INFO | === Currently training epoch number 2401 ===
+2026-03-18 01:52:16,650 | INFO | === Total Cross-Entropy Loss after epoch 2401 equals to 2.454411395483066 ===
+2026-03-18 01:52:16,966 | INFO | === Currently training epoch number 2501 ===
+2026-03-18 01:52:16,966 | INFO | === Total Cross-Entropy Loss after epoch 2501 equals to 2.4132690361730544 ===
+2026-03-18 01:52:17,314 | INFO | === Currently training epoch number 2601 ===
+2026-03-18 01:52:17,316 | INFO | === Total Cross-Entropy Loss after epoch 2601 equals to 2.375384975008255 ===
+2026-03-18 01:52:17,720 | INFO | === Currently training epoch number 2701 ===
+2026-03-18 01:52:17,724 | INFO | === Total Cross-Entropy Loss after epoch 2701 equals to 2.340122172750491 ===
+2026-03-18 01:52:18,107 | INFO | === Currently training epoch number 2801 ===
+2026-03-18 01:52:18,117 | INFO | === Total Cross-Entropy Loss after epoch 2801 equals to 2.307024252613767 ===
+2026-03-18 01:52:18,542 | INFO | === Currently training epoch number 2901 ===
+2026-03-18 01:52:18,550 | INFO | === Total Cross-Entropy Loss after epoch 2901 equals to 2.275734863989211 ===
+2026-03-18 01:52:18,971 | INFO | === Currently training epoch number 3001 ===
+2026-03-18 01:52:18,978 | INFO | === Total Cross-Entropy Loss after epoch 3001 equals to 2.245983459587866 ===
+2026-03-18 01:52:19,385 | INFO | === Currently training epoch number 3101 ===
+2026-03-18 01:52:19,391 | INFO | === Total Cross-Entropy Loss after epoch 3101 equals to 2.217565774904121 ===
+2026-03-18 01:52:19,779 | INFO | === Currently training epoch number 3201 ===
+2026-03-18 01:52:19,784 | INFO | === Total Cross-Entropy Loss after epoch 3201 equals to 2.1903109793560605 ===
+2026-03-18 01:52:20,111 | INFO | === Currently training epoch number 3301 ===
+2026-03-18 01:52:20,115 | INFO | === Total Cross-Entropy Loss after epoch 3301 equals to 2.164098486480405 ===
+2026-03-18 01:52:20,451 | INFO | === Currently training epoch number 3401 ===
+2026-03-18 01:52:20,451 | INFO | === Total Cross-Entropy Loss after epoch 3401 equals to 2.1388299397174713 ===
+2026-03-18 01:52:20,809 | INFO | === Currently training epoch number 3501 ===
+2026-03-18 01:52:20,812 | INFO | === Total Cross-Entropy Loss after epoch 3501 equals to 2.1144178506928086 ===
+2026-03-18 01:52:21,156 | INFO | === Currently training epoch number 3601 ===
+2026-03-18 01:52:21,161 | INFO | === Total Cross-Entropy Loss after epoch 3601 equals to 2.0908212941215965 ===
+2026-03-18 01:52:21,591 | INFO | === Currently training epoch number 3701 ===
+2026-03-18 01:52:21,598 | INFO | === Total Cross-Entropy Loss after epoch 3701 equals to 2.0679708108437196 ===
+2026-03-18 01:52:22,000 | INFO | === Currently training epoch number 3801 ===
+2026-03-18 01:52:22,019 | INFO | === Total Cross-Entropy Loss after epoch 3801 equals to 2.0458503925468183 ===
+2026-03-18 01:52:22,351 | INFO | === Currently training epoch number 3901 ===
+2026-03-18 01:52:22,355 | INFO | === Total Cross-Entropy Loss after epoch 3901 equals to 2.024426298458892 ===
+2026-03-18 01:52:22,684 | INFO | === Currently training epoch number 4001 ===
+2026-03-18 01:52:22,688 | INFO | === Total Cross-Entropy Loss after epoch 4001 equals to 2.003721121558739 ===
+2026-03-18 01:52:23,021 | INFO | === Currently training epoch number 4101 ===
+2026-03-18 01:52:23,023 | INFO | === Total Cross-Entropy Loss after epoch 4101 equals to 1.9836982225345359 ===
+2026-03-18 01:52:23,487 | INFO | === Currently training epoch number 4201 ===
+2026-03-18 01:52:23,491 | INFO | === Total Cross-Entropy Loss after epoch 4201 equals to 1.9643693854280513 ===
+2026-03-18 01:52:23,839 | INFO | === Currently training epoch number 4301 ===
+2026-03-18 01:52:23,843 | INFO | === Total Cross-Entropy Loss after epoch 4301 equals to 1.946791883065852 ===
+2026-03-18 01:52:24,148 | INFO | === Currently training epoch number 4401 ===
+2026-03-18 01:52:24,154 | INFO | === Total Cross-Entropy Loss after epoch 4401 equals to 1.9307611954019932 ===
+2026-03-18 01:52:24,470 | INFO | === Currently training epoch number 4501 ===
+2026-03-18 01:52:24,474 | INFO | === Total Cross-Entropy Loss after epoch 4501 equals to 1.9162995065817476 ===
+2026-03-18 01:52:24,871 | INFO | === Currently training epoch number 4601 ===
+2026-03-18 01:52:24,871 | INFO | === Total Cross-Entropy Loss after epoch 4601 equals to 1.903807172633741 ===
+2026-03-18 01:52:25,243 | INFO | === Currently training epoch number 4701 ===
+2026-03-18 01:52:25,247 | INFO | === Total Cross-Entropy Loss after epoch 4701 equals to 1.893655183700632 ===
+2026-03-18 01:52:25,550 | INFO | === Currently training epoch number 4801 ===
+2026-03-18 01:52:25,554 | INFO | === Total Cross-Entropy Loss after epoch 4801 equals to 1.8865178916114216 ===
+2026-03-18 01:52:25,873 | INFO | === Currently training epoch number 4901 ===
+2026-03-18 01:52:25,873 | INFO | === Total Cross-Entropy Loss after epoch 4901 equals to 1.8830072272374196 ===
+2026-03-18 01:52:26,234 | INFO | === Currently training epoch number 5001 ===
+2026-03-18 01:52:26,241 | INFO | === Total Cross-Entropy Loss after epoch 5001 equals to 1.8836328566583085 ===
+2026-03-18 01:52:26,583 | INFO | === Currently training epoch number 5101 ===
+2026-03-18 01:52:26,603 | INFO | === Total Cross-Entropy Loss after epoch 5101 equals to 1.8879786756813817 ===
+2026-03-18 01:52:26,935 | INFO | === Currently training epoch number 5201 ===
+2026-03-18 01:52:26,952 | INFO | === Total Cross-Entropy Loss after epoch 5201 equals to 1.8945579313249377 ===
+2026-03-18 01:52:27,277 | INFO | === Currently training epoch number 5301 ===
+2026-03-18 01:52:27,277 | INFO | === Total Cross-Entropy Loss after epoch 5301 equals to 1.9016195651422743 ===
+2026-03-18 01:52:27,611 | INFO | === Currently training epoch number 5401 ===
+2026-03-18 01:52:27,627 | INFO | === Total Cross-Entropy Loss after epoch 5401 equals to 1.9074348519174065 ===
+2026-03-18 01:52:27,965 | INFO | === Currently training epoch number 5501 ===
+2026-03-18 01:52:27,965 | INFO | === Total Cross-Entropy Loss after epoch 5501 equals to 1.9106328616905 ===
+2026-03-18 01:52:28,365 | INFO | === Currently training epoch number 5601 ===
+2026-03-18 01:52:28,378 | INFO | === Total Cross-Entropy Loss after epoch 5601 equals to 1.9105075236565483 ===
+2026-03-18 01:52:28,754 | INFO | === Currently training epoch number 5701 ===
+2026-03-18 01:52:28,754 | INFO | === Total Cross-Entropy Loss after epoch 5701 equals to 1.907473850736072 ===
+2026-03-18 01:52:29,110 | INFO | === Currently training epoch number 5801 ===
+2026-03-18 01:52:29,119 | INFO | === Total Cross-Entropy Loss after epoch 5801 equals to 1.9037454071764568 ===
+2026-03-18 01:52:29,467 | INFO | === Currently training epoch number 5901 ===
+2026-03-18 01:52:29,471 | INFO | === Total Cross-Entropy Loss after epoch 5901 equals to 1.900866890775004 ===
+2026-03-18 01:52:29,820 | INFO | === Currently training epoch number 6001 ===
+2026-03-18 01:52:29,825 | INFO | === Total Cross-Entropy Loss after epoch 6001 equals to 1.896891435042434 ===
+2026-03-18 01:52:30,148 | INFO | === Currently training epoch number 6101 ===
+2026-03-18 01:52:30,148 | INFO | === Total Cross-Entropy Loss after epoch 6101 equals to 1.8917623832731565 ===
+2026-03-18 01:52:30,499 | INFO | === Currently training epoch number 6201 ===
+2026-03-18 01:52:30,499 | INFO | === Total Cross-Entropy Loss after epoch 6201 equals to 1.8853927535819035 ===
+2026-03-18 01:52:30,863 | INFO | === Currently training epoch number 6301 ===
+2026-03-18 01:52:30,867 | INFO | === Total Cross-Entropy Loss after epoch 6301 equals to 1.879567029158331 ===
+2026-03-18 01:52:31,207 | INFO | === Currently training epoch number 6401 ===
+2026-03-18 01:52:31,213 | INFO | === Total Cross-Entropy Loss after epoch 6401 equals to 1.8737497993209642 ===
+2026-03-18 01:52:31,555 | INFO | === Currently training epoch number 6501 ===
+2026-03-18 01:52:31,555 | INFO | === Total Cross-Entropy Loss after epoch 6501 equals to 1.8678694653884114 ===
+2026-03-18 01:52:31,966 | INFO | === Currently training epoch number 6601 ===
+2026-03-18 01:52:31,966 | INFO | === Total Cross-Entropy Loss after epoch 6601 equals to 1.8609004031258587 ===
+2026-03-18 01:53:40,485 | INFO | Total Cross-Entropy Loss after epoch 0 equals to 4.27609061869297.
+2026-03-18 01:53:43,865 | INFO | Total Cross-Entropy Loss after epoch 1000 equals to 4.218837292197566.
+2026-03-18 01:53:46,925 | INFO | Total Cross-Entropy Loss after epoch 2000 equals to 3.6848194181389093.
+2026-03-18 01:53:50,194 | INFO | Total Cross-Entropy Loss after epoch 3000 equals to 3.3041368337744865.
+2026-03-18 01:54:31,571 | INFO | Total Cross-Entropy Loss after epoch 0 equals to 4.27609061869297.
+2026-03-18 01:54:33,182 | INFO | Total Cross-Entropy Loss after epoch 500 equals to 4.263326294976102.
+2026-03-18 01:54:34,767 | INFO | Total Cross-Entropy Loss after epoch 1000 equals to 4.218837292197566.
+2026-03-18 01:54:36,334 | INFO | Total Cross-Entropy Loss after epoch 1500 equals to 4.024558388080023.
+2026-03-18 01:54:37,877 | INFO | Total Cross-Entropy Loss after epoch 2000 equals to 3.6848194181389093.
+2026-03-18 01:54:39,414 | INFO | Total Cross-Entropy Loss after epoch 2500 equals to 3.5024099074915815.
+2026-03-18 01:54:40,975 | INFO | Total Cross-Entropy Loss after epoch 3000 equals to 3.3041368337744865.
+2026-03-18 01:54:42,544 | INFO | Total Cross-Entropy Loss after epoch 3500 equals to 3.154581949008926.
+2026-03-18 01:54:44,250 | INFO | Total Cross-Entropy Loss after epoch 4000 equals to 3.047539422875931.
+2026-03-18 01:54:46,192 | INFO | Total Cross-Entropy Loss after epoch 4500 equals to 2.950632660771748.
+2026-03-18 01:54:47,896 | INFO | Total Cross-Entropy Loss after epoch 5000 equals to 2.855066206887036.
+2026-03-18 01:54:49,462 | INFO | Total Cross-Entropy Loss after epoch 5500 equals to 2.758028872549876.
+2026-03-18 01:54:51,034 | INFO | Total Cross-Entropy Loss after epoch 6000 equals to 2.6602436577162756.
+2026-03-18 01:54:52,615 | INFO | Total Cross-Entropy Loss after epoch 6500 equals to 2.5664391447908192.
+2026-03-18 01:54:54,213 | INFO | Total Cross-Entropy Loss after epoch 7000 equals to 2.4833768176514943.
+2026-03-18 01:54:55,798 | INFO | Total Cross-Entropy Loss after epoch 7500 equals to 2.4125576708377503.
+2026-03-18 01:54:57,395 | INFO | Total Cross-Entropy Loss after epoch 8000 equals to 2.3508671726685226.
+2026-03-18 01:54:58,982 | INFO | Total Cross-Entropy Loss after epoch 8500 equals to 2.2956176712273293.
+2026-03-18 01:55:00,567 | INFO | Total Cross-Entropy Loss after epoch 9000 equals to 2.245158742339674.
+2026-03-18 01:55:02,194 | INFO | Total Cross-Entropy Loss after epoch 9500 equals to 2.1984118381985267.

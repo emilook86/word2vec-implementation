@@ -7,8 +7,9 @@ class Word2Vec:
         dataset: list[str],
         context_window_size: int = 2,
         embedding_dimension: int = 3,
-        learning_rate: float = 0.1,
+        learning_rate: float = 0.0001,
         random_seed: int = 42,
+        logger=None,
     ):
         np.random.seed(random_seed)
 
@@ -16,6 +17,7 @@ class Word2Vec:
         self.context_window_size = context_window_size
         self.embedding_dimension = embedding_dimension
         self.learning_rate = learning_rate
+        self.logger = logger
 
         self.vocabulary, self.vocabulary_size = self.create_vocabulary()
 
@@ -29,6 +31,12 @@ class Word2Vec:
 
     @staticmethod
     def process_vocabulary(vocab):
+        if "." not in vocab:
+            raise Exception("The text must have at least one dot")
+
+        vocab = vocab.split(".")
+        vocab = vocab[:-1]
+
         processed_vocab = []
 
         for sentence in vocab:
@@ -94,7 +102,10 @@ class Word2Vec:
         hidden_layer = np.array(input_vector) @ self.input_embeddings_matrix
 
         output_layer = hidden_layer @ self.output_embeddings_matrix.T
-        softmax_output_score = np.exp(output_layer) / np.sum(np.exp(output_layer))
+        output_layer_clipped = np.clip(output_layer, -20, 20)
+        softmax_output_score = np.exp(output_layer_clipped) / (
+            1e-15 + np.sum(np.exp(output_layer_clipped))
+        )
 
         self.cache = {
             "input_vector": input_vector,
@@ -150,15 +161,15 @@ class Word2Vec:
             total_loss = 0
             indices = np.random.permutation(n_examples)
 
-            print(f"=== Currently training epoch number {epoch_idx + 1} ===")
             for input_idx in indices:
                 loss = self.train_step(self.inputs[input_idx], self.outputs[input_idx])
                 total_loss += loss
             total_loss /= n_examples
 
-            print(
-                f"=== Total Cross-Entropy Loss after epoch {epoch_idx + 1} equals to {total_loss} ==="
-            )
+            if epoch_idx % 500 == 0:
+                self.logger.info(
+                    f"Total Cross-Entropy Loss after epoch {epoch_idx} equals to {total_loss}."
+                )
             losses.append(total_loss)
 
         return losses
