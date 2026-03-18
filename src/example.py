@@ -1,16 +1,15 @@
-from word2vec_implementation import Word2Vec
 import matplotlib.pyplot as plt
 from pathlib import Path
-from logger_config import setup_logging
+
+from src.word2vec_implementation import Word2Vec
+from src.config.logger_config import setup_logging
+from src.config.constants import PLOTS_DIR, NUMBER_OF_EPOCHS, SAVE_EVERY, CONFIG_DIR
 
 log = setup_logging(__name__)
 
-NUMBER_OF_EPOCHS = 20_000
-
-
 
 def plot_scatterplot(embeddings, save_file):
-    plt.figure(figsize=(20, 15))
+    plt.figure(figsize=(16, 12))
     words = list(embeddings.keys())
     x_coords = [embeddings[word][0] for word in words]
     y_coords = [embeddings[word][1] for word in words]
@@ -38,10 +37,11 @@ def plot_scatterplot(embeddings, save_file):
 
 
 if __name__ == "__main__":
-    text = Path("text_example.txt").read_text()
-    w2v = Word2Vec(text, embedding_dimension=2, logger=log)
+    text = Path(CONFIG_DIR / "text_example.txt").read_text()
+    w2v = Word2Vec(text, embedding_dimension=2, logger=log, save_every=SAVE_EVERY)
     w2v.train(epochs=NUMBER_OF_EPOCHS)
 
     embeddings = w2v.get_word_embeddings()
 
-    plot_scatterplot(embeddings=embeddings, save_file="embeddings_visualisation.png")
+    save_file = PLOTS_DIR / "embeddings_visualisation.png"
+    plot_scatterplot(embeddings=embeddings, save_file=save_file)

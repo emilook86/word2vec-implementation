@@ -10,6 +10,7 @@ class Word2Vec:
         learning_rate: float = 0.0001,
         random_seed: int = 42,
         logger=None,
+        save_every: int = 500,
     ):
         np.random.seed(random_seed)
 
@@ -18,6 +19,7 @@ class Word2Vec:
         self.embedding_dimension = embedding_dimension
         self.learning_rate = learning_rate
         self.logger = logger
+        self.save_every = save_every
 
         self.vocabulary, self.vocabulary_size = self.create_vocabulary()
 
@@ -166,7 +168,7 @@ class Word2Vec:
                 total_loss += loss
             total_loss /= n_examples
 
-            if epoch_idx % 500 == 0:
+            if epoch_idx % self.save_every == 0:
                 self.logger.info(
                     f"Total Cross-Entropy Loss after epoch {epoch_idx} equals to {total_loss}."
                 )

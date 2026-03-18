@@ -1,7 +1,8 @@
 import logging
+from src.config.constants import LOGS_DIR
 
 
-def setup_logging(name=__name__, log_file="example_logs.log"):
+def setup_logging(name=__name__, log_file=LOGS_DIR / "example_logs.log"):
 
     log_formatter = logging.Formatter("%(asctime)s | %(levelname)s | %(message)s")
     log_handler = logging.FileHandler(log_file)
