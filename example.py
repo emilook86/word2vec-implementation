@@ -5,14 +5,11 @@ from logger_config import setup_logging
 
 log = setup_logging(__name__)
 
+NUMBER_OF_EPOCHS = 20_000
 
-if __name__ == "__main__":
-    text = Path("text_example.txt").read_text()
-    w2v = Word2Vec(text, embedding_dimension=2, logger=log)
-    w2v.train(epochs=10000)
 
-    embeddings = w2v.get_word_embeddings()
 
+def plot_scatterplot(embeddings, save_file):
     plt.figure(figsize=(20, 15))
     words = list(embeddings.keys())
     x_coords = [embeddings[word][0] for word in words]
@@ -35,6 +32,16 @@ if __name__ == "__main__":
     plt.ylabel("Dimnesion 2")
     plt.grid(True, alpha=0.4)
 
-    plt.savefig("embeddings_visualisation.png")
+    plt.savefig(save_file)
     plt.tight_layout()
     plt.show()
+
+
+if __name__ == "__main__":
+    text = Path("text_example.txt").read_text()
+    w2v = Word2Vec(text, embedding_dimension=2, logger=log)
+    w2v.train(epochs=NUMBER_OF_EPOCHS)
+
+    embeddings = w2v.get_word_embeddings()
+
+    plot_scatterplot(embeddings=embeddings, save_file="embeddings_visualisation.png")
