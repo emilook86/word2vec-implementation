@@ -161,7 +161,7 @@ class Word2Vec:
         n_examples = len(self.inputs)
         losses = []
 
-        for epoch_idx in range(epochs):
+        for epoch_idx in range(epochs + 1):
             total_loss = 0
             indices = np.random.permutation(n_examples)
 
@@ -172,7 +172,7 @@ class Word2Vec:
                 loss = self.train_step(input_batch, output_batch)
                 total_loss += loss * len(batch_idx)
 
-            if self.logger and epoch_idx % self.save_every == 0:
+            if self.logger and epoch_idx > 0 and epoch_idx % self.save_every == 0:
                 self.logger.info(
                     f"Total Cross-Entropy Loss after epoch {epoch_idx} equals to {total_loss}."
                 )
