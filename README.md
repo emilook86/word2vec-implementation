@@ -29,9 +29,9 @@ uv run src/example.py
 ## Project Structure
 
 src/
-- word2vec_implementation.py - main class: preprocessing, vocabulary creation, input/output generation, embeddings, forward/backward pass, training loop.
+- word2vec_implementation.py - main class: vocabulary creation, input/output generation, embeddings, forward/backward pass, training loop.
 - example.py - run this to train on a text (default: `src/config/text_example.txt` containing the song "Fly me to the Earth" by Wallace Collection), generate embeddings and loss plots.
-- utils.py - plotting embeddings and loss curves.
+- utils.py - preprocessing raw text, plotting embeddings and loss curves.
 - config/
   - constants.py - hyperparameters, file paths.
   - logger_config.py - logging setup.
@@ -49,9 +49,9 @@ figures/
 
 ## Usage Notes
 
-- The text **must contain dots**, as sentences are split by them.  
 - Modify hyperparameters in `src/config/constants.py`.  
-- Training is executed via `src/example.py`.  
+- Training is executed via `src/example.py`.
+- The text is separated to training sentences by one or multiple ".", "!", "?", ";", ":" delimiters or end-of-line character (implemented with regex in `src/utils.py`).  
 - After training, embeddings can be visualized in `figures/plots/embeddings_visualisation.png` and training losses curve in `figures/plots/losses_curve.png`.  
 
 ## Implementation Highlights
