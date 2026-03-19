@@ -1,7 +1,30 @@
+import re
 import matplotlib.pyplot as plt
 
 
+def process_vocabulary(vocab):
+    """Cleans and splits raw text into processed sentences"""
+    delimiters = r"[.!?;:\n]+"
+    sentences = re.split(delimiters, vocab)
+    sentences = [s.strip() for s in sentences if s.strip()]
+
+    processed_vocab = []
+
+    for sentence in sentences:
+        words = sentence.split()
+
+        processed_words = []
+        for word in words:
+            clean_word = "".join(char for char in word if char.isalpha())
+            if clean_word:
+                processed_words.append(clean_word.lower())
+
+        processed_vocab.append(" ".join(processed_words))
+    return processed_vocab
+
+
 def plot_scatterplot(embeddings, save_file):
+    """Plots words in scatterplot out of embeddings"""
     plt.figure(figsize=(16, 12))
     words = list(embeddings.keys())
     x_coords = [embeddings[word][0] for word in words]
@@ -28,6 +51,7 @@ def plot_scatterplot(embeddings, save_file):
 
 
 def plot_loss_curve(losses, save_file):
+    """Plots loss curve based on the training the model"""
     plt.figure(figsize=(12, 8))
 
     number_of_points = 25

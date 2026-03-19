@@ -1,4 +1,5 @@
 import numpy as np
+from src.utils import process_vocabulary
 
 
 class Word2Vec:
@@ -15,7 +16,7 @@ class Word2Vec:
     ):
         np.random.seed(random_seed)
 
-        self.dataset = self.process_vocabulary(dataset)
+        self.dataset = process_vocabulary(dataset)
         self.context_window_size = context_window_size
         self.embedding_dimension = embedding_dimension
         self.logger = logger
@@ -32,29 +33,6 @@ class Word2Vec:
         self.output_embeddings_matrix = self.create_embeddings()
 
         self.cache = None
-
-    @staticmethod
-    def process_vocabulary(vocab):
-        """Cleans and splits raw text into processed sentences of lowercase words"""
-        if "." not in vocab:
-            raise Exception("The text must have at least one dot")
-
-        vocab = vocab.split(".")
-        vocab = vocab[:-1]
-
-        processed_vocab = []
-
-        for sentence in vocab:
-            words = sentence.split()
-
-            processed_words = []
-            for word in words:
-                clean_word = "".join(char for char in word if char.isalpha())
-                if clean_word:
-                    processed_words.append(clean_word.lower())
-
-            processed_vocab.append(" ".join(processed_words))
-        return processed_vocab
 
     def create_vocabulary(self):
         """Builds a mapping from words to unique indices"""
