@@ -1,5 +1,7 @@
 import numpy as np
 from src.utils import process_vocabulary
+from typing import Dict, List, Tuple
+import logging
 
 
 class Word2Vec:
@@ -9,32 +11,36 @@ class Word2Vec:
         context_window_size: int = 2,
         embedding_dimension: int = 3,
         random_seed: int = 42,
-        logger=None,
+        logger: None | logging.Logger = None,
         learning_rate: float = 0.01,
         save_every: int = 500,
         batch_size: int = 16,
-    ):
+    ) -> None:
         np.random.seed(random_seed)
 
-        self.dataset = process_vocabulary(dataset)
-        self.context_window_size = context_window_size
-        self.embedding_dimension = embedding_dimension
-        self.logger = logger
-        self.learning_rate = learning_rate
-        self.save_every = save_every
-        self.batch_size = batch_size
+        self.dataset: List[str] = process_vocabulary(dataset)
+        self.context_window_size: int = context_window_size
+        self.embedding_dimension: int = embedding_dimension
+        self.logger: None | logging.Logger = logger
+        self.learning_rate: float = learning_rate
+        self.save_every: int = save_every
+        self.batch_size: int = batch_size
 
+        self.vocabulary: Dict[str, int]
+        self.vocabulary_size: int
         self.vocabulary, self.vocabulary_size = self.create_vocabulary()
 
+        self.inputs: np.ndarray
+        self.outputs: np.ndarray
         self.inputs, self.outputs = self.create_input_output()
-        self.training_set_length = len(self.inputs)
+        self.training_set_length: int = len(self.inputs)
 
-        self.input_embeddings_matrix = self.create_embeddings()
-        self.output_embeddings_matrix = self.create_embeddings()
+        self.input_embeddings_matrix: np.ndarray = self.create_embeddings()
+        self.output_embeddings_matrix: np.ndarray = self.create_embeddings()
 
-        self.cache = None
+        self.cache: None | Dict[str, np.ndarray] = None
 
-    def create_vocabulary(self):
+    def create_vocabulary(self) -> Tuple[Dict[str, int], int]:
         """Builds a mapping from words to unique indices"""
         vocabulary = set()
         for sentence in self.dataset:
@@ -44,7 +50,7 @@ class Word2Vec:
         vocabulary_size = len(vocabulary)
         return vocabulary, vocabulary_size
 
-    def create_embeddings(self):
+    def create_embeddings(self) -> np.ndarray:
         """Initializes embedding matrices with small random values"""
         max_value = np.sqrt(1 / self.vocabulary_size)
         embeddings_matrix = np.random.uniform(
@@ -54,13 +60,13 @@ class Word2Vec:
         )
         return embeddings_matrix
 
-    def create_input_output(self):
+    def create_input_output(self) -> Tuple[np.ndarray, np.ndarray]:
         """Generates training input-output pairs based on context windows"""
         inputs = []
         outputs = []
 
         for sentence in self.dataset:
-            words = sentence.split()
+            words: List[str] = sentence.split()
             sentence_length = len(words)
             if sentence_length < 2 * self.context_window_size + 1:
                 continue
@@ -84,7 +90,7 @@ class Word2Vec:
         outputs = np.array(outputs)
         return inputs, outputs
 
-    def forward(self, input_batch):
+    def forward(self, input_batch: np.ndarray) -> np.ndarray:
         """Performs a forward pass to compute predicted probabilities"""
         hidden_layer = input_batch @ self.input_embeddings_matrix
 
@@ -104,7 +110,7 @@ class Word2Vec:
 
         return softmax_output_score
 
-    def loss(self, y_true, y_pred):
+    def loss(self, y_true: np.ndarray, y_pred: np.ndarray) -> float:
         """Computes cross-entropy loss between true and predicted distributions"""
         epsilon = 1e-15
         y_pred = np.clip(y_pred, epsilon, 1 - epsilon)
@@ -113,7 +119,9 @@ class Word2Vec:
         mean_loss = np.mean(loss_value)
         return mean_loss
 
-    def backpropagation(self, y_true, batch_size):
+    def backpropagation(
+        self, y_true: np.ndarray, batch_size: int
+    ) -> Tuple[np.ndarray, np.ndarray]:
         """Computes gradients for embeddings using backpropagation"""
         # B = batch size (number of training examples in the batch)
         # D = embedding dimension (size of each word vector)
@@ -139,12 +147,12 @@ class Word2Vec:
 
         return grad_input_embeddings, grad_output_embeddings
 
-    def update_weights(self, grad_input, grad_output):
+    def update_weights(self, grad_input: np.ndarray, grad_output: np.ndarray) -> None:
         """Updates embedding matrices using computed gradients"""
         self.input_embeddings_matrix -= grad_input * self.learning_rate
         self.output_embeddings_matrix -= grad_output * self.learning_rate
 
-    def train_step(self, input_batch, y_true_batch):
+    def train_step(self, input_batch: np.ndarray, y_true_batch: np.ndarray) -> float:
         """Executes one full training step (forward, loss, backward, update)"""
         y_pred_batch = self.forward(input_batch)
         loss_value = self.loss(y_true_batch, y_pred_batch)
@@ -154,7 +162,7 @@ class Word2Vec:
         self.update_weights(grad_input_embeddings, grad_output_embeddings)
         return loss_value
 
-    def train(self, epochs=100):
+    def train(self, epochs: int = 100) -> List[float]:
         """Trains the model over multiple epochs using mini-batches"""
         n_examples = len(self.inputs)
         losses = []
@@ -184,7 +192,7 @@ class Word2Vec:
 
         return losses
 
-    def get_word_embeddings(self):
+    def get_word_embeddings(self) -> Dict[str, np.ndarray]:
         """Returns learned word embeddings as a dictionary mapping words to vectors"""
         word_embeddings = dict()
         for word in self.vocabulary:
