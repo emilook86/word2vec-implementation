@@ -54,6 +54,9 @@ def plot_loss_curve(losses, save_file):
     """Plots loss curve based on the training the model"""
     plt.figure(figsize=(12, 8))
 
+    epochs_full = list(range(len(losses)))
+    plt.plot(epochs_full, losses, color="orange", linewidth=2, alpha=0.6, zorder=1)
+
     number_of_points = 25
     total_epochs = len(losses)
     step = max(1, total_epochs // number_of_points)
@@ -65,11 +68,11 @@ def plot_loss_curve(losses, save_file):
     plt.plot(
         sampled_epochs,
         sampled_losses,
-        "r--",
-        linewidth=2,
-        marker="o",
+        "ro",
+        linewidth=1,
         markersize=7,
         alpha=0.8,
+        zorder=2,
     )
     plt.ylim(0, max(sampled_losses) * 1.05)
 
